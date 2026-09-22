@@ -1,0 +1,165 @@
+{
+  "source_data_modified": false,
+  "model_calls": 0,
+  "figures": [
+    {
+      "source": "working_3d/MAIN_JET_3D_DEMO.html",
+      "source_sha256": "6c1357b70f10472b6e5fe346da91d32358f52b1a3a2d960505b2b7e7128e61d7",
+      "canvas_id": "geometry",
+      "output": "assets/synthetic_surface_comparison.png",
+      "sha256": "e3127156baa9be26243cc560f4d456cfd91491ffd486ee7e5a2c20222b86c4b6",
+      "dimensions": [
+        1367,
+        385
+      ],
+      "state": {
+        "ready": true,
+        "layout": "columns",
+        "caseID": "c015",
+        "arm": "diverse",
+        "scope": "full",
+        "magnification": 1,
+        "zoom": 1,
+        "yaw": 5.2,
+        "pitch": -0.15,
+        "vertex_count": 29989,
+        "triangle_count": 59974,
+        "displayed_triangles": 59974,
+        "raw_metrics": {
+          "all_airfoil_rms": 1.215430467837759e-05,
+          "true_changed_rms": 0.0001999882512913633,
+          "false_support": 1011,
+          "maximum_displacement": 0.0006434837315235809,
+          "maximum_error": 0.0005846946845817912,
+          "airfoil_count": 29773,
+          "changed_count": 68
+        },
+        "displayBounds": {
+          "center": [
+            0,
+            0,
+            -0.004999995231628418
+          ],
+          "radius": 0.6640110595042278,
+          "lo": [
+            -0.3147926926612854,
+            -0.3265630304813385,
+            -0.5099999904632568
+          ],
+          "hi": [
+            0.3147926926612854,
+            0.3265630304813385,
+            0.5
+          ]
+        },
+        "glError": 0,
+        "rendered": true
+      },
+      "method": "Direct WebGL canvas.toDataURL image export; camera yaw 5.2 radians to show the existing dent-facing surface; no array, shape, magnification, or model modifications"
+    },
+    {
+      "source": "real_data/MAIN_JET_REAL_3D_DEMO.html",
+      "source_sha256": "90ac3285bb9665b32c3d8a6d5a66d3b3ba6678807d066f79c824cd61215c2648",
+      "canvas_id": "surface-canvas",
+      "output": "assets/real_surface_comparison.png",
+      "sha256": "69f5c066bc78dc8f32fb50673a948b29740512980dc8e3ea254cec3c573e737d",
+      "dimensions": [
+        1367,
+        425
+      ],
+      "state": {
+        "ready": true,
+        "active": 1,
+        "photo": "0299",
+        "all": false,
+        "seed": 20260915,
+        "mode": "surface",
+        "yaw": 0.26,
+        "pitch": -0.1,
+        "zoom": 1,
+        "spin": false,
+        "tab": "surfaces",
+        "points": 163175,
+        "triangles": 324692,
+        "layout": "columns",
+        "glError": 0
+      },
+      "method": "Direct WebGL canvas.toDataURL image export; no array or model modifications"
+    }
+  ],
+  "review_assets": [
+    {
+      "source": "reports/proposal_demo_20260922T121614Z/real_data/assets/private_0265_crop_input.png",
+      "output": "assets/0265_input.png",
+      "sha256": "ce3159490a8ec608280ac624fc2f753d38139d7200f8670420412c858fd1e81f",
+      "byte_exact": true
+    },
+    {
+      "source": "reports/proposal_demo_20260922T121614Z/real_data/assets/private_0265_crop_review.png",
+      "output": "assets/0265_review.png",
+      "sha256": "b69b2434479163f96325d3b0f7b58dcded9e99b07f994240529385883c15e677",
+      "byte_exact": true
+    },
+    {
+      "source": "reports/proposal_demo_20260922T121614Z/real_data/assets/private_0265_crop_prediction.png",
+      "output": "assets/0265_prediction.png",
+      "sha256": "88447cbcd451e2adc211c2a988dc48ebbea1c53fe2e4968d5a50e2d031b7b056",
+      "byte_exact": true
+    },
+    {
+      "source": "reports/proposal_demo_20260922T121614Z/real_data/assets/private_0268_crop_input.png",
+      "output": "assets/0268_input.png",
+      "sha256": "9c04fe96a91720587cc4ce6bfc0c4cd2293b5303fb1dacdbb2fbe6a026037ea6",
+      "byte_exact": true
+    },
+    {
+      "source": "reports/proposal_demo_20260922T121614Z/real_data/assets/private_0268_crop_review.png",
+      "output": "assets/0268_review.png",
+      "sha256": "911010911cc8f0ad337a020e331461f4ef13ef11d969aa66ea73260500fc8056",
+      "byte_exact": true
+    },
+    {
+      "source": "reports/proposal_demo_20260922T121614Z/real_data/assets/private_0268_crop_prediction.png",
+      "output": "assets/0268_prediction.png",
+      "sha256": "9c04fe96a91720587cc4ce6bfc0c4cd2293b5303fb1dacdbb2fbe6a026037ea6",
+      "byte_exact": true
+    },
+    {
+      "source": "reports/proposal_demo_20260922T121614Z/real_data/assets/private_0358_crop_input.png",
+      "output": "assets/0358_input.png",
+      "sha256": "2a4f6667cb77ac6eb005bea8bbbfdfc5b141d2202999588157d83303de1a04ae",
+      "byte_exact": true
+    },
+    {
+      "source": "reports/proposal_demo_20260922T121614Z/real_data/assets/private_0358_crop_review.png",
+      "output": "assets/0358_review.png",
+      "sha256": "7a053329afff45504415ebe3dacb58e72f2dfa45d92eef520b39fe5c5e0afb62",
+      "byte_exact": true
+    },
+    {
+      "source": "reports/proposal_demo_20260922T121614Z/real_data/assets/private_0358_crop_prediction.png",
+      "output": "assets/0358_prediction.png",
+      "sha256": "2a4f6667cb77ac6eb005bea8bbbfdfc5b141d2202999588157d83303de1a04ae",
+      "byte_exact": true
+    },
+    {
+      "source": "reports/proposal_demo_20260922T121614Z/real_data/assets/private_0299_crop_input.png",
+      "output": "assets/0299_input.png",
+      "sha256": "e6c4659c148f7515854dd9629c16c687bfc18aa9a8816a0b0a2cb8edf03f639c",
+      "byte_exact": true
+    },
+    {
+      "source": "reports/proposal_demo_20260922T121614Z/real_data/assets/private_0299_crop_review.png",
+      "output": "assets/0299_review.png",
+      "sha256": "e6c4659c148f7515854dd9629c16c687bfc18aa9a8816a0b0a2cb8edf03f639c",
+      "byte_exact": true
+    },
+    {
+      "source": "reports/proposal_demo_20260922T121614Z/real_data/assets/private_0299_crop_prediction.png",
+      "output": "assets/0299_prediction.png",
+      "sha256": "535366506ed5a064e7c92be8833fbd1da8107786bafacfe4248eacafb73638d1",
+      "byte_exact": true
+    }
+  ],
+  "browser_exceptions": []
+}

@@ -1,0 +1,21 @@
+# Public Rotor37 attribution
+
+Source geometry: **Safran / PLAID Rotor37**, samples 0, 4, 5 and 6 (training used separate samples 1–3).
+
+- Dataset: https://huggingface.co/datasets/PLAID-datasets/Rotor37
+- Pinned revision: `bac06c0caa7254120eecc6711a5fb85c58dfbdbc`
+- Upstream declared license: **Creative Commons Attribution-ShareAlike 4.0**
+- License: https://creativecommons.org/licenses/by-sa/4.0/
+- Legal text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+The repository normalized the source surface, added an artificial collar/closure,
+and constructed controlled synthetic indentations with outward compensating
+rims. These are alterations to the public sample, not authenticated physical blade
+damage. This presentation copies accepted synthetic rest/deformed renders and
+known mesh coordinates, and displays raw learned displacement derivatives with reference-based
+vertex error colors. No new synthetic observation was rendered for this viewer. Safran/PLAID do not endorse the presentation.
+
+Rotor37-derived images, mesh coordinate derivatives and presentation figures in
+this folder are provided under **CC BY-SA 4.0**. Retain attribution, identify
+changes and follow share-alike terms when redistributing derivatives. No private
+industrial photograph, learned checkpoint or confidential CAD is included.

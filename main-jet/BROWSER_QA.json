@@ -1,0 +1,193 @@
+{
+  "kind": "research_homepage_integration",
+  "new_training": false,
+  "hosting": "private GitHub files, no public deployment",
+  "desktop": {
+    "viewport": 1440,
+    "body": 1425,
+    "document": 1425
+  },
+  "chapters": 7,
+  "lazy_demo_loading": true,
+  "links": [
+    "assets/research.css",
+    "assets/research.js",
+    "#data",
+    "#top",
+    "#data",
+    "#method",
+    "#synthetic",
+    "#real",
+    "#results",
+    "#proposal",
+    "#evidence",
+    "#synthetic",
+    "MAIN_JET_PROPOSAL_DEMO.html",
+    "assets/aebis_329_input.png",
+    "assets/aebis_329_prediction.png",
+    "assets/synthetic_scratch_input.png",
+    "assets/fine_bank_obs_a_observed.png",
+    "assets/aebis_329_input.png",
+    "assets/synthetic_surface_comparison.png",
+    "working_3d/MAIN_JET_3D_DEMO.html",
+    "assets/real_surface_comparison.png",
+    "real_data/MAIN_JET_REAL_3D_DEMO.html",
+    "real_data/MAIN_JET_REAL_DATA_DEMO.html",
+    "assets/0265_input.png",
+    "assets/0265_review.png",
+    "assets/0265_prediction.png",
+    "MAIN_JET_PROPOSAL_DEMO.html#plan",
+    "MAIN_JET_PROPOSAL_DEMO.html",
+    "MAIN_JET_RESEARCH_PROPOSAL.pdf",
+    "MAIN_JET_PROPOSAL_DEMO.pdf",
+    "MAIN_JET_RESEARCH_PROPOSAL.pdf",
+    "working_3d/MAIN_JET_3D_DEMO.html",
+    "real_data/MAIN_JET_REAL_3D_DEMO.html",
+    "real_data/MAIN_JET_REAL_DATA_DEMO.html",
+    "VERIFICATION.json",
+    "SHA256SUMS",
+    "SHARING_AND_ATTRIBUTION.html",
+    "#top",
+    "SHARING_AND_ATTRIBUTION.html"
+  ],
+  "desktop_screenshot": "research_desktop.png",
+  "comparison_slider": true,
+  "comparison_drag": true,
+  "review_tabs": [
+    {
+      "case": "0265",
+      "metric": "74.75%"
+    },
+    {
+      "case": "0268",
+      "metric": "0 / 272"
+    },
+    {
+      "case": "0358",
+      "metric": "0 / 116,239"
+    },
+    {
+      "case": "0299",
+      "metric": "1,563"
+    }
+  ],
+  "review_keyboard": true,
+  "width_checks": [
+    {
+      "viewport": 390,
+      "body": 375,
+      "document": 375
+    },
+    {
+      "viewport": 768,
+      "body": 753,
+      "document": 753
+    },
+    {
+      "viewport": 1024,
+      "body": 1009,
+      "document": 1009
+    }
+  ],
+  "pdf_preview": true,
+  "embedded_viewers": {
+    "synthetic": {
+      "initial": {
+        "state": {
+          "ready": true,
+          "layout": "columns",
+          "caseID": "c015",
+          "arm": "diverse",
+          "scope": "full",
+          "magnification": 1,
+          "zoom": 1,
+          "yaw": 0.4,
+          "pitch": -0.15,
+          "vertex_count": 29989,
+          "triangle_count": 59974,
+          "displayed_triangles": 59974,
+          "raw_metrics": {
+            "all_airfoil_rms": 1.215430467837759e-05,
+            "true_changed_rms": 0.0001999882512913633,
+            "false_support": 1011,
+            "maximum_displacement": 0.0006434837315235809,
+            "maximum_error": 0.0005846946845817912,
+            "airfoil_count": 29773,
+            "changed_count": 68
+          },
+          "displayBounds": {
+            "center": [
+              0,
+              0,
+              -0.004999995231628418
+            ],
+            "radius": 0.6640110595042278,
+            "lo": [
+              -0.3147926926612854,
+              -0.3265630304813385,
+              -0.5099999904632568
+            ],
+            "hi": [
+              0.3147926926612854,
+              0.3265630304813385,
+              0.5
+            ]
+          },
+          "glError": 0,
+          "rendered": true
+        },
+        "embed": true,
+        "headerHidden": true
+      },
+      "rotation": true,
+      "case_or_gallery_switch": true,
+      "mobile_parent": {
+        "viewport": 390,
+        "body": 375,
+        "document": 375
+      },
+      "mobile_inner": {
+        "viewport": 337,
+        "body": 322
+      }
+    },
+    "real": {
+      "initial": {
+        "state": {
+          "ready": true,
+          "active": 1,
+          "photo": "0299",
+          "all": false,
+          "seed": 20260915,
+          "mode": "surface",
+          "yaw": 0.26,
+          "pitch": -0.1,
+          "zoom": 1,
+          "spin": false,
+          "tab": "surfaces",
+          "points": 163175,
+          "triangles": 324692,
+          "layout": "columns",
+          "glError": 0
+        },
+        "embed": true,
+        "headerHidden": true
+      },
+      "rotation": true,
+      "case_or_gallery_switch": true,
+      "mobile_parent": {
+        "viewport": 390,
+        "body": 375,
+        "document": 375
+      },
+      "mobile_inner": {
+        "viewport": 337,
+        "body": 322
+      }
+    }
+  },
+  "offline_entry_point": true,
+  "offline_embed_loaded": true,
+  "external_resources": [],
+  "browser_exceptions": []
+}

@@ -1,0 +1,1361 @@
+{
+  "kind": "linked_presentation_package",
+  "new_model_calls": 0,
+  "new_training_updates": 0,
+  "destination_visibility": "public_authorized",
+  "public_deployment": false,
+  "geometry_verified": false,
+  "source_checks": {
+    "synthetic": {
+      "initial": {
+        "state": {
+          "ready": true,
+          "layout": "columns",
+          "caseID": "c015",
+          "arm": "diverse",
+          "scope": "full",
+          "magnification": 1,
+          "zoom": 1,
+          "yaw": 0.4,
+          "pitch": -0.15,
+          "vertex_count": 29989,
+          "triangle_count": 59974,
+          "displayed_triangles": 59974,
+          "raw_metrics": {
+            "all_airfoil_rms": 1.215430467837759e-05,
+            "true_changed_rms": 0.0001999882512913633,
+            "false_support": 1011,
+            "maximum_displacement": 0.0006434837315235809,
+            "maximum_error": 0.0005846946845817912,
+            "airfoil_count": 29773,
+            "changed_count": 68
+          },
+          "displayBounds": {
+            "center": [
+              0,
+              0,
+              -0.004999995231628418
+            ],
+            "radius": 0.6640110595042278,
+            "lo": [
+              -0.3147926926612854,
+              -0.3265630304813385,
+              -0.5099999904632568
+            ],
+            "hi": [
+              0.3147926926612854,
+              0.3265630304813385,
+              0.5
+            ]
+          },
+          "glError": 0,
+          "rendered": true
+        },
+        "external": 0,
+        "banned": false,
+        "width": 1440,
+        "bodyWidth": 1425
+      },
+      "cases": [
+        {
+          "case": "c015",
+          "arm": "diverse",
+          "rendered": true,
+          "glError": 0,
+          "false_support": 1011,
+          "vertex_count": 29989,
+          "triangles": 59974
+        },
+        {
+          "case": "c015",
+          "arm": "diverse_shift1",
+          "rendered": true,
+          "glError": 0,
+          "false_support": 18408,
+          "vertex_count": 29989,
+          "triangles": 59974
+        },
+        {
+          "case": "c015",
+          "arm": "diverse_registered_shift1",
+          "rendered": true,
+          "glError": 0,
+          "false_support": 1011,
+          "vertex_count": 29989,
+          "triangles": 59974
+        },
+        {
+          "case": "c015",
+          "arm": "previous_residual",
+          "rendered": true,
+          "glError": 0,
+          "false_support": 2331,
+          "vertex_count": 29989,
+          "triangles": 59974
+        },
+        {
+          "case": "c015",
+          "arm": "zero",
+          "rendered": true,
+          "glError": 0,
+          "false_support": 0,
+          "vertex_count": 29989,
+          "triangles": 59974
+        },
+        {
+          "case": "c017",
+          "arm": "diverse",
+          "rendered": true,
+          "glError": 0,
+          "false_support": 1149,
+          "vertex_count": 29989,
+          "triangles": 59974
+        },
+        {
+          "case": "c017",
+          "arm": "diverse_shift1",
+          "rendered": true,
+          "glError": 0,
+          "false_support": 18550,
+          "vertex_count": 29989,
+          "triangles": 59974
+        },
+        {
+          "case": "c017",
+          "arm": "diverse_registered_shift1",
+          "rendered": true,
+          "glError": 0,
+          "false_support": 1149,
+          "vertex_count": 29989,
+          "triangles": 59974
+        },
+        {
+          "case": "c017",
+          "arm": "previous_residual",
+          "rendered": true,
+          "glError": 0,
+          "false_support": 2512,
+          "vertex_count": 29989,
+          "triangles": 59974
+        },
+        {
+          "case": "c017",
+          "arm": "zero",
+          "rendered": true,
+          "glError": 0,
+          "false_support": 0,
+          "vertex_count": 29989,
+          "triangles": 59974
+        },
+        {
+          "case": "c014",
+          "arm": "diverse",
+          "rendered": true,
+          "glError": 0,
+          "false_support": 0,
+          "vertex_count": 29989,
+          "triangles": 59974
+        },
+        {
+          "case": "c014",
+          "arm": "diverse_shift1",
+          "rendered": true,
+          "glError": 0,
+          "false_support": 18478,
+          "vertex_count": 29989,
+          "triangles": 59974
+        },
+        {
+          "case": "c014",
+          "arm": "diverse_registered_shift1",
+          "rendered": true,
+          "glError": 0,
+          "false_support": 0,
+          "vertex_count": 29989,
+          "triangles": 59974
+        },
+        {
+          "case": "c014",
+          "arm": "previous_residual",
+          "rendered": true,
+          "glError": 0,
+          "false_support": 0,
+          "vertex_count": 29989,
+          "triangles": 59974
+        },
+        {
+          "case": "c014",
+          "arm": "zero",
+          "rendered": true,
+          "glError": 0,
+          "false_support": 0,
+          "vertex_count": 29989,
+          "triangles": 59974
+        }
+      ],
+      "magnification": {
+        "state": {
+          "ready": true,
+          "layout": "columns",
+          "caseID": "c015",
+          "arm": "diverse",
+          "scope": "patch",
+          "magnification": 30,
+          "zoom": 1,
+          "yaw": 0.45,
+          "pitch": -0.6,
+          "vertex_count": 29989,
+          "triangle_count": 59974,
+          "displayed_triangles": 756,
+          "raw_metrics": {
+            "all_airfoil_rms": 1.215430467837759e-05,
+            "true_changed_rms": 0.0001999882512913633,
+            "false_support": 1011,
+            "maximum_displacement": 0.0006434837315235809,
+            "maximum_error": 0.0005846946845817912,
+            "airfoil_count": 29773,
+            "changed_count": 68
+          },
+          "displayBounds": {
+            "center": [
+              -0.010583974731374485,
+              -0.03047264739871025,
+              -0.004443321377038956
+            ],
+            "radius": 0.127947412554445,
+            "lo": [
+              -0.0961172878742218,
+              -0.12532354891300201,
+              -0.12486539036035538
+            ],
+            "hi": [
+              0.07494933841147283,
+              0.06437825411558151,
+              0.11597874760627747
+            ]
+          },
+          "glError": 0,
+          "rendered": true
+        },
+        "rawStillExact": true,
+        "label": "MOVEMENT ENLARGED 30\u00d7 \u00b7 DISPLAY ONLY"
+      },
+      "drag_rotation": true,
+      "zoom": true,
+      "wire": true,
+      "shift_resets_display": true,
+      "alignment_equality": true,
+      "image_view_0": true,
+      "image_view_4": true,
+      "image_view_6": true,
+      "image_enlarge": true,
+      "auto_rotate": true,
+      "tour_started": true,
+      "tour_rotates": true,
+      "capture": "MainJet_c015_diverse_full_1x.png",
+      "shift_closeup_wording": true,
+      "whole_resets_magnification": true,
+      "tablet_layout": true,
+      "isolated_contacts": 12,
+      "healthy_label": true,
+      "presentation": true,
+      "mobile": {
+        "width": 390,
+        "bodyWidth": 375,
+        "rendered": true
+      },
+      "exceptions": []
+    },
+    "real": {
+      "initial": {
+        "ready": true,
+        "active": 1,
+        "photo": "0299",
+        "all": false,
+        "seed": 20260915,
+        "mode": "surface",
+        "yaw": 0.26,
+        "pitch": -0.1,
+        "zoom": 1,
+        "spin": false,
+        "tab": "surfaces",
+        "points": 163175,
+        "triangles": 324692,
+        "layout": "columns",
+        "glError": 0
+      },
+      "states": [
+        {
+          "ready": true,
+          "active": 0,
+          "photo": "0298",
+          "all": false,
+          "seed": 20260915,
+          "mode": "surface",
+          "yaw": 0.26,
+          "pitch": -0.1,
+          "zoom": 1,
+          "spin": false,
+          "tab": "surfaces",
+          "points": 166786,
+          "triangles": 331850,
+          "layout": "columns",
+          "glError": 0
+        },
+        {
+          "ready": true,
+          "active": 0,
+          "photo": "0298",
+          "all": false,
+          "seed": 20260916,
+          "mode": "surface",
+          "yaw": 0.26,
+          "pitch": -0.1,
+          "zoom": 1,
+          "spin": false,
+          "tab": "surfaces",
+          "points": 166786,
+          "triangles": 331850,
+          "layout": "columns",
+          "glError": 0
+        },
+        {
+          "ready": true,
+          "active": 0,
+          "photo": "0298",
+          "all": false,
+          "seed": 20260917,
+          "mode": "surface",
+          "yaw": 0.26,
+          "pitch": -0.1,
+          "zoom": 1,
+          "spin": false,
+          "tab": "surfaces",
+          "points": 166786,
+          "triangles": 331850,
+          "layout": "columns",
+          "glError": 0
+        },
+        {
+          "ready": true,
+          "active": 0,
+          "photo": "0298",
+          "all": false,
+          "seed": 20260915,
+          "mode": "points",
+          "yaw": 0.26,
+          "pitch": -0.1,
+          "zoom": 1,
+          "spin": false,
+          "tab": "surfaces",
+          "points": 166786,
+          "triangles": 331850,
+          "layout": "columns",
+          "glError": 0
+        },
+        {
+          "ready": true,
+          "active": 0,
+          "photo": "0298",
+          "all": false,
+          "seed": 20260916,
+          "mode": "points",
+          "yaw": 0.26,
+          "pitch": -0.1,
+          "zoom": 1,
+          "spin": false,
+          "tab": "surfaces",
+          "points": 166786,
+          "triangles": 331850,
+          "layout": "columns",
+          "glError": 0
+        },
+        {
+          "ready": true,
+          "active": 0,
+          "photo": "0298",
+          "all": false,
+          "seed": 20260917,
+          "mode": "points",
+          "yaw": 0.26,
+          "pitch": -0.1,
+          "zoom": 1,
+          "spin": false,
+          "tab": "surfaces",
+          "points": 166786,
+          "triangles": 331850,
+          "layout": "columns",
+          "glError": 0
+        },
+        {
+          "ready": true,
+          "active": 1,
+          "photo": "0299",
+          "all": false,
+          "seed": 20260915,
+          "mode": "surface",
+          "yaw": 0.26,
+          "pitch": -0.1,
+          "zoom": 1,
+          "spin": false,
+          "tab": "surfaces",
+          "points": 163175,
+          "triangles": 324692,
+          "layout": "columns",
+          "glError": 0
+        },
+        {
+          "ready": true,
+          "active": 1,
+          "photo": "0299",
+          "all": false,
+          "seed": 20260916,
+          "mode": "surface",
+          "yaw": 0.26,
+          "pitch": -0.1,
+          "zoom": 1,
+          "spin": false,
+          "tab": "surfaces",
+          "points": 163175,
+          "triangles": 324692,
+          "layout": "columns",
+          "glError": 0
+        },
+        {
+          "ready": true,
+          "active": 1,
+          "photo": "0299",
+          "all": false,
+          "seed": 20260917,
+          "mode": "surface",
+          "yaw": 0.26,
+          "pitch": -0.1,
+          "zoom": 1,
+          "spin": false,
+          "tab": "surfaces",
+          "points": 163175,
+          "triangles": 324692,
+          "layout": "columns",
+          "glError": 0
+        },
+        {
+          "ready": true,
+          "active": 1,
+          "photo": "0299",
+          "all": false,
+          "seed": 20260915,
+          "mode": "points",
+          "yaw": 0.26,
+          "pitch": -0.1,
+          "zoom": 1,
+          "spin": false,
+          "tab": "surfaces",
+          "points": 163175,
+          "triangles": 324692,
+          "layout": "columns",
+          "glError": 0
+        },
+        {
+          "ready": true,
+          "active": 1,
+          "photo": "0299",
+          "all": false,
+          "seed": 20260916,
+          "mode": "points",
+          "yaw": 0.26,
+          "pitch": -0.1,
+          "zoom": 1,
+          "spin": false,
+          "tab": "surfaces",
+          "points": 163175,
+          "triangles": 324692,
+          "layout": "columns",
+          "glError": 0
+        },
+        {
+          "ready": true,
+          "active": 1,
+          "photo": "0299",
+          "all": false,
+          "seed": 20260917,
+          "mode": "points",
+          "yaw": 0.26,
+          "pitch": -0.1,
+          "zoom": 1,
+          "spin": false,
+          "tab": "surfaces",
+          "points": 163175,
+          "triangles": 324692,
+          "layout": "columns",
+          "glError": 0
+        },
+        {
+          "ready": true,
+          "active": 2,
+          "photo": "0306",
+          "all": false,
+          "seed": 20260915,
+          "mode": "surface",
+          "yaw": 0.26,
+          "pitch": -0.1,
+          "zoom": 1,
+          "spin": false,
+          "tab": "surfaces",
+          "points": 142401,
+          "triangles": 283043,
+          "layout": "columns",
+          "glError": 0
+        },
+        {
+          "ready": true,
+          "active": 2,
+          "photo": "0306",
+          "all": false,
+          "seed": 20260916,
+          "mode": "surface",
+          "yaw": 0.26,
+          "pitch": -0.1,
+          "zoom": 1,
+          "spin": false,
+          "tab": "surfaces",
+          "points": 142401,
+          "triangles": 283043,
+          "layout": "columns",
+          "glError": 0
+        },
+        {
+          "ready": true,
+          "active": 2,
+          "photo": "0306",
+          "all": false,
+          "seed": 20260917,
+          "mode": "surface",
+          "yaw": 0.26,
+          "pitch": -0.1,
+          "zoom": 1,
+          "spin": false,
+          "tab": "surfaces",
+          "points": 142401,
+          "triangles": 283043,
+          "layout": "columns",
+          "glError": 0
+        },
+        {
+          "ready": true,
+          "active": 2,
+          "photo": "0306",
+          "all": false,
+          "seed": 20260915,
+          "mode": "points",
+          "yaw": 0.26,
+          "pitch": -0.1,
+          "zoom": 1,
+          "spin": false,
+          "tab": "surfaces",
+          "points": 142401,
+          "triangles": 283043,
+          "layout": "columns",
+          "glError": 0
+        },
+        {
+          "ready": true,
+          "active": 2,
+          "photo": "0306",
+          "all": false,
+          "seed": 20260916,
+          "mode": "points",
+          "yaw": 0.26,
+          "pitch": -0.1,
+          "zoom": 1,
+          "spin": false,
+          "tab": "surfaces",
+          "points": 142401,
+          "triangles": 283043,
+          "layout": "columns",
+          "glError": 0
+        },
+        {
+          "ready": true,
+          "active": 2,
+          "photo": "0306",
+          "all": false,
+          "seed": 20260917,
+          "mode": "points",
+          "yaw": 0.26,
+          "pitch": -0.1,
+          "zoom": 1,
+          "spin": false,
+          "tab": "surfaces",
+          "points": 142401,
+          "triangles": 283043,
+          "layout": "columns",
+          "glError": 0
+        }
+      ],
+      "drag": true,
+      "zoom": true,
+      "camera_presets": true,
+      "auto_rotate": true,
+      "export": "MainJet_real_three_views_surface.png",
+      "presentation": true,
+      "gallery": [
+        {
+          "index": 0,
+          "id": "0c7a0260_jpg",
+          "marked_pixels": 2593,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 1,
+          "id": "0c7a0265_jpg",
+          "marked_pixels": 1820,
+          "review_status": "reviewed"
+        },
+        {
+          "index": 2,
+          "id": "0c7a0266_jpg",
+          "marked_pixels": 168,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 3,
+          "id": "0c7a0268_jpg",
+          "marked_pixels": 0,
+          "review_status": "reviewed"
+        },
+        {
+          "index": 4,
+          "id": "0c7a0269_jpg",
+          "marked_pixels": 0,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 5,
+          "id": "0c7a0272_jpg",
+          "marked_pixels": 1950,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 6,
+          "id": "0c7a0273_jpg",
+          "marked_pixels": 1955,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 7,
+          "id": "0c7a0276_jpg",
+          "marked_pixels": 1013,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 8,
+          "id": "0c7a0282_jpg",
+          "marked_pixels": 218,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 9,
+          "id": "0c7a0288_jpg",
+          "marked_pixels": 289,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 10,
+          "id": "0c7a0289_jpg",
+          "marked_pixels": 218,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 11,
+          "id": "0c7a0293_jpg",
+          "marked_pixels": 0,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 12,
+          "id": "0c7a0299_jpg",
+          "marked_pixels": 1563,
+          "review_status": "reviewed"
+        },
+        {
+          "index": 13,
+          "id": "0c7a0304_jpg",
+          "marked_pixels": 1775,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 14,
+          "id": "0c7a0312_jpg",
+          "marked_pixels": 2949,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 15,
+          "id": "0c7a0314_jpg",
+          "marked_pixels": 182,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 16,
+          "id": "0c7a0320_jpg",
+          "marked_pixels": 361,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 17,
+          "id": "0c7a0321_jpg",
+          "marked_pixels": 2981,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 18,
+          "id": "0c7a0325_jpg",
+          "marked_pixels": 1071,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 19,
+          "id": "0c7a0329_jpg",
+          "marked_pixels": 899,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 20,
+          "id": "0c7a0333_jpg",
+          "marked_pixels": 300,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 21,
+          "id": "0c7a0335_jpg",
+          "marked_pixels": 0,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 22,
+          "id": "0c7a0342_jpg",
+          "marked_pixels": 18696,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 23,
+          "id": "0c7a0346_jpg",
+          "marked_pixels": 793,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 24,
+          "id": "0c7a0348_jpg",
+          "marked_pixels": 77,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 25,
+          "id": "0c7a0351_jpg",
+          "marked_pixels": 81,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 26,
+          "id": "0c7a0352_jpg",
+          "marked_pixels": 149,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 27,
+          "id": "0c7a0354_jpg",
+          "marked_pixels": 84,
+          "review_status": "reviewed"
+        },
+        {
+          "index": 28,
+          "id": "0c7a0358_jpg",
+          "marked_pixels": 306,
+          "review_status": "reviewed"
+        },
+        {
+          "index": 29,
+          "id": "0c7a0360_jpg",
+          "marked_pixels": 280,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 30,
+          "id": "0c7a0361_jpg",
+          "marked_pixels": 327,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 31,
+          "id": "0c7a0363_jpg",
+          "marked_pixels": 51,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 32,
+          "id": "0c7a0366_jpg",
+          "marked_pixels": 949,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 33,
+          "id": "0c7a0371_jpg",
+          "marked_pixels": 482,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 34,
+          "id": "0c7a0376_jpg",
+          "marked_pixels": 583,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 35,
+          "id": "0c7a0382_jpg",
+          "marked_pixels": 978,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 36,
+          "id": "0c7a0385_jpg",
+          "marked_pixels": 112,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 37,
+          "id": "0c7a0386_jpg",
+          "marked_pixels": 670,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 38,
+          "id": "0c7a0393_jpg",
+          "marked_pixels": 231,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 39,
+          "id": "0c7a0403_jpg",
+          "marked_pixels": 87,
+          "review_status": "reviewed"
+        },
+        {
+          "index": 40,
+          "id": "img_0007_jpg",
+          "marked_pixels": 399,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 41,
+          "id": "img_0012_jpg",
+          "marked_pixels": 9687,
+          "review_status": "not_reviewed"
+        },
+        {
+          "index": 42,
+          "id": "img_0020_jpg",
+          "marked_pixels": 0,
+          "review_status": "not_reviewed"
+        }
+      ],
+      "gallery_navigation": true,
+      "enlarge": true,
+      "external_assets": [],
+      "mobile": {
+        "viewport": 390,
+        "body": 375
+      },
+      "tour_started": true,
+      "tour_stage2": "2 / Inspect the underlying points",
+      "tour_stage3": "3 / Compare the other real-photo estimates",
+      "tour_stage4": "4 / Keep the prediction disagreement visible",
+      "tour_stage5": "5 / Explore the full collection",
+      "tour_completed": true,
+      "exceptions": [],
+      "excluded_word": false
+    }
+  },
+  "source_artifacts": {
+    "MAIN_JET_PROPOSAL_DEMO.html": "123e29bf4f380900c438e96e4d6b4f606c9d13be42dcc92a859ae3c55e6f32a3",
+    "working_3d/MAIN_JET_3D_DEMO.html": "08af4467d8486f1f15bf7cf2b1c6ac2253cef5a6f80dabfa1d87217d5c2294db",
+    "real_data/MAIN_JET_REAL_3D_DEMO.html": "532cbd25d62c90f2d1b10ff375fd75de35a94c8a9ed140c343066fdeba4ab23d",
+    "real_data/MAIN_JET_REAL_DATA_DEMO.html": "16ef040a026b132c33e5fd69fe30e85114f7f8790b0d403c3ee3c13450a53f71"
+  },
+  "original_proposal_sha256": "06d2d0cb144dabc05414c0e796e446afb630d4d292f4848cf97ba0b2b6b7c59a",
+  "notes": [
+    "The owner explicitly authorized a public website including blade photographs.",
+    "Original private source package remains unchanged.",
+    "Scientific arrays, saved predictions, photographs and PDFs are byte-preserved apart from visible audience copy in the real 3D viewer.",
+    "Final deployment status must be confirmed separately."
+  ],
+  "package_integration": {
+    "scope": "Linked-site integration; saved experiment data unchanged",
+    "pages": {
+      "index.html": {
+        "common_navigation_links": 5,
+        "remote_asset_requests": [],
+        "desktop": {
+          "viewport": 1440,
+          "body": 1425
+        },
+        "mobile": {
+          "viewport": 390,
+          "body": 375
+        }
+      },
+      "MAIN_JET_PROPOSAL_DEMO.html": {
+        "common_navigation_links": 5,
+        "remote_asset_requests": [],
+        "desktop": {
+          "viewport": 1440,
+          "body": 1425
+        },
+        "slides": 17,
+        "presentation_controls": true,
+        "mobile": {
+          "viewport": 390,
+          "body": 375
+        },
+        "print_slides": [
+          {
+            "id": "goal",
+            "height": 793.6875,
+            "overflow": false
+          },
+          {
+            "id": "walkthrough",
+            "height": 793.6875,
+            "overflow": false
+          },
+          {
+            "id": "data",
+            "height": 793.6875,
+            "overflow": false
+          },
+          {
+            "id": "progress",
+            "height": 793.6875,
+            "overflow": false
+          },
+          {
+            "id": "real-success",
+            "height": 793.6875,
+            "overflow": false
+          },
+          {
+            "id": "real-failure",
+            "height": 793.6875,
+            "overflow": false
+          },
+          {
+            "id": "geometry-evidence",
+            "height": 793.6875,
+            "overflow": false
+          },
+          {
+            "id": "method",
+            "height": 793.6875,
+            "overflow": false
+          },
+          {
+            "id": "prototype",
+            "height": 793.6875,
+            "overflow": false
+          },
+          {
+            "id": "comparison",
+            "height": 793.6875,
+            "overflow": false
+          },
+          {
+            "id": "result-mockup",
+            "height": 793.6875,
+            "overflow": false
+          },
+          {
+            "id": "decision",
+            "height": 793.6875,
+            "overflow": false
+          },
+          {
+            "id": "evaluation",
+            "height": 793.6875,
+            "overflow": false
+          },
+          {
+            "id": "supporting-3d",
+            "height": 793.6875,
+            "overflow": false
+          },
+          {
+            "id": "plan",
+            "height": 793.6875,
+            "overflow": false
+          },
+          {
+            "id": "takeaway",
+            "height": 793.6875,
+            "overflow": false
+          },
+          {
+            "id": "sources",
+            "height": 793.6875,
+            "overflow": false
+          }
+        ]
+      },
+      "working_3d/MAIN_JET_3D_DEMO.html": {
+        "common_navigation_links": 5,
+        "remote_asset_requests": [],
+        "desktop": {
+          "viewport": 1440,
+          "body": 1425
+        },
+        "initial": {
+          "case": "c015",
+          "triangles": 59974,
+          "glError": 0
+        },
+        "rotation": true,
+        "mobile": {
+          "viewport": 390,
+          "body": 375
+        }
+      },
+      "real_data/MAIN_JET_REAL_3D_DEMO.html": {
+        "common_navigation_links": 5,
+        "remote_asset_requests": [],
+        "desktop": {
+          "viewport": 1440,
+          "body": 1425
+        },
+        "initial": {
+          "active": 1,
+          "mode": "surface",
+          "glError": 0
+        },
+        "rotation": true,
+        "gallery_cases": 43,
+        "gallery_navigation": true,
+        "mobile_gallery": {
+          "viewport": 390,
+          "body": 375
+        },
+        "mobile_surfaces": {
+          "viewport": 390,
+          "body": 375
+        }
+      },
+      "real_data/MAIN_JET_REAL_DATA_DEMO.html": {
+        "common_navigation_links": 5,
+        "remote_asset_requests": [],
+        "desktop": {
+          "viewport": 1440,
+          "body": 1425
+        },
+        "review_cases": 4,
+        "review_coverage": [
+          {
+            "case": "private_0265",
+            "coverage": "74.75%"
+          },
+          {
+            "case": "private_0268",
+            "coverage": "0.00%"
+          },
+          {
+            "case": "private_0358",
+            "coverage": "0.00%"
+          },
+          {
+            "case": "private_0299",
+            "coverage": "No region mask"
+          }
+        ],
+        "mobile": {
+          "viewport": 390,
+          "body": 375
+        }
+      },
+      "SHARING_AND_ATTRIBUTION.html": {
+        "common_navigation_links": 5,
+        "remote_asset_requests": [],
+        "desktop": {
+          "viewport": 1440,
+          "body": 1425
+        }
+      }
+    },
+    "browser_exceptions": [],
+    "pdf": {
+      "pages": 17,
+      "bytes": 2709342,
+      "sha256": "241688244bacfe1f854ffc41c552ac1ac273865e4979edddfcafe037262d0c0f",
+      "local_paths_in_text": false,
+      "local_paths_in_metadata": false,
+      "refreshed_after_step2_diagram": true,
+      "original_demo_copy_matches": true,
+      "slide2_visual_review": "Pass: planned training diagram, arrows and labels fully visible in browser and 17-page PDF."
+    }
+  },
+  "display_revision": "User-requested step-2 training illustration replaces a text-only box; explicitly labelled planned training. Updated HTML and 17-page PDF verified.",
+  "research_page_revision": {
+    "date": "2026-09-22",
+    "design": "Seven numbered research chapters, dark navy/cyan hero, actual source figures, inline 3D viewers, reviewed examples and proposal PDF.",
+    "browser_qa": "BROWSER_QA.json",
+    "media_exports": "MEDIA_EXPORT.json",
+    "data_preservation": {
+      "working_3d/MAIN_JET_3D_DEMO.html": {
+        "only_embed_display_mode_added": true,
+        "prior_sha256": "6c1357b70f10472b6e5fe346da91d32358f52b1a3a2d960505b2b7e7128e61d7",
+        "scientific_data_unchanged": true
+      },
+      "real_data/MAIN_JET_REAL_3D_DEMO.html": {
+        "only_embed_display_mode_added": true,
+        "prior_sha256": "90ac3285bb9665b32c3d8a6d5a66d3b3ba6678807d066f79c824cd61215c2648",
+        "scientific_data_unchanged": true
+      },
+      "MAIN_JET_RESEARCH_PROPOSAL.pdf": {
+        "unchanged": true,
+        "sha256": "06d2d0cb144dabc05414c0e796e446afb630d4d292f4848cf97ba0b2b6b7c59a"
+      },
+      "MAIN_JET_PROPOSAL_DEMO.pdf": {
+        "unchanged": true,
+        "sha256": "241688244bacfe1f854ffc41c552ac1ac273865e4979edddfcafe037262d0c0f"
+      },
+      "MAIN_JET_PROPOSAL_DEMO.html": {
+        "unchanged": true,
+        "sha256": "b6eed8ef8bf1e29b1eb98cff54c2bc2b4b846fce4075fd3a36bea1d03edee587"
+      },
+      "real_data/MAIN_JET_REAL_DATA_DEMO.html": {
+        "unchanged": true,
+        "sha256": "3dd160f877747f267c5d54e400f014aa5c07983ac1a23be344460c4581bc34c5"
+      }
+    },
+    "private_repository_verified": true,
+    "github_pages_enabled": false,
+    "edition": "public presentation; historical private packaging checks retained under previous_private_edition"
+  },
+  "previous_private_edition": {
+    "destination_visibility": "private",
+    "public_deployment": false,
+    "research_page_revision": {
+      "date": "2026-09-22",
+      "design": "Seven numbered research chapters, dark navy/cyan hero, actual source figures, inline 3D viewers, reviewed examples and proposal PDF.",
+      "browser_qa": "BROWSER_QA.json",
+      "media_exports": "MEDIA_EXPORT.json",
+      "data_preservation": {
+        "working_3d/MAIN_JET_3D_DEMO.html": {
+          "only_embed_display_mode_added": true,
+          "prior_sha256": "6c1357b70f10472b6e5fe346da91d32358f52b1a3a2d960505b2b7e7128e61d7",
+          "scientific_data_unchanged": true
+        },
+        "real_data/MAIN_JET_REAL_3D_DEMO.html": {
+          "only_embed_display_mode_added": true,
+          "prior_sha256": "90ac3285bb9665b32c3d8a6d5a66d3b3ba6678807d066f79c824cd61215c2648",
+          "scientific_data_unchanged": true
+        },
+        "MAIN_JET_RESEARCH_PROPOSAL.pdf": {
+          "unchanged": true,
+          "sha256": "06d2d0cb144dabc05414c0e796e446afb630d4d292f4848cf97ba0b2b6b7c59a"
+        },
+        "MAIN_JET_PROPOSAL_DEMO.pdf": {
+          "unchanged": true,
+          "sha256": "241688244bacfe1f854ffc41c552ac1ac273865e4979edddfcafe037262d0c0f"
+        },
+        "MAIN_JET_PROPOSAL_DEMO.html": {
+          "unchanged": true,
+          "sha256": "b6eed8ef8bf1e29b1eb98cff54c2bc2b4b846fce4075fd3a36bea1d03edee587"
+        },
+        "real_data/MAIN_JET_REAL_DATA_DEMO.html": {
+          "unchanged": true,
+          "sha256": "3dd160f877747f267c5d54e400f014aa5c07983ac1a23be344460c4581bc34c5"
+        }
+      },
+      "private_repository_verified": true,
+      "github_pages_enabled": false,
+      "edition": "public presentation; historical private packaging checks retained under previous_private_edition"
+    }
+  },
+  "deployment_status": "prepared_pending_publication_and_live_verification",
+  "public_edition": {
+    "date": "2026-09-22",
+    "target_url": "https://afeefaaazam03.github.io/MyPortfolio/main-jet/",
+    "photograph_display_authorized_by_owner": true,
+    "source_figures_and_numerical_payloads_preserved": true,
+    "training_or_inference": false,
+    "third_party_licences": "Asset-specific; no blanket relicensing",
+    "source_figshare_metadata": "https://api.figshare.com/v2/articles/28658603",
+    "previous_verification_is_historical": true,
+    "changed_files": [
+      "START_HERE.html",
+      "SHARING_AND_ATTRIBUTION.html",
+      "README.md",
+      "VERIFICATION.json",
+      "index.html",
+      "real_data/MAIN_JET_REAL_3D_DEMO.html"
+    ],
+    "unchanged_scientific_documents": [
+      "working_3d/MAIN_JET_3D_DEMO.html",
+      "real_data/MAIN_JET_REAL_DATA_DEMO.html",
+      "MAIN_JET_PROPOSAL_DEMO.html",
+      "MAIN_JET_PROPOSAL_DEMO.pdf",
+      "MAIN_JET_RESEARCH_PROPOSAL.pdf"
+    ],
+    "all_images_byte_identical": true
+  },
+  "packaged_files": {
+    ".gitattributes": {
+      "bytes": 13,
+      "sha256": "547f59603028195ff9f8a87d04c4651551e8bd0d68f075257dfd549cd846b25b"
+    },
+    ".nojekyll": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "BROWSER_QA.json": {
+      "bytes": 4644,
+      "sha256": "cd8b0dc49b58d0b2876126192dba6e1a5b55a6e20a16046a4db15683932fce17"
+    },
+    "MAIN_JET_PROPOSAL_DEMO.html": {
+      "bytes": 5455377,
+      "sha256": "b6eed8ef8bf1e29b1eb98cff54c2bc2b4b846fce4075fd3a36bea1d03edee587"
+    },
+    "MAIN_JET_PROPOSAL_DEMO.pdf": {
+      "bytes": 2709342,
+      "sha256": "241688244bacfe1f854ffc41c552ac1ac273865e4979edddfcafe037262d0c0f"
+    },
+    "MAIN_JET_RESEARCH_PROPOSAL.pdf": {
+      "bytes": 1741514,
+      "sha256": "06d2d0cb144dabc05414c0e796e446afb630d4d292f4848cf97ba0b2b6b7c59a"
+    },
+    "MEDIA_EXPORT.json": {
+      "bytes": 5967,
+      "sha256": "4ce6f3a703273eceabe8ad7de2da0d5f85bbba28dcf23b91df4c8bdd01decd4e"
+    },
+    "README.md": {
+      "bytes": 1688,
+      "sha256": "b20267abdc52928c478e99b9ed3426df8853088ef9e077c5e737e702a8a4e4ce"
+    },
+    "SHARING_AND_ATTRIBUTION.html": {
+      "bytes": 5062,
+      "sha256": "2803fb15c33add419765dfbdf14a1d2f8f5713599cf91aebdc44b0693bd3e725"
+    },
+    "START_HERE.html": {
+      "bytes": 20333,
+      "sha256": "12bbfc616412901c6168b27d1b7bf97c2f3c937c0d73ed9f720f252c0aee9837"
+    },
+    "assets/0265_input.png": {
+      "bytes": 7998,
+      "sha256": "ce3159490a8ec608280ac624fc2f753d38139d7200f8670420412c858fd1e81f"
+    },
+    "assets/0265_prediction.png": {
+      "bytes": 8201,
+      "sha256": "88447cbcd451e2adc211c2a988dc48ebbea1c53fe2e4968d5a50e2d031b7b056"
+    },
+    "assets/0265_review.png": {
+      "bytes": 8098,
+      "sha256": "b69b2434479163f96325d3b0f7b58dcded9e99b07f994240529385883c15e677"
+    },
+    "assets/0268_input.png": {
+      "bytes": 2640,
+      "sha256": "9c04fe96a91720587cc4ce6bfc0c4cd2293b5303fb1dacdbb2fbe6a026037ea6"
+    },
+    "assets/0268_prediction.png": {
+      "bytes": 2640,
+      "sha256": "9c04fe96a91720587cc4ce6bfc0c4cd2293b5303fb1dacdbb2fbe6a026037ea6"
+    },
+    "assets/0268_review.png": {
+      "bytes": 2788,
+      "sha256": "911010911cc8f0ad337a020e331461f4ef13ef11d969aa66ea73260500fc8056"
+    },
+    "assets/0299_input.png": {
+      "bytes": 97567,
+      "sha256": "e6c4659c148f7515854dd9629c16c687bfc18aa9a8816a0b0a2cb8edf03f639c"
+    },
+    "assets/0299_prediction.png": {
+      "bytes": 98792,
+      "sha256": "535366506ed5a064e7c92be8833fbd1da8107786bafacfe4248eacafb73638d1"
+    },
+    "assets/0299_review.png": {
+      "bytes": 97567,
+      "sha256": "e6c4659c148f7515854dd9629c16c687bfc18aa9a8816a0b0a2cb8edf03f639c"
+    },
+    "assets/0358_input.png": {
+      "bytes": 229662,
+      "sha256": "2a4f6667cb77ac6eb005bea8bbbfdfc5b141d2202999588157d83303de1a04ae"
+    },
+    "assets/0358_prediction.png": {
+      "bytes": 229662,
+      "sha256": "2a4f6667cb77ac6eb005bea8bbbfdfc5b141d2202999588157d83303de1a04ae"
+    },
+    "assets/0358_review.png": {
+      "bytes": 246269,
+      "sha256": "7a053329afff45504415ebe3dacb58e72f2dfa45d92eef520b39fe5c5e0afb62"
+    },
+    "assets/aebis_329_input.png": {
+      "bytes": 66567,
+      "sha256": "f8b58e10026b4e78ae910600d30de79a40cbbb5ddb642224171944ae0e6a5109"
+    },
+    "assets/aebis_329_prediction.png": {
+      "bytes": 66761,
+      "sha256": "a898cdef381301026b5a71d71a3179e0d53f7a1dbaf8db57e2829dffcaed9b5a"
+    },
+    "assets/fine_bank_obs_a_observed.png": {
+      "bytes": 144376,
+      "sha256": "ff8a614b3a2dfb32efffeaef91aacd30adb8f96ab7028873747b902a737f126b"
+    },
+    "assets/real_surface_comparison.png": {
+      "bytes": 343182,
+      "sha256": "69f5c066bc78dc8f32fb50673a948b29740512980dc8e3ea254cec3c573e737d"
+    },
+    "assets/research.css": {
+      "bytes": 22475,
+      "sha256": "b082abde9342c260cceff6e0840ddc5664bbb023b1aa88df9b21883b9b95ea0f"
+    },
+    "assets/research.js": {
+      "bytes": 6818,
+      "sha256": "aec32da77482faf4814b64e7dba40616e3af76b83a3d9f0b0295479e5acf9428"
+    },
+    "assets/synthetic_scratch_input.png": {
+      "bytes": 1987687,
+      "sha256": "7ab6ba66b611c6e166d20d71d5396d58bf43bbcf54f641bd506aa0078f0fb3c6"
+    },
+    "assets/synthetic_surface_comparison.png": {
+      "bytes": 94882,
+      "sha256": "e3127156baa9be26243cc560f4d456cfd91491ffd486ee7e5a2c20222b86c4b6"
+    },
+    "index.html": {
+      "bytes": 20333,
+      "sha256": "12bbfc616412901c6168b27d1b7bf97c2f3c937c0d73ed9f720f252c0aee9837"
+    },
+    "previews/proposal.png": {
+      "bytes": 19919,
+      "sha256": "36cc93f30c00d990f08162b050cbb09af8f6e80c97a8b79d849afbc87b87adda"
+    },
+    "previews/real.png": {
+      "bytes": 367818,
+      "sha256": "a525d7ffb0344941393a4423d5e1891d7dac55a9dab2a0ed63d2c8fbdced2943"
+    },
+    "previews/synthetic.png": {
+      "bytes": 162811,
+      "sha256": "ea81fcf8108da11635c4ea16da634f3490750df81510ca6e312a32b3d9b1f560"
+    },
+    "real_data/MAIN_JET_REAL_3D_DEMO.html": {
+      "bytes": 27842413,
+      "sha256": "93585b4f1a274d28ea0515480543c46956d5f4db2f5f93e382f9fc273d392ded"
+    },
+    "real_data/MAIN_JET_REAL_DATA_DEMO.html": {
+      "bytes": 15646848,
+      "sha256": "3dd160f877747f267c5d54e400f014aa5c07983ac1a23be344460c4581bc34c5"
+    },
+    "working_3d/ATTRIBUTION.txt": {
+      "bytes": 1329,
+      "sha256": "2491cbff8a0fe8333e642247c9b71a1d77636ca781c84ac291f0c311db52571f"
+    },
+    "working_3d/MAIN_JET_3D_DEMO.html": {
+      "bytes": 19324070,
+      "sha256": "11c705dd827eeab45dec08dcff51cf99dfa3389935de35263fa6813769fcd716"
+    }
+  }
+}
