@@ -1,0 +1,23 @@
+{
+  "assets": [
+    {
+      "file": "assets/presentation/earlier-localization.png",
+      "source_url": "https://afeefaaazam03.github.io/MyPortfolio/main-jet/localization/example_1.png",
+      "sha256": "a69cfff581c5e1de4ed187d44a4eaac28a66ab0a267f9f26997d5d64be001b49",
+      "copied_without_changes": true,
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "file": "assets/presentation/earlier-learned-shape.png",
+      "source_url": "https://afeefaaazam03.github.io/MyPortfolio/main-jet/assets/quick-3d-output.png",
+      "sha256": "eb987937100ceac68fa05d46691ce0a9b15b682dd933d90d7c5d9d718a439977",
+      "copied_without_changes": true,
+      "license": "CC-BY-SA-4.0"
+    }
+  ],
+  "source_geometry": "Safran / PLAID Rotor37",
+  "revision": "bac06c0caa7254120eecc6711a5fb85c58dfbdbc",
+  "localization_source": 0,
+  "learned_shape_source": 7,
+  "scope": "Earlier experiments, separate from the current 68-case fit; synthetic public data only"
+}

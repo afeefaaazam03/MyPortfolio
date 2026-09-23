@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "viewports": [
+    [
+      1440,
+      1080
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "six_slide_states": 6,
+  "hero_slider_endpoints": true,
+  "keyboard_navigation": true,
+  "no_mobile_overflow": true,
+  "javascript_exceptions": [],
+  "overview_pdf_generated": true,
+  "checked_at_utc": "2026-09-23T13:53:00.071502+00:00",
+  "reference_page": "https://afeefaaazam03.github.io/MyPortfolio/main-jet/",
+  "reference_html_sha256": "e24d5b564b766f6772215948f8f0ef43bc53349134b86c1aac311c75d99c7d92",
+  "unchanged_scientific_assets_verified": 349,
+  "all_local_html_targets_and_unique_ids_checked": true,
+  "existing_mesh_interactions_and_exact_obj_rechecked": true,
+  "overview_pdf_pages": 2,
+  "overview_pdf_no_workstation_links": true,
+  "scope": "Presentation checks, not new experimental or real-world validation",
+  "hashes": {
+    "index.html": "89cac8fe22105c9fe11f160b875aa2182b6a03a4a93fe5a88bc9d3943a8d0d4c",
+    "assets/style.css": "73526e16f49dc06f740f03e2c2e8edef2c800622b1a1fdd39fc98616c9452d56",
+    "assets/app.js": "fb0a430680650648da1d1692b04626b3d1b10ab2e115cf2e896cb8171a30bbdd",
+    "assets/viewer.js": "6c79283e07072178cd2b25a2c9d25d37c4555cde2240c040177b373f817e2c94",
+    "assets/presentation/presentation.css": "fc41c068faa9144b6b65e1197e649ed52c51d2d76a74b1c6cd3983f86f0ac70d",
+    "assets/presentation/presentation.js": "344342fdf1ce97a86aa61c5ba6160722ecdc9325017cf1d5f584828534bea22f",
+    "PROJECT_OVERVIEW.html": "6017d08f5edecdcc3cca9206fcad268aefc1a51c913e4ba802fd91c051315e85",
+    "JET_BLADE_3D_OVERVIEW.pdf": "9b5d538c25c75e2d1dd888cf995c0dcda51dea7597fcdc3954f84e659db016ab"
+  },
+  "independent_scientific_review": "Passed after clarifying the earlier 20% metric as IoU and correcting the guided-story description."
+}

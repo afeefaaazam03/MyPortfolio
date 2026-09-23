@@ -1,0 +1,3191 @@
+{
+  "schema": "jet_blade_3d_public_assets_v1",
+  "source_receipt_sha256": "66a70f582e05df0c5764f9c20d48e9cced27a175edd804b75177c79ed4c76c5a",
+  "assets": [
+    {
+      "path": "assets/data/meshes/r009.json",
+      "sha256": "e5e3137961110272d1db32d693274fbc062b67c6b7760e98b4aaf5ec21709093",
+      "bytes": 2950759,
+      "role": "public healthy canonical mesh including labeled artificial closure",
+      "source_sha256s": [
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/data/meshes/r010.json",
+      "sha256": "5758091b3373bb565324a21ce0496c69291457363c24f018c0e57cd688b59dec",
+      "bytes": 2950437,
+      "role": "public healthy canonical mesh including labeled artificial closure",
+      "source_sha256s": [
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c000_truth.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c000_v004.png",
+      "sha256": "303574e873c5bea40b0cdabfe8690c91ab9c394976781b4479683a49d89bd93f",
+      "bytes": 172748,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "303574e873c5bea40b0cdabfe8690c91ab9c394976781b4479683a49d89bd93f"
+      ]
+    },
+    {
+      "path": "assets/images/c000_v005.png",
+      "sha256": "482357b7f9f04309dab561a80ba2aba9067406716a8dc55d7c12537134b23776",
+      "bytes": 187690,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "482357b7f9f04309dab561a80ba2aba9067406716a8dc55d7c12537134b23776"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c000_joint.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "fcb6a3cec70279b0a63ddea04130483f986fcd8cc355282cef0e5f1123adaa21"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c000_geometry_only.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "fcb6a3cec70279b0a63ddea04130483f986fcd8cc355282cef0e5f1123adaa21"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c001_truth.json",
+      "sha256": "6012ee9cad031b0a3e07350fd73f90a2c1607d1a608ac5099b9be3e899f2da1e",
+      "bytes": 5101,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "60a91cc228347b9daf0ba8f6972744607762f8c3133c25c6d114d58c42409bd3",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c001_v004.png",
+      "sha256": "f3906f4772a1c26867c66e2e6789cad9e9c142d5407ddc621ea510ddb24cda15",
+      "bytes": 172730,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "f3906f4772a1c26867c66e2e6789cad9e9c142d5407ddc621ea510ddb24cda15"
+      ]
+    },
+    {
+      "path": "assets/images/c001_v005.png",
+      "sha256": "b9455265f6f9db97c94764220eca127702d2600bde7e1f9e1153ce2316a638ed",
+      "bytes": 187776,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "b9455265f6f9db97c94764220eca127702d2600bde7e1f9e1153ce2316a638ed"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c001_joint.json",
+      "sha256": "c1fa411b00dd3aec9fd26d2ba5bceac70c9a162b0680bea9463ad48355b21695",
+      "bytes": 5552,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "fa1da0f9f5809ac7e0eaffd97f8a4617f0e36ff41a89d5e0414b3179e73949e1"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c001_geometry_only.json",
+      "sha256": "ce304c25624cc6706a7eaa9a5e74add72d98d511bffae0252b9392bc9d051620",
+      "bytes": 5527,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "09bd082fcf7222d7a2f0a239dfa490a0843af752341b98a205dcbf61abb3e365"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c002_truth.json",
+      "sha256": "8e60866fde4081425a665b2effc8b4245a81c5e7d85d37e9e39012c8f4cff99d",
+      "bytes": 5268,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "89506a7d06b35c1aa5786ad6f9736eb37001dfe8c991cbd2a015dc7479a5bb0e",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c002_v004.png",
+      "sha256": "c25944fee56dba1bb6738cd45ca76c02ae73806e1d0fabc9d2cf50d7c9f5426d",
+      "bytes": 172737,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "c25944fee56dba1bb6738cd45ca76c02ae73806e1d0fabc9d2cf50d7c9f5426d"
+      ]
+    },
+    {
+      "path": "assets/images/c002_v005.png",
+      "sha256": "b79daa95a0621d46c240c82c708ccb5c76279ef8af4a9f12dec16393472fe2d1",
+      "bytes": 187863,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "b79daa95a0621d46c240c82c708ccb5c76279ef8af4a9f12dec16393472fe2d1"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c002_joint.json",
+      "sha256": "43e3736add9b7c3c592aea4b2f40e1843c356c67dd59793aacbf5673e9f88a07",
+      "bytes": 5549,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "0ee438d96c6813e5b318c1bbcc69d17130fcf7d93b43733e0f97e4a2314e906a"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c002_geometry_only.json",
+      "sha256": "dd2d72492561a854d5bddba7aa8a09b432d72843f43260856664955d4ab4a282",
+      "bytes": 5543,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "4b92f50d8f5b63703f3896f1d91d151624793e5260a3f2c65f181eb7db5a01ab"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c003_truth.json",
+      "sha256": "9954656e4317aa8a171084d2b3b7b5c5168a4dde96bcdaf97fe62725f54246fb",
+      "bytes": 5349,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "2c68dd5720624e0f57cc5d58abd7327be28f1b35bb9599430e13d9afdd28688b",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c003_v004.png",
+      "sha256": "dafa15241a2c572c7ca44e0fc000d60272027e9416cf1ade51feb95ac8983a99",
+      "bytes": 172711,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "dafa15241a2c572c7ca44e0fc000d60272027e9416cf1ade51feb95ac8983a99"
+      ]
+    },
+    {
+      "path": "assets/images/c003_v005.png",
+      "sha256": "26107d56134edf65503744b1ef63036edf09b3b7e52ac8f0e4f5442d90354660",
+      "bytes": 188055,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "26107d56134edf65503744b1ef63036edf09b3b7e52ac8f0e4f5442d90354660"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c003_joint.json",
+      "sha256": "1c6441f6eb1bb54481fe794cdca49ad27808f07631037ab4e10d81e02846e78c",
+      "bytes": 5551,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "bf84d328344a209e191713fe636ea803564e28e9f69ec38b97542951fa8a0fc7"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c003_geometry_only.json",
+      "sha256": "00186b43b0f0480aecc1d782313b0b1ef68aea9e68933c64e4aaba451bda102a",
+      "bytes": 5539,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "10898600f4e1d2099eca72a38f8227ed8ba8791fd185ad0931ecdac37d18b019"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c004_truth.json",
+      "sha256": "90fe0a6d31d9304939f1a90115d1e0d1dc02bb96f404ee2a4843e3ca305b36bb",
+      "bytes": 4831,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "88aa6b47aa8db7c83c0e5a7568810b2187205ee37a4a8cbc2c2a318c10ee564b",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c004_v004.png",
+      "sha256": "8eb5f17e83a9f4d4c770465ec0c9f75f23781b1bf072da7b354dd15b047edfa8",
+      "bytes": 172709,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "8eb5f17e83a9f4d4c770465ec0c9f75f23781b1bf072da7b354dd15b047edfa8"
+      ]
+    },
+    {
+      "path": "assets/images/c004_v005.png",
+      "sha256": "939e186d525d497e89b931024525014958dac5bb68bcd1852b9db79469c14730",
+      "bytes": 187725,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "939e186d525d497e89b931024525014958dac5bb68bcd1852b9db79469c14730"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c004_joint.json",
+      "sha256": "a6a3c6aab27a980869f4d716fadd0a1edfe3441fe0cef31592c386c9f36b5f7b",
+      "bytes": 5122,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "1a4d4bc11586b5a438359c32224f492095056ef03a07ce6bb2f57d4466d4691d"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c004_geometry_only.json",
+      "sha256": "9f0c21111f0a15b982f6ec7677eb970090d416145ffff7a9fb7733fe57ea6682",
+      "bytes": 5129,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "0997a909badd41f7b787447b0350eb3876ce420e6bab38e20fc796db4d914e89"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c005_truth.json",
+      "sha256": "8fcbe5cd5eacf80cef0fa3aa1f3805d3cb786ad116a9e5e4c497e3c4aaf8ed69",
+      "bytes": 4826,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "45305857d6567f2a0b078adb6bc1e298c534df96496c0401edf2161d2691fdee",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c005_v004.png",
+      "sha256": "e67229e3c93e41cbb9bc8139e1d59558c47a0b6d4e32863bfd16d4a464ac22c0",
+      "bytes": 172677,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "e67229e3c93e41cbb9bc8139e1d59558c47a0b6d4e32863bfd16d4a464ac22c0"
+      ]
+    },
+    {
+      "path": "assets/images/c005_v005.png",
+      "sha256": "dfb46f56a1fabe0097508b92b5d1a6c29148c097a8152a971b333bda7d84e1f6",
+      "bytes": 187941,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "dfb46f56a1fabe0097508b92b5d1a6c29148c097a8152a971b333bda7d84e1f6"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c005_joint.json",
+      "sha256": "96ddd62038cd27ea7c109af59a1a0f2bc79983277e0e20869a59bb9c7341dea1",
+      "bytes": 5129,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "a4877030f0f077f5d682f80e4535b554efa7e081d6c402c1a32bf403e60237ca"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c005_geometry_only.json",
+      "sha256": "9dcb96cc308182d4c4db72ca093bc2a557500004a41c070bec8fac5d52ee13a9",
+      "bytes": 5133,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "cf4833f33a4adb4a0a3df35fa1f8c1a7978a9f45b6943746fb609d246f57cbcc"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c006_truth.json",
+      "sha256": "1016b6c8e39bc0f0e6ec0ddaa6fbbfb43d16e12916742c035d25fe4ccce47c9d",
+      "bytes": 4853,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "140fe977563f5fc63d085baf9185acfcd4ccd699598f471b10d85bbe53f29ccd",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c006_v004.png",
+      "sha256": "54fa3f6f786e548f46d199412a82db2065038486be7424944a32af41509141a6",
+      "bytes": 172648,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "54fa3f6f786e548f46d199412a82db2065038486be7424944a32af41509141a6"
+      ]
+    },
+    {
+      "path": "assets/images/c006_v005.png",
+      "sha256": "dbb120adae29e801ca30b82c105b059c7f885a96b6f2b2168a86552981580890",
+      "bytes": 188228,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "dbb120adae29e801ca30b82c105b059c7f885a96b6f2b2168a86552981580890"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c006_joint.json",
+      "sha256": "cae91204a361ce6ab26dfcc6f986bffd510f28e97c9ab4bca2a6a4ff9e4041cb",
+      "bytes": 5140,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "b9c4e2c65e4ec83a23a36ac43b340229f9951e4e11e454c9672c5bd62e03a72d"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c006_geometry_only.json",
+      "sha256": "cae91204a361ce6ab26dfcc6f986bffd510f28e97c9ab4bca2a6a4ff9e4041cb",
+      "bytes": 5140,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "b9c4e2c65e4ec83a23a36ac43b340229f9951e4e11e454c9672c5bd62e03a72d"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c007_truth.json",
+      "sha256": "d498b098611b010ddaf24a050d45f4a0950abe3eea8bed4cd22198879375e089",
+      "bytes": 6162,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "bd2aa203fc6938693a4314a938aa6a0f6f07b4de76ac7b76c654d15ca98c14d9",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c007_v004.png",
+      "sha256": "1ad753af1399915a5c2837dcbbc29b98dcd61c2eab0d0ca3a018cdeb8f1ca8fd",
+      "bytes": 172739,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "1ad753af1399915a5c2837dcbbc29b98dcd61c2eab0d0ca3a018cdeb8f1ca8fd"
+      ]
+    },
+    {
+      "path": "assets/images/c007_v005.png",
+      "sha256": "6cfd58f0caa69926fef1656b70733efe3e9706b9cd7659a5ebd18acddf52ac37",
+      "bytes": 187930,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "6cfd58f0caa69926fef1656b70733efe3e9706b9cd7659a5ebd18acddf52ac37"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c007_joint.json",
+      "sha256": "f5e6e6a072f549feaaf6fafbaab044ed7b2c0f9d5393ecc7c0c80c55293e16b2",
+      "bytes": 6639,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "6fb3af63cf319a2650c5aff431c70db49c0e192eaffded2ded4075ea150076d1"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c007_geometry_only.json",
+      "sha256": "a2c15d3bd60ddb52eee641b492c9867b51a8cf2c6d13ecb97f2e4b5360163c04",
+      "bytes": 6649,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "59e284ca07e2ce6c29ed390674f7db1d4114b63417c1ce58bcbdc3d85934c654"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c008_truth.json",
+      "sha256": "bc24b86b6da39500c2ab714a5fcc69f13cd44322beff9d032a6032dd09419354",
+      "bytes": 6177,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "d759f9dc23a02a64d36c6a6bf511f34488b9121d9ddd4e0f31bdc43a74daeeb1",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c008_v004.png",
+      "sha256": "7ec366e01bc4fdde6f1bfb99405b42a6582ecadf994d4a89188d3315d9df83e5",
+      "bytes": 172697,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "7ec366e01bc4fdde6f1bfb99405b42a6582ecadf994d4a89188d3315d9df83e5"
+      ]
+    },
+    {
+      "path": "assets/images/c008_v005.png",
+      "sha256": "d69eff9f1f3acaf93371126d8a745e3dd6db081b1e61ccf8fb84ea507c54637f",
+      "bytes": 187919,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "d69eff9f1f3acaf93371126d8a745e3dd6db081b1e61ccf8fb84ea507c54637f"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c008_joint.json",
+      "sha256": "dce9a8989ec9be936a91e1c56f322d956d93ee2423765b665c93e48e9f88ede7",
+      "bytes": 6648,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "e97f353f1c3d90d7b52be89c7f7fa1e074ac2a86232813d1b8f4ba5ca1fb6bc8"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c008_geometry_only.json",
+      "sha256": "84c79968f509639464873b4e08909000435dd43d411ea0f5afdbf397ea5a0162",
+      "bytes": 6640,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "3b69f186f08d4dd582758e603d75d81d19f6ba9e7fe9050ea9ecd16d939248bc"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c009_truth.json",
+      "sha256": "d913f5cb5e7779cf7afe879ac2d124de0769f310d0d1349e7689d18e47c083e8",
+      "bytes": 6213,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "bec08ad7b38ba1b06265fb90ab5f055149a127ed1806fe490efe026e5d7991b4",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c009_v004.png",
+      "sha256": "78cace713bc1e50bff3a6751e7aedb487c9d81d8440df55326b76010dc3ccf3c",
+      "bytes": 172566,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "78cace713bc1e50bff3a6751e7aedb487c9d81d8440df55326b76010dc3ccf3c"
+      ]
+    },
+    {
+      "path": "assets/images/c009_v005.png",
+      "sha256": "75c5674eb2a2b694ee89e050f7a5204d2ba6e2c7a1f15d995339c8d953d25a90",
+      "bytes": 188400,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "75c5674eb2a2b694ee89e050f7a5204d2ba6e2c7a1f15d995339c8d953d25a90"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c009_joint.json",
+      "sha256": "0012006c945d95dd5bd3303e306352322e3e8ea0575e325253a2a02c6f666b1d",
+      "bytes": 6650,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "30b5be3858c56bae6fe3bc3c0f20fa1add1554c5ea8c3f6d04909dce228cb9ef"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c009_geometry_only.json",
+      "sha256": "0012006c945d95dd5bd3303e306352322e3e8ea0575e325253a2a02c6f666b1d",
+      "bytes": 6650,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "30b5be3858c56bae6fe3bc3c0f20fa1add1554c5ea8c3f6d04909dce228cb9ef"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c010_truth.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c010_v004.png",
+      "sha256": "9f6553a1db6ec6ac93f5803b0ab9f68200cd9377135255a2904459d414aea411",
+      "bytes": 172586,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "9f6553a1db6ec6ac93f5803b0ab9f68200cd9377135255a2904459d414aea411"
+      ]
+    },
+    {
+      "path": "assets/images/c010_v005.png",
+      "sha256": "3b9c8665d3667b0a2eb047f0c7aa5374acf810cf071fde43978079934b05ed3c",
+      "bytes": 187794,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "3b9c8665d3667b0a2eb047f0c7aa5374acf810cf071fde43978079934b05ed3c"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c010_joint.json",
+      "sha256": "85472d711023596169e46995fbcb74435ae529b31d279d0fe9d3bb10fab49295",
+      "bytes": 5107,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "6324c2de00a5a6e9a504e2b2ee0052e5451ee31d2e7a988e637c040cd3395772"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c010_geometry_only.json",
+      "sha256": "85472d711023596169e46995fbcb74435ae529b31d279d0fe9d3bb10fab49295",
+      "bytes": 5107,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "6324c2de00a5a6e9a504e2b2ee0052e5451ee31d2e7a988e637c040cd3395772"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c011_truth.json",
+      "sha256": "6478cbc233b3cda672ef6d7b075172bf4cbd2bf294d69b77e10bf88956561d8c",
+      "bytes": 4938,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "5351c0e7fb7e609898cce0fe129e59738dc2809706f537afd83934c2aa96c27b",
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c011_v004.png",
+      "sha256": "97f7d126cb4a71f4068ba4c5598ae8bb7d76c4c26cd642a702cc17a65630e37b",
+      "bytes": 172666,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "97f7d126cb4a71f4068ba4c5598ae8bb7d76c4c26cd642a702cc17a65630e37b"
+      ]
+    },
+    {
+      "path": "assets/images/c011_v005.png",
+      "sha256": "23283ff356b22ccea44905d0e4f582d1cdc6553564aa5ec3c246bb35f5c2fe1e",
+      "bytes": 187832,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "23283ff356b22ccea44905d0e4f582d1cdc6553564aa5ec3c246bb35f5c2fe1e"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c011_joint.json",
+      "sha256": "88bf64e2d57c24e9e02c4ab103a3615226f2cbc393d3121c8130f47ad2384959",
+      "bytes": 5102,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "151261b8ae66e6f47783f2d1562fd7f826bdd2bd06e3cb0f72315502b91d588d"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c011_geometry_only.json",
+      "sha256": "d85a315815295afd37ed1d62327aff83dca747e0a485a0cea88f320aae38edc1",
+      "bytes": 5112,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "be1a2844ba69a2f4f384edf319637a35672acdd75b9dfc846e587fd59641e374"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c012_truth.json",
+      "sha256": "44790d6a60149a829f4fdc1debc35c8450607a02069c10c9448edbd7b99685fe",
+      "bytes": 5000,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "294a70bd3f45514e4df8e4a45ba01b54df26e68d3681cf64d74ad31ba9f1cea9",
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c012_v004.png",
+      "sha256": "58c74aaf8203942a374aad8cb00b5cf5fb3e5f81d64dc6023b7fe0493347c0ce",
+      "bytes": 172676,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "58c74aaf8203942a374aad8cb00b5cf5fb3e5f81d64dc6023b7fe0493347c0ce"
+      ]
+    },
+    {
+      "path": "assets/images/c012_v005.png",
+      "sha256": "90cfa41704df2cdd28a554ee625661ba6c2bc01076d976e4fcec7f657890407c",
+      "bytes": 187894,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "90cfa41704df2cdd28a554ee625661ba6c2bc01076d976e4fcec7f657890407c"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c012_joint.json",
+      "sha256": "6c2ac22a3a20e1003c271ab2eb3295a63271d45943963b7d9c6a925bd1d43c04",
+      "bytes": 5109,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "35bf44ec4bdf6abd52a3d19fa9e172c4c3d638e7d0e3757d9ebe9599af8a0bed"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c012_geometry_only.json",
+      "sha256": "fb2f6af3946eca98e2b575b7627f3f170f54e86f15f8f2d610fab87fa516640f",
+      "bytes": 5113,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "48d709c684f9d5aedc130ca7e847f21444e3c051d966dadf00e0be7eb88b1473"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c013_truth.json",
+      "sha256": "e13ef96747a1091bb26779c7df067e5defabed35ec9e8b7cf6484d60f2c64f22",
+      "bytes": 5020,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "763701ef07ae0dbfdb37e21109126738a7d24d5879591d34340e096528451e8a",
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c013_v004.png",
+      "sha256": "93690d4fa2ec540602e0cdccb5909f5ffef52e11fa65529d2e103010a5d99cc8",
+      "bytes": 172768,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "93690d4fa2ec540602e0cdccb5909f5ffef52e11fa65529d2e103010a5d99cc8"
+      ]
+    },
+    {
+      "path": "assets/images/c013_v005.png",
+      "sha256": "c6e5f9536175f4bd4afde490688fc5e2cfe767d65baf8d7e476eaf26981ed81b",
+      "bytes": 188229,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "c6e5f9536175f4bd4afde490688fc5e2cfe767d65baf8d7e476eaf26981ed81b"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c013_joint.json",
+      "sha256": "56d01d4cb8dee8923f304d7e3e974593dc94d6f0c8baee911d4a4030151d1ecf",
+      "bytes": 5096,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "d41ccadce47320786269cb5fda7a235c853190823f0b6acee84f074e9e45b776"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c013_geometry_only.json",
+      "sha256": "56d01d4cb8dee8923f304d7e3e974593dc94d6f0c8baee911d4a4030151d1ecf",
+      "bytes": 5096,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "d41ccadce47320786269cb5fda7a235c853190823f0b6acee84f074e9e45b776"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c014_truth.json",
+      "sha256": "6fd5682108a53b581137fbdf3dacb7b61512f98fb6ee090f7d7922ca88edd6cb",
+      "bytes": 4883,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd",
+        "da8a1281f83e06702058210f6a2de7f0dc3585ce896d4101d0273d83eae719ed"
+      ]
+    },
+    {
+      "path": "assets/images/c014_v004.png",
+      "sha256": "b12ba6b0d02eb0a5ed42da1edfbafd21502e78c2374110dc00b1161a87507201",
+      "bytes": 172653,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "b12ba6b0d02eb0a5ed42da1edfbafd21502e78c2374110dc00b1161a87507201"
+      ]
+    },
+    {
+      "path": "assets/images/c014_v005.png",
+      "sha256": "2933dc848ce47b6581c7f89c87c952c8797950395955072e900cc7af5d720a17",
+      "bytes": 187905,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "2933dc848ce47b6581c7f89c87c952c8797950395955072e900cc7af5d720a17"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c014_joint.json",
+      "sha256": "cdf31137195ef830419e25b25b9404b3b883d61e45005c25002ed1ab4cb3e32c",
+      "bytes": 4986,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "74876c188ebfbdd55bb4273fa7e3a9863ca301cb4493b8c3465c2fa843450551"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c014_geometry_only.json",
+      "sha256": "09c36f8a376548db4ee0604ce340a5be43aaf931ee162bdb0f6763e9a2112659",
+      "bytes": 4989,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "6f37aeda56c194855bf9b6fbdd5227c4b3d3aaf44304d8c97a00104c508d1526"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c015_truth.json",
+      "sha256": "8fe289afd5e995a2ee643feec279b21b01dc3d6a4ee41d59c02d502dd8a60746",
+      "bytes": 4919,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "205155bc42593b87d62b91a5ed4962cb67bf68c0c4f85a0a63319f53e2424301",
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c015_v004.png",
+      "sha256": "c3bfb62cdead6a054b360f0fa5e5046d9d1a373451b3cf78f96578fb9420b6f7",
+      "bytes": 172609,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "c3bfb62cdead6a054b360f0fa5e5046d9d1a373451b3cf78f96578fb9420b6f7"
+      ]
+    },
+    {
+      "path": "assets/images/c015_v005.png",
+      "sha256": "3f2ed8b9c11043895aca050f28ed2a312117ba352082263aa84417ae69b03e39",
+      "bytes": 187981,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "3f2ed8b9c11043895aca050f28ed2a312117ba352082263aa84417ae69b03e39"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c015_joint.json",
+      "sha256": "cce24c1fdb031eb16a7e4425179d656d1a3b8731b0e0e5dc86bd12f1fdd321a6",
+      "bytes": 5014,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "90d5ff926fb2ccdb3daa514f533cb5d0ce98df1eac7f5a4e1cd5642020ec44bf"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c015_geometry_only.json",
+      "sha256": "c662d4a79cf6e5701395f2db165280ea9770165c1c31d1171e92e5368b6df50b",
+      "bytes": 5001,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "2c1cf240eb1772a23e167d12676a1d218679cb36771e9317572204f901ecdaf4"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c016_truth.json",
+      "sha256": "e48550185bfbc1445c07500dd213b116664077c797aec026c9b29939817b14c4",
+      "bytes": 4920,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "29bbde090892260bf59f693ecebf73e10a45a14383810c8a1e54b0ec3c87d096",
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c016_v004.png",
+      "sha256": "8dc7824ca2f2a4d36a3d881cb6c0b1482bbe2eb9553652175685f215d6758439",
+      "bytes": 172730,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "8dc7824ca2f2a4d36a3d881cb6c0b1482bbe2eb9553652175685f215d6758439"
+      ]
+    },
+    {
+      "path": "assets/images/c016_v005.png",
+      "sha256": "6485faedb03e52e60c9cfb74f166fb7e29e34136edbb90386075aa038403ee66",
+      "bytes": 188118,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "6485faedb03e52e60c9cfb74f166fb7e29e34136edbb90386075aa038403ee66"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c016_joint.json",
+      "sha256": "2f19527180294bf98d194970d5e635c921e85bb93320dc125f98855f2c8a698a",
+      "bytes": 5000,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "23bceb68341b67b9bd76b91d5066d3a2cd126ab5e51f50bf9fff97f0afd68711"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c016_geometry_only.json",
+      "sha256": "2f19527180294bf98d194970d5e635c921e85bb93320dc125f98855f2c8a698a",
+      "bytes": 5000,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "23bceb68341b67b9bd76b91d5066d3a2cd126ab5e51f50bf9fff97f0afd68711"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c017_truth.json",
+      "sha256": "da1a6a9f2fa300db1e4878ff90bb4717bf0f8e1e2bf6f8dd60a1f84081a2178c",
+      "bytes": 6329,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "1b82e4f67a8a438c9f9bd247c59a84ad8773e43a866c0fa46f081b98ab5a188d",
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c017_v004.png",
+      "sha256": "a6030f94e6daec0b3f40d52c9ca2c18bd27e2b9343d0080ab7b85d2d43a79316",
+      "bytes": 172671,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "a6030f94e6daec0b3f40d52c9ca2c18bd27e2b9343d0080ab7b85d2d43a79316"
+      ]
+    },
+    {
+      "path": "assets/images/c017_v005.png",
+      "sha256": "0e976c59690f3f8a53f22fcbd781b9d5ee69f70c8951a2ef43ab28df5bed3252",
+      "bytes": 187912,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "0e976c59690f3f8a53f22fcbd781b9d5ee69f70c8951a2ef43ab28df5bed3252"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c017_joint.json",
+      "sha256": "d83a3d4c6f1a20f4ecb7c24447362b028123808da6762304722e09a0aa76dc5b",
+      "bytes": 6427,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "1c69d78b696b9e06d29d519a3b01c5250e6d1fd8bd07c31334c720d8a69ce621"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c017_geometry_only.json",
+      "sha256": "cd05f2e62167e32332bb20fc4e090156877c9daac3f9cbf2aaaa1d66aaa41b46",
+      "bytes": 6427,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "c9bdb7171e56bfeb0f44ab549a43995d8d9c2bb96cda827fa7e63f467fb4d7e9"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c018_truth.json",
+      "sha256": "ce3b39654beab8766e1032a3f831620d56cde52404d80cb24ca33c3c6d1c147b",
+      "bytes": 6386,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "51f33ccfeee42607f9fcd34562ec031c793f824773402eca497314213a62f566",
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c018_v004.png",
+      "sha256": "8769f3bb38e3aa1c06854b2649dab583d6f2ddc39b71c2b06851d198462215eb",
+      "bytes": 172805,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "8769f3bb38e3aa1c06854b2649dab583d6f2ddc39b71c2b06851d198462215eb"
+      ]
+    },
+    {
+      "path": "assets/images/c018_v005.png",
+      "sha256": "57be96d4efe1e5218e420ebfd8474001f61aa77d089fdf5915a66f6091ac67a7",
+      "bytes": 188049,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "57be96d4efe1e5218e420ebfd8474001f61aa77d089fdf5915a66f6091ac67a7"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c018_joint.json",
+      "sha256": "d13541bff8d366f9ac321d7b024052f13e352e063dcf0ca17e96189e3c8e1248",
+      "bytes": 6427,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "56b800c9d071daa689efae600ac2be4ce04475594a20f7d381494444f7911840"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c018_geometry_only.json",
+      "sha256": "a64cf9ef0f10bc1cb1a0eb6ea8efdc1c07dd3911bdb986a67ca736c495c5550a",
+      "bytes": 6426,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "a2e901260336afd8a3d942bda641ae027ee80026e0ad6f9b6da1a0afd4876171"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c019_truth.json",
+      "sha256": "0a1b13d4c6e23e4a48438a6912749b320a6caad35bec9676e9e1f1141c9d1728",
+      "bytes": 6384,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd",
+        "c57a106d566a1b4b1527f42135e44de668881ec31376ead6e8a4e7a4359ad77a"
+      ]
+    },
+    {
+      "path": "assets/images/c019_v004.png",
+      "sha256": "799d98c1ceb372890efbca9bc9c208af9ec2b4a4f251c8a8388aa5f4fb807b50",
+      "bytes": 172858,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "799d98c1ceb372890efbca9bc9c208af9ec2b4a4f251c8a8388aa5f4fb807b50"
+      ]
+    },
+    {
+      "path": "assets/images/c019_v005.png",
+      "sha256": "843ce0d92a6b9546a1b4e4b396cef02fac021e0094072b8d1b735463920585e9",
+      "bytes": 188582,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "843ce0d92a6b9546a1b4e4b396cef02fac021e0094072b8d1b735463920585e9"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c019_joint.json",
+      "sha256": "1d7a95eda2898775a34d20c2fb1066d73102f947e4a2d3f474752daedfaba8ab",
+      "bytes": 6409,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "a98724b70f7ca3da027b00694db66f379b210462ea81c022a650b0a1c763098e"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c019_geometry_only.json",
+      "sha256": "1d7a95eda2898775a34d20c2fb1066d73102f947e4a2d3f474752daedfaba8ab",
+      "bytes": 6409,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "a98724b70f7ca3da027b00694db66f379b210462ea81c022a650b0a1c763098e"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c020_truth.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c020_v004.png",
+      "sha256": "e2666b8b6674900a0d5d06366c26e43d935dc431c8211bc0e3c87347daaad3d7",
+      "bytes": 172681,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "e2666b8b6674900a0d5d06366c26e43d935dc431c8211bc0e3c87347daaad3d7"
+      ]
+    },
+    {
+      "path": "assets/images/c020_v005.png",
+      "sha256": "956e6fe6c063a923ecfc37eb1ca55ee7e185557d2c7a18fe2077eba987b185c9",
+      "bytes": 187860,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "956e6fe6c063a923ecfc37eb1ca55ee7e185557d2c7a18fe2077eba987b185c9"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c020_joint.json",
+      "sha256": "d2bf57cff10a6238d885272e8415a42b939b20f052746816e85d1a3ff1fe84e1",
+      "bytes": 5535,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "bf615020289c122d2f82c6bf1b0a4f8433a1040730e85c7d09a9c42977659bdb"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c020_geometry_only.json",
+      "sha256": "03696b27e5658fb18cdcaf5ce48cde82e61a81764bd381842e7c42d48c8c0b0e",
+      "bytes": 5530,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "790ab0cbad199e59eb608e3fe665d789f816041615ceb2a885426e393e8a9dd9"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c021_truth.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c021_v004.png",
+      "sha256": "eb27dd7f8dc5d8b9058ae721769683a3f661d3a82a2399947b406c6ef999e55a",
+      "bytes": 172791,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "eb27dd7f8dc5d8b9058ae721769683a3f661d3a82a2399947b406c6ef999e55a"
+      ]
+    },
+    {
+      "path": "assets/images/c021_v005.png",
+      "sha256": "aba53ccbc6c15efd5fe24307fc2943e5167537620d9c839e5b12903b94041e6b",
+      "bytes": 187991,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "aba53ccbc6c15efd5fe24307fc2943e5167537620d9c839e5b12903b94041e6b"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c021_joint.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "fcb6a3cec70279b0a63ddea04130483f986fcd8cc355282cef0e5f1123adaa21"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c021_geometry_only.json",
+      "sha256": "f070f434693294e0bafa799357b669c2a418d5998c7e3bf2a51b422a1ef723f9",
+      "bytes": 5154,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "8b3c636123917a100d6025cd09d6044c54869ee91eefb5d54664030ba18c6c87"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c022_truth.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c022_v004.png",
+      "sha256": "783ba1f4e075be60b3b3bf1f455a25254d3bcad5c7cacf446da5c212b939cff1",
+      "bytes": 172808,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "783ba1f4e075be60b3b3bf1f455a25254d3bcad5c7cacf446da5c212b939cff1"
+      ]
+    },
+    {
+      "path": "assets/images/c022_v005.png",
+      "sha256": "0c7de942a97ad9fbfcc0947c379992432f4586529578b9c4cdf49358a0a71184",
+      "bytes": 187828,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "0c7de942a97ad9fbfcc0947c379992432f4586529578b9c4cdf49358a0a71184"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c022_joint.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "fcb6a3cec70279b0a63ddea04130483f986fcd8cc355282cef0e5f1123adaa21"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c022_geometry_only.json",
+      "sha256": "f966ccd8f23db6ddcc91371c97437409d8ef59288a0eca13db225b2ed92c2f9f",
+      "bytes": 5116,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "167f0509eacf9f4839b528ec534783a1318713d1dcf5ce22775629d829b157e7"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c023_truth.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c023_v004.png",
+      "sha256": "436faf20967b6979955701eb15aa570f8ac5f839ef05015ed74ccfb41aa778a5",
+      "bytes": 172805,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "436faf20967b6979955701eb15aa570f8ac5f839ef05015ed74ccfb41aa778a5"
+      ]
+    },
+    {
+      "path": "assets/images/c023_v005.png",
+      "sha256": "9eee5ff5bf897dc673efe620aca0b5ac3f1fd2d070bb9a36ce9a447e4c651be8",
+      "bytes": 188010,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "9eee5ff5bf897dc673efe620aca0b5ac3f1fd2d070bb9a36ce9a447e4c651be8"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c023_joint.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "fcb6a3cec70279b0a63ddea04130483f986fcd8cc355282cef0e5f1123adaa21"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c023_geometry_only.json",
+      "sha256": "2959ff59cd29c44f93db23ec2da43cd7c7bc60e247744098efb4f9f20ca84f3a",
+      "bytes": 5158,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "973cb784d79a96ab252e696824b892aa12776b87f7d7e77b5317d648108d128a"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c024_truth.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c024_v004.png",
+      "sha256": "41fe6b79f3ba4fafef83642aee802733fa60edffa2ba4f116dbd063e7a3b3147",
+      "bytes": 172643,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "41fe6b79f3ba4fafef83642aee802733fa60edffa2ba4f116dbd063e7a3b3147"
+      ]
+    },
+    {
+      "path": "assets/images/c024_v005.png",
+      "sha256": "f250a683de0ded2d68fe39adf041fe64d595f69b30f44405b07164da6ec875b1",
+      "bytes": 187691,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "f250a683de0ded2d68fe39adf041fe64d595f69b30f44405b07164da6ec875b1"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c024_joint.json",
+      "sha256": "cf0eda8ddadccb094d29641a2207b645affe854e990b3f6381e70393ea0c0d0d",
+      "bytes": 5538,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "be1733977e63947ed34594022a75828b4b28090e1a531980d308f600d1f5461e"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c024_geometry_only.json",
+      "sha256": "e0144f6edec7f2adace5f8ee5831325db27955783eeedb3d3e7b880fc49a0367",
+      "bytes": 6661,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "50cef949e7acfb8c8baab9898c5ef631b437a8c9b00d967798d45eb96342903c"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c025_truth.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c025_v004.png",
+      "sha256": "b3ebd72ca0fc144a946480a31683191a7dcc869e8a96d8e39550784e7a1c36b9",
+      "bytes": 172867,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "b3ebd72ca0fc144a946480a31683191a7dcc869e8a96d8e39550784e7a1c36b9"
+      ]
+    },
+    {
+      "path": "assets/images/c025_v005.png",
+      "sha256": "63dd1421e88bde264586716efec223a49226b6674a135d9f8efc4b7c86e22ace",
+      "bytes": 187904,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "63dd1421e88bde264586716efec223a49226b6674a135d9f8efc4b7c86e22ace"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c025_joint.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "fcb6a3cec70279b0a63ddea04130483f986fcd8cc355282cef0e5f1123adaa21"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c025_geometry_only.json",
+      "sha256": "7e5cc79411be19da842eb8098b927237cfb8c941237a643d79a5e5227a4445ef",
+      "bytes": 5541,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "ae56380e02b04bf46bb87eadce35a1ffe809e5e1e126aed241bffb8f690c1832"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c026_truth.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c026_v004.png",
+      "sha256": "446532faaa15a0ddc9f2357c7880f0d945bef47e531ad512f5eeaa779289c3f3",
+      "bytes": 172747,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "446532faaa15a0ddc9f2357c7880f0d945bef47e531ad512f5eeaa779289c3f3"
+      ]
+    },
+    {
+      "path": "assets/images/c026_v005.png",
+      "sha256": "edb40c197699c14913420b1ca2c20d7483298ef10f0021cbf48f4aad7b9f70fe",
+      "bytes": 187828,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "edb40c197699c14913420b1ca2c20d7483298ef10f0021cbf48f4aad7b9f70fe"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c026_joint.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "25e6633de967d8d79413866ed8790f756d6c6f221625a49439a46e1ae4ece49b"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c026_geometry_only.json",
+      "sha256": "4143a21265f2cf9cacf4a848c422f3faaf670d6be025b7034ff6345eb8d5bd6d",
+      "bytes": 5015,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "cb6332edcdf294c3583cff7d1db47d5e0af14e0d700e2c215976e70baad72b6d"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c027_truth.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c027_v004.png",
+      "sha256": "27d15759f6874b46911492a57212cf711fc1b4e6eabfbdc4ad5226d70c3ce9f4",
+      "bytes": 172925,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "27d15759f6874b46911492a57212cf711fc1b4e6eabfbdc4ad5226d70c3ce9f4"
+      ]
+    },
+    {
+      "path": "assets/images/c027_v005.png",
+      "sha256": "6580a45f28263c36eb660334a264f838ab3c7f637082ab49d216f712412ac45a",
+      "bytes": 188069,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "6580a45f28263c36eb660334a264f838ab3c7f637082ab49d216f712412ac45a"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c027_joint.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "25e6633de967d8d79413866ed8790f756d6c6f221625a49439a46e1ae4ece49b"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c027_geometry_only.json",
+      "sha256": "42bb5e1b09c709727944f35d2b024f3c59b9b22c873acc9945cb3cfb1422f608",
+      "bytes": 6405,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "fd7a10004acacd6babac3b9c92110cc2263516232088272236fd3d764b8a6221"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c028_truth.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c028_v004.png",
+      "sha256": "3f80bc8c079b2371b00f7f9dc740a856a614ad993aa8ebdfe3e06a36b3992599",
+      "bytes": 172749,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "3f80bc8c079b2371b00f7f9dc740a856a614ad993aa8ebdfe3e06a36b3992599"
+      ]
+    },
+    {
+      "path": "assets/images/c028_v005.png",
+      "sha256": "11d4149852810abd753b27e6d8bd4b18aaeb4d33d74450c9bd4d82ae64352d1e",
+      "bytes": 187973,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "11d4149852810abd753b27e6d8bd4b18aaeb4d33d74450c9bd4d82ae64352d1e"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c028_joint.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "25e6633de967d8d79413866ed8790f756d6c6f221625a49439a46e1ae4ece49b"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c028_geometry_only.json",
+      "sha256": "1dbc35c5641309bc004fabed5ed62b633449b751c644f0dc10e7469c583cbd98",
+      "bytes": 5097,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "4d4d9288dba0e0f4d1ef7e740d696842710c6ba39a7fc5ceceb2664ec92daf82"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c029_truth.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c029_v004.png",
+      "sha256": "43151c9760384d4651db5533dbfac1139709da70d11b01c66d4e1040922ee519",
+      "bytes": 172838,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "43151c9760384d4651db5533dbfac1139709da70d11b01c66d4e1040922ee519"
+      ]
+    },
+    {
+      "path": "assets/images/c029_v005.png",
+      "sha256": "d2a92fd0462a1e31988b313078ddd452e6fdd96b175af6662ef0a735c691d28e",
+      "bytes": 188127,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "d2a92fd0462a1e31988b313078ddd452e6fdd96b175af6662ef0a735c691d28e"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c029_joint.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "25e6633de967d8d79413866ed8790f756d6c6f221625a49439a46e1ae4ece49b"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c029_geometry_only.json",
+      "sha256": "45e4cccb09489d741b6d94fe177a8e351cc138e836da263b9c03a4bf3fc7cb45",
+      "bytes": 5099,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "a6e6427bf36c4d046923ddf384ac9fd492ae6038987b179918c1d331ebc28552"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c030_truth.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c030_v004.png",
+      "sha256": "02b6b6a256b144b07abbbf63d42e30058ed030991f7906348789e63c3c7cbb64",
+      "bytes": 172766,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "02b6b6a256b144b07abbbf63d42e30058ed030991f7906348789e63c3c7cbb64"
+      ]
+    },
+    {
+      "path": "assets/images/c030_v005.png",
+      "sha256": "6676eb1b4b6a708253f796470154d129f8873db3d2cc85ad4f82ef14301bf6ce",
+      "bytes": 187864,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "6676eb1b4b6a708253f796470154d129f8873db3d2cc85ad4f82ef14301bf6ce"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c030_joint.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "25e6633de967d8d79413866ed8790f756d6c6f221625a49439a46e1ae4ece49b"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c030_geometry_only.json",
+      "sha256": "9c065ad1f13fd772c5df248aedbded0047a7440dffa18972c58596ca76a08a39",
+      "bytes": 5101,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "2c8586514f9f07ee5c24267d1fb95688e83249531f4f3017d615ff75de3751c7"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c031_truth.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c031_v004.png",
+      "sha256": "0343d5cfca4fa6bd69a1b1903beadb8fcde67974f49db388955f5f9b0ad1e13c",
+      "bytes": 172878,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "0343d5cfca4fa6bd69a1b1903beadb8fcde67974f49db388955f5f9b0ad1e13c"
+      ]
+    },
+    {
+      "path": "assets/images/c031_v005.png",
+      "sha256": "d6fa3eac2b4d85fcdc1f7f6b203efc361dbd3ab6052d0375dfa6c255e979e0f3",
+      "bytes": 188174,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "d6fa3eac2b4d85fcdc1f7f6b203efc361dbd3ab6052d0375dfa6c255e979e0f3"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c031_joint.json",
+      "sha256": "d867eca718f2870e9d2717e3865de2fdccbf34afbd779da5970966b2c43fea43",
+      "bytes": 80,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "25e6633de967d8d79413866ed8790f756d6c6f221625a49439a46e1ae4ece49b"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c031_geometry_only.json",
+      "sha256": "0ccc01b8c79ebf85433b308a1dfe3cbb61fa469111dceebcd19545d9a8744c92",
+      "bytes": 5096,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "6c451d1c30c70bf5c70cb4d7d4a002da18ca59903457c46f93ed9adc54f8f7ad"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c032_truth.json",
+      "sha256": "98a91961f620a28789167e344d5c9238c3d9889b3fdb37d210c2d7dfba35336b",
+      "bytes": 5172,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "b01eaa00ffacc9ed6d7e0af061c32a155843fff490601e8f23de33f42fb86370",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c032_v004.png",
+      "sha256": "13010550a030b8f9d4a971510a3ad3141d4cc353d0e867799ac2b09e9fff7965",
+      "bytes": 172761,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "13010550a030b8f9d4a971510a3ad3141d4cc353d0e867799ac2b09e9fff7965"
+      ]
+    },
+    {
+      "path": "assets/images/c032_v005.png",
+      "sha256": "b8548458069ae07346b10ec445df3717cb5d16f2fb94267dd1449d860c6fd62c",
+      "bytes": 188020,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "b8548458069ae07346b10ec445df3717cb5d16f2fb94267dd1449d860c6fd62c"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c032_joint.json",
+      "sha256": "69977597ab8708ae42cfb3327599a39301f1ab02ba747bf273981fed83e662fe",
+      "bytes": 5523,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "0a8386d72566cbc41346074d3f2c33570e01f42df603e6f01d283e088989fa64"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c032_geometry_only.json",
+      "sha256": "e0ec445a3fc080b2f460690f72fd80138419112af74754a9a3e527c0f2d261d0",
+      "bytes": 5547,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "22f272bd6b5805fae1aa13e21541689f0b2a153f8d8f153d10e7a841dbbb6782"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c033_truth.json",
+      "sha256": "34269f3edc7b2a01b7ac89979e18338c7b75a9bba57a11200c52df761ba43687",
+      "bytes": 5282,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "6652d0340ed66a0c42876f75b33ec3044d4e4e0df61788403ad52c85896f38f4",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c033_v004.png",
+      "sha256": "0d5a8b4cea964bfb7e04c099e8ae2bac8fd7d0d07d44cc92d1ed4ce9ee07b747",
+      "bytes": 172777,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "0d5a8b4cea964bfb7e04c099e8ae2bac8fd7d0d07d44cc92d1ed4ce9ee07b747"
+      ]
+    },
+    {
+      "path": "assets/images/c033_v005.png",
+      "sha256": "550dc49a8744477a299fb8ceff2bc6a63c305ecd78fdf785f601a35cf92d7dfc",
+      "bytes": 187979,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "550dc49a8744477a299fb8ceff2bc6a63c305ecd78fdf785f601a35cf92d7dfc"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c033_joint.json",
+      "sha256": "1ecc5b351f776b38932b54b798aa38f49635c7722ae9617a2abc2bec25698722",
+      "bytes": 5548,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "ce842d912d5089c718dbcd5ba5030f0a32f152d362ae50a6a861841ce613c9b7"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c033_geometry_only.json",
+      "sha256": "97b03167da9068c1eedff8640a013be59af764f4d064325f84c9745abb1e581a",
+      "bytes": 5539,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "58d9cf86f5e6ba0ef8e896d6329e726561c0165d3217690b23262c5f4dee6777"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c034_truth.json",
+      "sha256": "98a91961f620a28789167e344d5c9238c3d9889b3fdb37d210c2d7dfba35336b",
+      "bytes": 5172,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "b01eaa00ffacc9ed6d7e0af061c32a155843fff490601e8f23de33f42fb86370",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c034_v004.png",
+      "sha256": "5e38906eb69f1c916b8557c5c92422d9ce5ccad1e3f6cfc55b95d7a112f65eca",
+      "bytes": 172771,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "5e38906eb69f1c916b8557c5c92422d9ce5ccad1e3f6cfc55b95d7a112f65eca"
+      ]
+    },
+    {
+      "path": "assets/images/c034_v005.png",
+      "sha256": "2a1a909f4fa6c9b8b6350eb5410dd86f7102ca82f150189e5820ef0ae6819f76",
+      "bytes": 187998,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "2a1a909f4fa6c9b8b6350eb5410dd86f7102ca82f150189e5820ef0ae6819f76"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c034_joint.json",
+      "sha256": "7b8177649ef43bd36aa9d6936426ee44e9cf05e749c2638ec5ce95b9a65a29e6",
+      "bytes": 5540,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "ac5e006846340b53025669b13aa27c3a35c07b91ac2fca8a8a04b802c0663d5d"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c034_geometry_only.json",
+      "sha256": "56e9cd8313349a5d2b0f55cd5c25af58071dd0701b3397421e6de2cba56873e4",
+      "bytes": 5530,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "71c5ff0b57115a7642b02d9a49fc1bf497214aba3383ed89fde425fe23685295"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c035_truth.json",
+      "sha256": "34269f3edc7b2a01b7ac89979e18338c7b75a9bba57a11200c52df761ba43687",
+      "bytes": 5282,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "6652d0340ed66a0c42876f75b33ec3044d4e4e0df61788403ad52c85896f38f4",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c035_v004.png",
+      "sha256": "ba7484c409bfc23f323661e43b57361b965a538d979b319c293fecd5b90a4488",
+      "bytes": 172608,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "ba7484c409bfc23f323661e43b57361b965a538d979b319c293fecd5b90a4488"
+      ]
+    },
+    {
+      "path": "assets/images/c035_v005.png",
+      "sha256": "efd16a3e19f95d89e5c3554d853776d52e3b41f11ebfe3f86a88f0318e8e9722",
+      "bytes": 188085,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "efd16a3e19f95d89e5c3554d853776d52e3b41f11ebfe3f86a88f0318e8e9722"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c035_joint.json",
+      "sha256": "fddbee3fe314512edbd01e64bb3a92b3f925a46ed3a3d193ef934caa77789849",
+      "bytes": 5538,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "50e7a87ab866909f23a4867bf68c65248a5891709681d57057076cf8bcc1a628"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c035_geometry_only.json",
+      "sha256": "fcf2f412f58f16b26f6602d1f3212629c32e574331b5819946d11a6a880f0586",
+      "bytes": 5545,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "a25e4f1d40f5f5d5e6c9c6ba04ab1482cbdabd33e18b24c5ae5c1308c0d11ab4"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c036_truth.json",
+      "sha256": "98a91961f620a28789167e344d5c9238c3d9889b3fdb37d210c2d7dfba35336b",
+      "bytes": 5172,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "b01eaa00ffacc9ed6d7e0af061c32a155843fff490601e8f23de33f42fb86370",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c036_v004.png",
+      "sha256": "c25bc1ba3a8cdac3bc055834a3e245e0b6a1ecb6acb381cac7124883097e97e1",
+      "bytes": 172685,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "c25bc1ba3a8cdac3bc055834a3e245e0b6a1ecb6acb381cac7124883097e97e1"
+      ]
+    },
+    {
+      "path": "assets/images/c036_v005.png",
+      "sha256": "31ae173df7657971c81559514bc64d8b3b7fecdb6d47bdd64a5e0d855c0a2e1c",
+      "bytes": 187951,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "31ae173df7657971c81559514bc64d8b3b7fecdb6d47bdd64a5e0d855c0a2e1c"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c036_joint.json",
+      "sha256": "16309c71fbd0bf535e21bd95c2bd63e71c1f945d2b3f7b178fd39a2a5f0dc0e0",
+      "bytes": 5533,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "faebea9f0cef1b3ef28657e837e63318fbc2cda58da5e86881d093ed938588e1"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c036_geometry_only.json",
+      "sha256": "c2f37308abe2c278921386fd259753056d5030ef08ad8dc42dc21350b43d4fbb",
+      "bytes": 5532,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "11e27fa6ce8f6bc9d324076a2320bc60bd5896fcc247caa1df35bf844cc46ac7"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c037_truth.json",
+      "sha256": "34269f3edc7b2a01b7ac89979e18338c7b75a9bba57a11200c52df761ba43687",
+      "bytes": 5282,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "6652d0340ed66a0c42876f75b33ec3044d4e4e0df61788403ad52c85896f38f4",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c037_v004.png",
+      "sha256": "50849d6e949efc52ad4a90badd6ebb6fac2fb5e6898b424b53183422234623a2",
+      "bytes": 172656,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "50849d6e949efc52ad4a90badd6ebb6fac2fb5e6898b424b53183422234623a2"
+      ]
+    },
+    {
+      "path": "assets/images/c037_v005.png",
+      "sha256": "7c7727e2f0662d8b1fb90916a08275d02d2516b5d77a2d03106477a0564aa4b5",
+      "bytes": 187975,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "7c7727e2f0662d8b1fb90916a08275d02d2516b5d77a2d03106477a0564aa4b5"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c037_joint.json",
+      "sha256": "1828e563e5895644b42d878f693e91fc991f1a191646583c440caca3a7cde744",
+      "bytes": 5533,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "c033e2f0a3e457f68bca5b1a8a22ee0e9b664d9abe8abf1b3fdc3d129f1ec694"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c037_geometry_only.json",
+      "sha256": "3301de9d8b20398262bb5c3360df17c5eda62b2bbe73b74263debd3c020f19da",
+      "bytes": 5529,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "68fa06052ec1e2671936d5e069184ce7877a9932c2a3202cf114acc52217d1ca"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c038_truth.json",
+      "sha256": "e3cc96858519fc48f9f1f10c15a552fe7f8f3fd08072c91d243554be05bcb817",
+      "bytes": 4826,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "9525d8b8cfe6df83aa843fcb5d7e37ed9b5ea7ae8a42569f3e4940c3396a7662",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c038_v004.png",
+      "sha256": "875b5c29560cb9051ca0163a80d74ff614405844c670e5a77897cd6a4fbea95d",
+      "bytes": 172651,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "875b5c29560cb9051ca0163a80d74ff614405844c670e5a77897cd6a4fbea95d"
+      ]
+    },
+    {
+      "path": "assets/images/c038_v005.png",
+      "sha256": "2353b966e5f7b12e47110ea39c5552ba973331479ad4741c42fafb07e5c5ba8c",
+      "bytes": 187850,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "2353b966e5f7b12e47110ea39c5552ba973331479ad4741c42fafb07e5c5ba8c"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c038_joint.json",
+      "sha256": "2bd5ab7f47ff1b3855ce42a87f90d85bd0a9538d65ea57d6cb5e22d5d3da8cab",
+      "bytes": 5128,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "2f1f6eb4925e3124f594632962f39cd150f85ef4a2f39fb34301a3f698146253"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c038_geometry_only.json",
+      "sha256": "37f4169b840bae75d773c3ba4a72277645b75212f887884e7e773da733e99c52",
+      "bytes": 5134,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "c54a210110fb73d864b9fcc7ba6be5a7959ac55a5d017bbc463b931f977911cd"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c039_truth.json",
+      "sha256": "d2b5da04390cad6383a87ab79a5c7aafe6f375af2376c9587fb1eb8e7a58e3f9",
+      "bytes": 4841,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "8839da52f76604128efdd5afc15154b8e1711ff542fb758b302634597350031d",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c039_v004.png",
+      "sha256": "a7f8f093137c7705d5816dfcceea1a4147ae9a03d0f115d751bd09c9c56f3b5e",
+      "bytes": 172607,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "a7f8f093137c7705d5816dfcceea1a4147ae9a03d0f115d751bd09c9c56f3b5e"
+      ]
+    },
+    {
+      "path": "assets/images/c039_v005.png",
+      "sha256": "acf187b1673e4bb6b60476e8100dc1ad3a20750a64866238793bf223cfbf3077",
+      "bytes": 188056,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "acf187b1673e4bb6b60476e8100dc1ad3a20750a64866238793bf223cfbf3077"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c039_joint.json",
+      "sha256": "5636f029c502e7c0df17865b0156d9913be68870c69b8c9b7bf10250291ab86a",
+      "bytes": 5155,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "a7ccc3c3cc2afab8678303793a7325b3bb7fcfebd9dd72c2d36f69f53fa64759"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c039_geometry_only.json",
+      "sha256": "0940299abecbe9a99a6b58fea80f9b8bb074a8fad5c4c45f0054acc8cfdcc119",
+      "bytes": 5134,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "4913000e2747bd6c4c8791408d85e612ba92d2b674fec592940db6c113b325db"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c040_truth.json",
+      "sha256": "e3cc96858519fc48f9f1f10c15a552fe7f8f3fd08072c91d243554be05bcb817",
+      "bytes": 4826,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "9525d8b8cfe6df83aa843fcb5d7e37ed9b5ea7ae8a42569f3e4940c3396a7662",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c040_v004.png",
+      "sha256": "cade3be3f48ac722dd7a99adad130a7723b8a0d616bbd0462a6c933493893104",
+      "bytes": 172715,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "cade3be3f48ac722dd7a99adad130a7723b8a0d616bbd0462a6c933493893104"
+      ]
+    },
+    {
+      "path": "assets/images/c040_v005.png",
+      "sha256": "9d4539cdef00478c46a9b6b2211ae342d64084a474d1fe34069f4b798f9c0783",
+      "bytes": 187928,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "9d4539cdef00478c46a9b6b2211ae342d64084a474d1fe34069f4b798f9c0783"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c040_joint.json",
+      "sha256": "94bf3f1d9432d139f6cee0721f0a8f0596b6c57136f573f0639adfe7ad3d1282",
+      "bytes": 5131,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "866871ae75256e5d9deb97c50225870d4166ee3190e7dd412d3b4e82b50d4933"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c040_geometry_only.json",
+      "sha256": "e7739ee529ba55739f610083fe46bcf80770c45e6fb1aa3a4e48ac3422902126",
+      "bytes": 5127,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "340bccbd0e392b228e4973ff0571c14dc68015d876b54025cb9bcd3fb04ea8d8"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c041_truth.json",
+      "sha256": "d2b5da04390cad6383a87ab79a5c7aafe6f375af2376c9587fb1eb8e7a58e3f9",
+      "bytes": 4841,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "8839da52f76604128efdd5afc15154b8e1711ff542fb758b302634597350031d",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c041_v004.png",
+      "sha256": "2f1fa64c19f13d0d7c7b7bfeda9f60a4ce6fab4d898374fde74f8805401fbe4b",
+      "bytes": 172659,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "2f1fa64c19f13d0d7c7b7bfeda9f60a4ce6fab4d898374fde74f8805401fbe4b"
+      ]
+    },
+    {
+      "path": "assets/images/c041_v005.png",
+      "sha256": "052460e03e25957ec5e851a52454b9e5478556d8c60fa00b44e25a46c5cb215b",
+      "bytes": 187992,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "052460e03e25957ec5e851a52454b9e5478556d8c60fa00b44e25a46c5cb215b"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c041_joint.json",
+      "sha256": "800276864bd717045af17957d89403ff8c3c195e98c38ef3e77098fab9fe5a38",
+      "bytes": 5142,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "fdbd158912e6e7c875b4bf03a29ed88beffd777efb963fea8246f9fe5fd956b2"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c041_geometry_only.json",
+      "sha256": "4daf9d6faad0cc7747c58b47891a6bf6c592312c92c98cb7bef9b2f0b77ac67a",
+      "bytes": 5152,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "eadabb2f5317b0132710e3235e0392a30d59e6d2cc33af8c6d2c52eae0c1d173"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c042_truth.json",
+      "sha256": "e3cc96858519fc48f9f1f10c15a552fe7f8f3fd08072c91d243554be05bcb817",
+      "bytes": 4826,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "9525d8b8cfe6df83aa843fcb5d7e37ed9b5ea7ae8a42569f3e4940c3396a7662",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c042_v004.png",
+      "sha256": "6111b1d575ef4e15b5a4fc999bf200284dd3558017cdbffdfccdbab922235125",
+      "bytes": 172729,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "6111b1d575ef4e15b5a4fc999bf200284dd3558017cdbffdfccdbab922235125"
+      ]
+    },
+    {
+      "path": "assets/images/c042_v005.png",
+      "sha256": "f79ff78fba6e84f425227c84ec261311b6e8fc0ee036a0dd4161311d832f6e70",
+      "bytes": 187927,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "f79ff78fba6e84f425227c84ec261311b6e8fc0ee036a0dd4161311d832f6e70"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c042_joint.json",
+      "sha256": "448537d10ee3936199d6ec59715b8d0b87ef0aa845826809be625da903f1e39e",
+      "bytes": 5137,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "6bc1d68c93bf34e4546da216a7e2a380b4b29c54c2bbcf2aafd831284b03ba98"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c042_geometry_only.json",
+      "sha256": "8bd80fb792946b5764d295d9434edc62f4e2069ebfffc4545b0d27c4bb479ab6",
+      "bytes": 5128,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "2ee1a87b62da953a8d2527de8f1abe5e830174bb808d77295356fe9d6bf03bcc"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c043_truth.json",
+      "sha256": "d2b5da04390cad6383a87ab79a5c7aafe6f375af2376c9587fb1eb8e7a58e3f9",
+      "bytes": 4841,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "8839da52f76604128efdd5afc15154b8e1711ff542fb758b302634597350031d",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c043_v004.png",
+      "sha256": "09f36bfedc3a9716bd3ec2482421f60841bfe97b5acbe3b3a492be5959232904",
+      "bytes": 172702,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "09f36bfedc3a9716bd3ec2482421f60841bfe97b5acbe3b3a492be5959232904"
+      ]
+    },
+    {
+      "path": "assets/images/c043_v005.png",
+      "sha256": "edffc8a3f980a954476bdcec80cc819574c907f0ba2d35c6767438d1d7934779",
+      "bytes": 188197,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "edffc8a3f980a954476bdcec80cc819574c907f0ba2d35c6767438d1d7934779"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c043_joint.json",
+      "sha256": "324b50a2646d6fdb9f140a686b88c9a0083a58a7372e1cb56332e220e77a620b",
+      "bytes": 5145,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "ab6a8b906ce4de3f3d8356149fff538aafe0059a4b632b6c0a93e4df7f5be5ca"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c043_geometry_only.json",
+      "sha256": "a474043fb0a0923da60ce4f5f6a7ab5d4e9e80ac2e54202112bad9b922c8905c",
+      "bytes": 5141,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "9aada4d4248f5287ef12f5c845bcdf3fff204f1fc8fa8517c32e85fcc1a47da9"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c044_truth.json",
+      "sha256": "04a6fd7677eba9975296dd6fcbf0007758eea480f463934f51c5d895a454f75c",
+      "bytes": 6159,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "4f17197776924365daefb2a70118bca628d06a8db9c666113e08f10c023511ad",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c044_v004.png",
+      "sha256": "0943aab672d107e0132464f64b81129036b9f706462806a714cc0d2b8b9dd5a9",
+      "bytes": 172787,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "0943aab672d107e0132464f64b81129036b9f706462806a714cc0d2b8b9dd5a9"
+      ]
+    },
+    {
+      "path": "assets/images/c044_v005.png",
+      "sha256": "d509279246f7b78567433aa70058fae53de61fdc3d671a7411ccb0f482df2d2c",
+      "bytes": 187937,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "d509279246f7b78567433aa70058fae53de61fdc3d671a7411ccb0f482df2d2c"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c044_joint.json",
+      "sha256": "f368147006c7442c8fbeac8b0ad93b2203e4319f77bb1f9b196646c52fc39716",
+      "bytes": 6627,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "3596669fa3b08a4163425966636d8c01da58f09432e0a9d8352d48c62d899d4f"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c044_geometry_only.json",
+      "sha256": "dc99a5186d79eb0a863dbaff4ae78b430b1c4d77cc608f9dbb92ab987e4395d7",
+      "bytes": 6632,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "5708c8d0a580d1516062ed2b8b92e9bf551f7fc3fd194372990d37eb12f883a5"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c045_truth.json",
+      "sha256": "eda8bbe688110d76717ee8e1685bde36fa897d5622e8cd8898f6b171922443fc",
+      "bytes": 6192,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "426103a6e99c525c63e7fdcfcca7fbf94eb4751fecff0df3e25dda28e806e976",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c045_v004.png",
+      "sha256": "c279602ed6b4668d4b5846353807585e64a243a1bae7fe915986cbe406ff68d1",
+      "bytes": 172651,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "c279602ed6b4668d4b5846353807585e64a243a1bae7fe915986cbe406ff68d1"
+      ]
+    },
+    {
+      "path": "assets/images/c045_v005.png",
+      "sha256": "cc3cd88a5eda95e55379d3de21da83f055364732ce4817f82514fc5ea5825485",
+      "bytes": 188445,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "cc3cd88a5eda95e55379d3de21da83f055364732ce4817f82514fc5ea5825485"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c045_joint.json",
+      "sha256": "4eacba9a0407eb64ad3ae9d138a6395867145110b87bb64152d09109f8213650",
+      "bytes": 6615,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "899978c69c1f6b02dcbca902ab85d790080a57a95bc641cf7db97b8f8c2f965a"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c045_geometry_only.json",
+      "sha256": "8d860a2bccd348fa4ef57e1e025825ce3fbfd468dea1c6bfdb85ab3184ccb495",
+      "bytes": 6642,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "0df9ea5a2888c6dbb8b0153dd669701e2e7af75f4b30a8be8ee064fa50afce82"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c046_truth.json",
+      "sha256": "04a6fd7677eba9975296dd6fcbf0007758eea480f463934f51c5d895a454f75c",
+      "bytes": 6159,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "4f17197776924365daefb2a70118bca628d06a8db9c666113e08f10c023511ad",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c046_v004.png",
+      "sha256": "baf6be50743126eb7d44fd98fc525b6e2effde0a7741e6700c9553bc22a50b48",
+      "bytes": 172794,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "baf6be50743126eb7d44fd98fc525b6e2effde0a7741e6700c9553bc22a50b48"
+      ]
+    },
+    {
+      "path": "assets/images/c046_v005.png",
+      "sha256": "acea844d3e6ffba87c82a633519287cc47ed77f54b8013745caf6e65458b1b10",
+      "bytes": 188091,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "acea844d3e6ffba87c82a633519287cc47ed77f54b8013745caf6e65458b1b10"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c046_joint.json",
+      "sha256": "0f62fafa7c8e3ae76930cd214f2c10bf2a2f7cae24aee485b49a72c9c6c6ad4b",
+      "bytes": 6619,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "5357d00b88d23120ad4bcca45ac54925de60b90d2a76c09d14e8031d3727aea5"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c046_geometry_only.json",
+      "sha256": "33a13b26ecfd0918154b76f667f2945319fa30d3d0dcd818c5ec7a1ea1fb6077",
+      "bytes": 6633,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "e60e7946791612e619170e189872751bfd797becf4c147b5e246d50f6399034b"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c047_truth.json",
+      "sha256": "eda8bbe688110d76717ee8e1685bde36fa897d5622e8cd8898f6b171922443fc",
+      "bytes": 6192,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "426103a6e99c525c63e7fdcfcca7fbf94eb4751fecff0df3e25dda28e806e976",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c047_v004.png",
+      "sha256": "96df446b0b3a03c8446a6aceca9420c3318ee6fc5841ee0823b0789b5eebc792",
+      "bytes": 172590,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "96df446b0b3a03c8446a6aceca9420c3318ee6fc5841ee0823b0789b5eebc792"
+      ]
+    },
+    {
+      "path": "assets/images/c047_v005.png",
+      "sha256": "e607aabd766d68c68133aed95c0b16316e99d32989407c0ad15150e413c4c155",
+      "bytes": 188314,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "e607aabd766d68c68133aed95c0b16316e99d32989407c0ad15150e413c4c155"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c047_joint.json",
+      "sha256": "94d7a37846416dac095207e67e3aea19bda98ad29bff068c8c70dbd1a7dcd798",
+      "bytes": 6635,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "d429d9d06d25aa46727d9c0c8fecc412f0ba2257d8746827b795ffa387618cea"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c047_geometry_only.json",
+      "sha256": "ef9cd2e65686555e3f6ad9d626057e825f98623f28c08800b5c393e3de29a95d",
+      "bytes": 6647,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "4f8c01bf38101228eecdcdbcd6a8f479650250793016c00f3b141b9c49a92118"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c048_truth.json",
+      "sha256": "04a6fd7677eba9975296dd6fcbf0007758eea480f463934f51c5d895a454f75c",
+      "bytes": 6159,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "4f17197776924365daefb2a70118bca628d06a8db9c666113e08f10c023511ad",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c048_v004.png",
+      "sha256": "cd87ac3f794528e5df7af7d5fb2b59e2a3f6d738e6f90ab3911c03ff05ba0d19",
+      "bytes": 172840,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "cd87ac3f794528e5df7af7d5fb2b59e2a3f6d738e6f90ab3911c03ff05ba0d19"
+      ]
+    },
+    {
+      "path": "assets/images/c048_v005.png",
+      "sha256": "2395ecaa5e6c96ea2c12afaac74ea045ecc8fe06e7c2b3b68ede7ef545d63508",
+      "bytes": 187864,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "2395ecaa5e6c96ea2c12afaac74ea045ecc8fe06e7c2b3b68ede7ef545d63508"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c048_joint.json",
+      "sha256": "eedc98d6f3de0bd9bf10d874dfcfd8ce8f45016820e9247f852d5a07acbcbb28",
+      "bytes": 6623,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "fe9d256f7ba7089a799394e233c0f1bdb65abbc8785857007443f7adf47b6723"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c048_geometry_only.json",
+      "sha256": "d2a255f43208974de76f93d6a0a7dc3b0e87c2b98605a0e976fe6ea98e2c879e",
+      "bytes": 6642,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "092c7748258accf5626f4d21143102ea46f9a20c8f9a34941d53b6d660610457"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c049_truth.json",
+      "sha256": "eda8bbe688110d76717ee8e1685bde36fa897d5622e8cd8898f6b171922443fc",
+      "bytes": 6192,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "426103a6e99c525c63e7fdcfcca7fbf94eb4751fecff0df3e25dda28e806e976",
+        "e7a6f5ed0cbe14def7d2eb28bdae03f91c34461f339eb9901b9c062d058cc650"
+      ]
+    },
+    {
+      "path": "assets/images/c049_v004.png",
+      "sha256": "aadeb17a200d44753d98872bb7647b572705d81f9585b38966e91a0b0f9aa7ad",
+      "bytes": 172819,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "aadeb17a200d44753d98872bb7647b572705d81f9585b38966e91a0b0f9aa7ad"
+      ]
+    },
+    {
+      "path": "assets/images/c049_v005.png",
+      "sha256": "f9e4b1e619cf770a15e57e786978acfa754dffaea33849c0228bc810ec619788",
+      "bytes": 188184,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "f9e4b1e619cf770a15e57e786978acfa754dffaea33849c0228bc810ec619788"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c049_joint.json",
+      "sha256": "d3a2afa4d57692dd779e6b90bb4d3be59b59aabe0a8e05cacc9b21c7f0879a5c",
+      "bytes": 6628,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "fbea1d95e74fbf7a4064c60dc8b770433d53cb2cdf1c4f1e48fcd979ffc7e46d"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c049_geometry_only.json",
+      "sha256": "b586046253dbf734ed502f2dc86df4fbf9347306ea83917ce013bdddb87abe82",
+      "bytes": 6627,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "90bbe4d4d1035465f05024955816ccf67518a21d588dffe0393425a49a02f543"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c050_truth.json",
+      "sha256": "9c58c0ca8230e6e676be45a41811c0d1f993faedd180fb9c6ee7df13a14c0985",
+      "bytes": 4958,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "4c49514ded654c70763209b4148cde911537558d25eda74ab053e7a880809771",
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c050_v004.png",
+      "sha256": "fc243b6c459ae4be2e0d20211bcb5cd9d9c80b2da60567a3d5db32a0fe816f04",
+      "bytes": 172771,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "fc243b6c459ae4be2e0d20211bcb5cd9d9c80b2da60567a3d5db32a0fe816f04"
+      ]
+    },
+    {
+      "path": "assets/images/c050_v005.png",
+      "sha256": "72d2e4157aeb21d1bce08dcdc86aa8ea8693cce50f430e5b2c29b65452ad9eac",
+      "bytes": 188017,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "72d2e4157aeb21d1bce08dcdc86aa8ea8693cce50f430e5b2c29b65452ad9eac"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c050_joint.json",
+      "sha256": "1766771a2fda2bc5282282f915ce2b136540da719368af40051900d9bd8d8136",
+      "bytes": 5092,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "803e0807f5f4762c9b6c91a5b853399be896743fe7f67092ff1c15d28e4d6614"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c050_geometry_only.json",
+      "sha256": "4f8e1799d5c3e38eae1144b817c0e071cb23b59192b9db32624124e9700d8112",
+      "bytes": 5086,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "e7f993b2795439705c7accb2c99a2c1e7d48138cb83a52e212fc4f9e065de571"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c051_truth.json",
+      "sha256": "cd89edb52a03ebdabcf455605a0be147bf5db1c4ce35cb44039ea5ba0b11ca73",
+      "bytes": 5022,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd",
+        "d7efd130d67a298037c45fcde4d541166723cc6e52bb0c6dc82b0d5c3a42c41e"
+      ]
+    },
+    {
+      "path": "assets/images/c051_v004.png",
+      "sha256": "c9faaf3b7dd2abba832cf3e10a02a38e344383eb09c48fd22abb2985221a604e",
+      "bytes": 172852,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "c9faaf3b7dd2abba832cf3e10a02a38e344383eb09c48fd22abb2985221a604e"
+      ]
+    },
+    {
+      "path": "assets/images/c051_v005.png",
+      "sha256": "cb81c9c475be67ce764084013a8ecba6588288db9946c810a12cac5e341b63d6",
+      "bytes": 188102,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "cb81c9c475be67ce764084013a8ecba6588288db9946c810a12cac5e341b63d6"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c051_joint.json",
+      "sha256": "f0cb17057264738ca72ccbdc5c68eaedc48f395cfb1e635fd0e2e76ad3142925",
+      "bytes": 5105,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "c6cccfa6d9c67c6df781fc48fb173b1159342f87f51b8b61819c72ea4de38c72"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c051_geometry_only.json",
+      "sha256": "368c0bffe477c75a9e5ec03e14c1a69cd7222d9b8147148832aaf516ed477a90",
+      "bytes": 5100,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "470a47a1b94d058575e24e49f688c568de524148df6d31b5e22079f58dd5e9d1"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c052_truth.json",
+      "sha256": "9c58c0ca8230e6e676be45a41811c0d1f993faedd180fb9c6ee7df13a14c0985",
+      "bytes": 4958,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "4c49514ded654c70763209b4148cde911537558d25eda74ab053e7a880809771",
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c052_v004.png",
+      "sha256": "a3e1435ed751731a30c32052b68dc4acfecfa84ba3e4f24c6781523e2525b077",
+      "bytes": 172797,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "a3e1435ed751731a30c32052b68dc4acfecfa84ba3e4f24c6781523e2525b077"
+      ]
+    },
+    {
+      "path": "assets/images/c052_v005.png",
+      "sha256": "246f6582fbeab3f1e062a38c996a896a85083c7274b74c171d49ea551ced035f",
+      "bytes": 188201,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "246f6582fbeab3f1e062a38c996a896a85083c7274b74c171d49ea551ced035f"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c052_joint.json",
+      "sha256": "99817d35f07e0cfd624be06441c35740a7bba5c7304dc238bca634463e42c263",
+      "bytes": 5104,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "1758cf2f94ab837e74128a0930d5ca45907de608f2dd7ca97221ac800603cf5f"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c052_geometry_only.json",
+      "sha256": "439b0695e72c5192ca9b402d31c5391046c010797744557bfa7b01f44d2c7a34",
+      "bytes": 5090,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "b0432e86e2fb3c82a88a6c275f5831714b130198d5722d8591e0600f9a813431"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c053_truth.json",
+      "sha256": "cd89edb52a03ebdabcf455605a0be147bf5db1c4ce35cb44039ea5ba0b11ca73",
+      "bytes": 5022,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd",
+        "d7efd130d67a298037c45fcde4d541166723cc6e52bb0c6dc82b0d5c3a42c41e"
+      ]
+    },
+    {
+      "path": "assets/images/c053_v004.png",
+      "sha256": "1b04d0f813de7b78bf0ff382827ed91383d273d810418ed7b6733eb9fd483ed4",
+      "bytes": 172824,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "1b04d0f813de7b78bf0ff382827ed91383d273d810418ed7b6733eb9fd483ed4"
+      ]
+    },
+    {
+      "path": "assets/images/c053_v005.png",
+      "sha256": "1879de85762bdee22bb6e687e23d4bc32128a0cb87e0de29a4744496d0aa271c",
+      "bytes": 188317,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "1879de85762bdee22bb6e687e23d4bc32128a0cb87e0de29a4744496d0aa271c"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c053_joint.json",
+      "sha256": "87bcbdfca96fa355e4c6b3fd11ef92bf3fc79a5ab22f6168fc49ddbe4a08d95a",
+      "bytes": 5124,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "d44cbae80bcb4b736a3416ab5eeeecad0e157c06d76de6ae3ca565485a126198"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c053_geometry_only.json",
+      "sha256": "6393a5cb588a37647101566e4b0436c64b6ee6d1e96f77ec047dfcafe9ae5dd0",
+      "bytes": 5085,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "a30ff4bc42e4dc2b428e94fd60027d9329df1cd32c5dc9427d28a15c7f9810e9"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c054_truth.json",
+      "sha256": "9c58c0ca8230e6e676be45a41811c0d1f993faedd180fb9c6ee7df13a14c0985",
+      "bytes": 4958,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "4c49514ded654c70763209b4148cde911537558d25eda74ab053e7a880809771",
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c054_v004.png",
+      "sha256": "e1cdc53fed1b3fda8a14710fce1de93d7c47a1b83f3a522cde25733cbe3188a8",
+      "bytes": 172695,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "e1cdc53fed1b3fda8a14710fce1de93d7c47a1b83f3a522cde25733cbe3188a8"
+      ]
+    },
+    {
+      "path": "assets/images/c054_v005.png",
+      "sha256": "bd59a1093af2b4a348310f7082cdfb4760533618377915ff9ab0fd2b1b971ccd",
+      "bytes": 188021,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "bd59a1093af2b4a348310f7082cdfb4760533618377915ff9ab0fd2b1b971ccd"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c054_joint.json",
+      "sha256": "fcc166febf4842c6e65c3b1248e1448a92ba0549623b2faf4b82d6bfc25f4cb3",
+      "bytes": 5091,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "f0fea007609dc9fd8ee82091956bea08082bf822c3f0f58b0855cbe054ceec49"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c054_geometry_only.json",
+      "sha256": "3793e61fca7e864db54d35111a5d80a061aa29611252e413c39ecf7ab5fdb535",
+      "bytes": 5094,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "f5142bebb4b8acdadafd5879ce76285fcc886b9c8bfb6d04000ca308f34bd970"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c055_truth.json",
+      "sha256": "cd89edb52a03ebdabcf455605a0be147bf5db1c4ce35cb44039ea5ba0b11ca73",
+      "bytes": 5022,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd",
+        "d7efd130d67a298037c45fcde4d541166723cc6e52bb0c6dc82b0d5c3a42c41e"
+      ]
+    },
+    {
+      "path": "assets/images/c055_v004.png",
+      "sha256": "56dbd83336fbc92338078ee6f67ae2bd44443e230c6c2077d783f97f1dab1075",
+      "bytes": 172891,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "56dbd83336fbc92338078ee6f67ae2bd44443e230c6c2077d783f97f1dab1075"
+      ]
+    },
+    {
+      "path": "assets/images/c055_v005.png",
+      "sha256": "2aafc9f9f28e6bd694a94444db0099fc9267719a1323ca7bf483d6a9f9769452",
+      "bytes": 188168,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "2aafc9f9f28e6bd694a94444db0099fc9267719a1323ca7bf483d6a9f9769452"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c055_joint.json",
+      "sha256": "cd3a2fbc2f68219bdec466b5e158115f81c540ee72c4e7981e50bbd9686b9007",
+      "bytes": 5102,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "b0b6b5a95214bc31944301afb98c0f66a5379bb9f0cf0ec059a2dde819b538c9"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c055_geometry_only.json",
+      "sha256": "34ad2a453c2bc3497ee004f2e17067952622e16fcd45b8a0ed578d49cf0f7187",
+      "bytes": 5104,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "6d29a9f429db358528e049ca90531dcb6a0aa3ab4886c240963ecd7a2480e8c6"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c056_truth.json",
+      "sha256": "b4566f4d8f12cfc7a0cb010698d009ed048b425657576811b013b87bf4b45987",
+      "bytes": 4904,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "297f22d0218ccdf7388b8034aa6fbe707b42fca9936cd3d26f99655fbc21884f",
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c056_v004.png",
+      "sha256": "7fce88128bc7d251714d4a2e6058436b2815cd0377503e33ae1b088d3d13bf0e",
+      "bytes": 172741,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "7fce88128bc7d251714d4a2e6058436b2815cd0377503e33ae1b088d3d13bf0e"
+      ]
+    },
+    {
+      "path": "assets/images/c056_v005.png",
+      "sha256": "63049edd661ad16f946876355b54954d53cc0a51f4b6dce04162ce690adf2afa",
+      "bytes": 188094,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "63049edd661ad16f946876355b54954d53cc0a51f4b6dce04162ce690adf2afa"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c056_joint.json",
+      "sha256": "cd8278c772d03e65dca4278f6a2316aacaeec3aad09a8b9610d261eb934f22a2",
+      "bytes": 4961,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "b7b74116be1cc0988c9751c29114769c6813dbf2ef4e387e015e2df4272ad4b5"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c056_geometry_only.json",
+      "sha256": "950bdd8a13ef8c25a052e727a2637aca060a3febe6a3cca371372857c2f8bc44",
+      "bytes": 4974,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "7a50aa2aee7eae827d0071b5699a4b3b54698b0d03e149735635c07d8a08e232"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c057_truth.json",
+      "sha256": "493492de82655beeadfb68e3460d888bf13a689d3dbcbfde7fbbc4d5b0bf5453",
+      "bytes": 4926,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "963c7fe430b296ef981c762f9cba5d69258d3fb6627699c1f564573f598f020d",
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c057_v004.png",
+      "sha256": "89a50154de25c3471167ea1b4e69bdcf2e2dfd7cd5611ce608f4fd60ce1f893b",
+      "bytes": 172826,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "89a50154de25c3471167ea1b4e69bdcf2e2dfd7cd5611ce608f4fd60ce1f893b"
+      ]
+    },
+    {
+      "path": "assets/images/c057_v005.png",
+      "sha256": "00c81034cea0ab8b951ba896bae94f46da07f01265ed2b31007d768612b642ff",
+      "bytes": 188225,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "00c81034cea0ab8b951ba896bae94f46da07f01265ed2b31007d768612b642ff"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c057_joint.json",
+      "sha256": "38a2a1cd7a9f6ab4fa5ca9f22b077021ae46aad2de54d82800a3423143476b93",
+      "bytes": 4996,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "ce57e98d80074b75a4fe85ea285976c89b970757f3fbb47a93823a5a33a4d75c"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c057_geometry_only.json",
+      "sha256": "db2213ca8efa08b39d6a3c029dfe9ce9e35a555683db189bb53f1b164ad30043",
+      "bytes": 5008,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "b35d0b6a4f72a63dd71cbd27b0e671920da62723ca31e3ad3c841b784f742715"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c058_truth.json",
+      "sha256": "b4566f4d8f12cfc7a0cb010698d009ed048b425657576811b013b87bf4b45987",
+      "bytes": 4904,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "297f22d0218ccdf7388b8034aa6fbe707b42fca9936cd3d26f99655fbc21884f",
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c058_v004.png",
+      "sha256": "5c8b8a07b35f961399191f1eac395308f4d500610e7e1d5187f9f75d8116383e",
+      "bytes": 172765,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "5c8b8a07b35f961399191f1eac395308f4d500610e7e1d5187f9f75d8116383e"
+      ]
+    },
+    {
+      "path": "assets/images/c058_v005.png",
+      "sha256": "65dd6e43c79ec28733427a52e161962292a73ca428a98d084749d928ac9a07c0",
+      "bytes": 187999,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "65dd6e43c79ec28733427a52e161962292a73ca428a98d084749d928ac9a07c0"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c058_joint.json",
+      "sha256": "9fe1cfcf7563ab562d0fb31567515bc53b44a639d4672456ad2bcd753aa0170c",
+      "bytes": 4966,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "a6e400bc9b43f1a65e3ba0fd496629befab23eaac0495863f1340d29d24a3045"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c058_geometry_only.json",
+      "sha256": "9c0bac31b3942c0b4c1e5b084587b86905edb6ed2486d9a0d04f18e73c7d1673",
+      "bytes": 4980,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "3bee8f01946fe80e5b8e72f3b7fa026fa2b67af1339b3becc4a2e7e6b1ba92ff"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c059_truth.json",
+      "sha256": "493492de82655beeadfb68e3460d888bf13a689d3dbcbfde7fbbc4d5b0bf5453",
+      "bytes": 4926,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "963c7fe430b296ef981c762f9cba5d69258d3fb6627699c1f564573f598f020d",
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c059_v004.png",
+      "sha256": "2d8287a5f81d30bcae2d004e8ed2375dd58549dfc3fd4121d23bd08b5a5e77cf",
+      "bytes": 172853,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "2d8287a5f81d30bcae2d004e8ed2375dd58549dfc3fd4121d23bd08b5a5e77cf"
+      ]
+    },
+    {
+      "path": "assets/images/c059_v005.png",
+      "sha256": "cc8fb5b3ff107a049c2537befcc0f5c8bf1503cfede7cea28c5eb6acda8e4250",
+      "bytes": 188114,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "cc8fb5b3ff107a049c2537befcc0f5c8bf1503cfede7cea28c5eb6acda8e4250"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c059_joint.json",
+      "sha256": "ab64d561a42c3f019aa93a6686d88d3374acd0fb217f76c3d62461834c57f835",
+      "bytes": 4993,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "fa6c12e5319ab7d6a92bc4399f143094b43e9f21f1609ad84e4920097af5315e"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c059_geometry_only.json",
+      "sha256": "1b5ed3706c1842f7a2631d5837ddc37d40a6d918bf9c9679c4dbdaa221f276af",
+      "bytes": 5016,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "c2af02213b5b816fddfdca968fd969991a5b9ee0ea09c762958ae2d9fbec235c"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c060_truth.json",
+      "sha256": "b4566f4d8f12cfc7a0cb010698d009ed048b425657576811b013b87bf4b45987",
+      "bytes": 4904,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "297f22d0218ccdf7388b8034aa6fbe707b42fca9936cd3d26f99655fbc21884f",
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c060_v004.png",
+      "sha256": "389083aecdc5d2510e98786c4988b72fe14d41afa2d21a1fbd82fc05d526cd56",
+      "bytes": 172775,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "389083aecdc5d2510e98786c4988b72fe14d41afa2d21a1fbd82fc05d526cd56"
+      ]
+    },
+    {
+      "path": "assets/images/c060_v005.png",
+      "sha256": "0cb7c1e3649f213f206f87dae6ac2807d7cb3c0efa65e6bbfefcb6fc496cb933",
+      "bytes": 188156,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "0cb7c1e3649f213f206f87dae6ac2807d7cb3c0efa65e6bbfefcb6fc496cb933"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c060_joint.json",
+      "sha256": "86bce7010045f9c0320352cb27ea75f39465c351c6f34ae64982cfc8ecf0a209",
+      "bytes": 4965,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "6ebe46764f805f73a2f8d109a9fac4370543a48a635a37052fc05c6769113561"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c060_geometry_only.json",
+      "sha256": "01f6c9a24b53b864e9fff3c3cdf6180e6c2cf5adebff43eeb3ad4a50f3736786",
+      "bytes": 4957,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "ec7dbe62e07c7c96a93812f9bbe37cbda5b4cb799d242c1dc11ca9cf5774b566"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c061_truth.json",
+      "sha256": "493492de82655beeadfb68e3460d888bf13a689d3dbcbfde7fbbc4d5b0bf5453",
+      "bytes": 4926,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "963c7fe430b296ef981c762f9cba5d69258d3fb6627699c1f564573f598f020d",
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c061_v004.png",
+      "sha256": "2dcab0d954a08dad70b5656ab5f71782510ab40f276f228ff71d6c667c69e989",
+      "bytes": 172757,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "2dcab0d954a08dad70b5656ab5f71782510ab40f276f228ff71d6c667c69e989"
+      ]
+    },
+    {
+      "path": "assets/images/c061_v005.png",
+      "sha256": "210993a3049e68b3ae7a72c97f1702e489071fc62a09f0d2088242722c134b48",
+      "bytes": 188238,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "210993a3049e68b3ae7a72c97f1702e489071fc62a09f0d2088242722c134b48"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c061_joint.json",
+      "sha256": "a3357e60329d808ae772ac5984c2dae52e03753e6a089165eeb5d290b8b6308d",
+      "bytes": 5007,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "2cc9b3d5f3e6e49b80284324091ac11d4f1e81bb2fd67c6a01b2716708b01afb"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c061_geometry_only.json",
+      "sha256": "850a4c71994e0af28c362ba936b6e91715a5b97eb87c181f6619adca1364a33f",
+      "bytes": 5016,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "1dabc1ba026f0e42ed18fd9e0fa76a68344d9618c9704ec49590fa76cd4cea11"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c062_truth.json",
+      "sha256": "1f2a120c8cb1e74bbf5befa84f2223352b0dfa155099e952a433dc11457bfe3f",
+      "bytes": 6379,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "af661823d968cfad9029809e897e8162133b719f324e0e232ea83f355d921608",
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c062_v004.png",
+      "sha256": "319bdd6e9c31d9d96ae38e83455788f6cab471a6a662e6212f31b2413706e784",
+      "bytes": 172723,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "319bdd6e9c31d9d96ae38e83455788f6cab471a6a662e6212f31b2413706e784"
+      ]
+    },
+    {
+      "path": "assets/images/c062_v005.png",
+      "sha256": "b309c89f62c4fe6e55e413a7af3053b18d5bfe970a1a0a9950c1a7d79223324a",
+      "bytes": 188245,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "b309c89f62c4fe6e55e413a7af3053b18d5bfe970a1a0a9950c1a7d79223324a"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c062_joint.json",
+      "sha256": "297487ee8745cb0b5d5dafc36d96c07ab76f386d824b6070c1beb3391bcd4a61",
+      "bytes": 6395,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "ecdd0fd1f6df6d61316c9f9f567081a55c61f0fd7167f8fb1b271aba638ca73f"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c062_geometry_only.json",
+      "sha256": "83c9863f6a28b11941df12c6deb1afa8dd3ba255ed165262290ea1ac40028938",
+      "bytes": 6401,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "fd00d7b1495e7de588db3c6e47cf3f90225299738b9b4d163d224f526b8f966c"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c063_truth.json",
+      "sha256": "b374f82bf378953ff32670b12a559501df42570bb9b944b840071791ef11c5b5",
+      "bytes": 6399,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd",
+        "f111f868de49674a461b83cee78d6ca69442e83d967051330e196a21f7a185e4"
+      ]
+    },
+    {
+      "path": "assets/images/c063_v004.png",
+      "sha256": "2ae870480b30214d03f399c31f8aa532d07832b3ad27077778b1cc846c64d848",
+      "bytes": 172761,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "2ae870480b30214d03f399c31f8aa532d07832b3ad27077778b1cc846c64d848"
+      ]
+    },
+    {
+      "path": "assets/images/c063_v005.png",
+      "sha256": "b09a1e3c6eea8f5e83d3d36636c7998408c5c13b84d2c76266dcc663fe9d4623",
+      "bytes": 188459,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "b09a1e3c6eea8f5e83d3d36636c7998408c5c13b84d2c76266dcc663fe9d4623"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c063_joint.json",
+      "sha256": "8584d5771df798e97c1768100ec642f58bc7f4685a7dc5f841be98f0b99920dc",
+      "bytes": 6425,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "52d87ab5c9dbbcf8e7c8cc163e3ec1be8026c957fe75fabef3327d9d94972176"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c063_geometry_only.json",
+      "sha256": "db81930bebba0441b522393f6cc11b41263d0d33bc96318c1721f4d5d6336b26",
+      "bytes": 6417,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "3649e5d172135bef6c2c8652d4653e338004d7892e18326bcfa186f3b10e247b"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c064_truth.json",
+      "sha256": "1f2a120c8cb1e74bbf5befa84f2223352b0dfa155099e952a433dc11457bfe3f",
+      "bytes": 6379,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "af661823d968cfad9029809e897e8162133b719f324e0e232ea83f355d921608",
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c064_v004.png",
+      "sha256": "6515f6183355287a366557738955253c3de4ad09e1d23c1d9646c85c6f2f2204",
+      "bytes": 172723,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "6515f6183355287a366557738955253c3de4ad09e1d23c1d9646c85c6f2f2204"
+      ]
+    },
+    {
+      "path": "assets/images/c064_v005.png",
+      "sha256": "f3d65742c2a374d625c71829d616094c4c28ccf0e86b52110343e0ab9295ec55",
+      "bytes": 188246,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "f3d65742c2a374d625c71829d616094c4c28ccf0e86b52110343e0ab9295ec55"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c064_joint.json",
+      "sha256": "3871d9cacf2c7be429aac6f5bfa9e4ad9f4311414aa1f374650fbdcc4d9d3d86",
+      "bytes": 6405,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "246870897ab4ef4a17281774d9731f4ae7692675f36a184e91ec121af863bd17"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c064_geometry_only.json",
+      "sha256": "c07d95e3b1676ab5ba059e09bb674ed646cdc972cf1b04bbe0730115ff93c0af",
+      "bytes": 6411,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "158c3e7e6fba84877456b93b9e33fd78da242caed2ac34235f87efb247d6a377"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c065_truth.json",
+      "sha256": "b374f82bf378953ff32670b12a559501df42570bb9b944b840071791ef11c5b5",
+      "bytes": 6399,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd",
+        "f111f868de49674a461b83cee78d6ca69442e83d967051330e196a21f7a185e4"
+      ]
+    },
+    {
+      "path": "assets/images/c065_v004.png",
+      "sha256": "34368d629a0ab702d795dcb3be081b8d272c28259d0ac0dff0714d2122413bda",
+      "bytes": 172825,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "34368d629a0ab702d795dcb3be081b8d272c28259d0ac0dff0714d2122413bda"
+      ]
+    },
+    {
+      "path": "assets/images/c065_v005.png",
+      "sha256": "20802d1bd634b9fc5f5fa8c29761bb5611446e7d79407e4074ce31b4682c4ae2",
+      "bytes": 188522,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "20802d1bd634b9fc5f5fa8c29761bb5611446e7d79407e4074ce31b4682c4ae2"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c065_joint.json",
+      "sha256": "90f51814be261bf007780ea77e3c53fddbeca60788dc425b5eeba0eccecc849f",
+      "bytes": 6446,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "8ddb23f82966e0f868e5a16956223d82d881f24591535e438a37973854ec64d1"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c065_geometry_only.json",
+      "sha256": "277a64562affead9770db0d1d324c779ae26c5bd7b76f85c0bb3a5e40454437f",
+      "bytes": 6432,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "32b7c73473fd4e4f8a2677c7983b277d1bdedfebd67943c5fef4520407809d22"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c066_truth.json",
+      "sha256": "1f2a120c8cb1e74bbf5befa84f2223352b0dfa155099e952a433dc11457bfe3f",
+      "bytes": 6379,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "af661823d968cfad9029809e897e8162133b719f324e0e232ea83f355d921608",
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd"
+      ]
+    },
+    {
+      "path": "assets/images/c066_v004.png",
+      "sha256": "ff8b1248a91eaf655851a44b456ee72509963aced8a8d3ea9e7b20ff24b5b52f",
+      "bytes": 172757,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "ff8b1248a91eaf655851a44b456ee72509963aced8a8d3ea9e7b20ff24b5b52f"
+      ]
+    },
+    {
+      "path": "assets/images/c066_v005.png",
+      "sha256": "a05e8291c124779886c4086ad4e9050a36e86503459275aa6e2f389f391fdafa",
+      "bytes": 188012,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "a05e8291c124779886c4086ad4e9050a36e86503459275aa6e2f389f391fdafa"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c066_joint.json",
+      "sha256": "97bb0abf4244492b0aeca36453e0dbed08260caf5591b1dc3afa27551adb1ed1",
+      "bytes": 6410,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "e7e6f95b484c9513958bd06dfa8ddf2797e4b65768112ce85e98b370c54c6a04"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c066_geometry_only.json",
+      "sha256": "7e34d1ad5da274354495baa34eaf15e90aa78052e9294dd9a9c7f660b79b6d31",
+      "bytes": 6395,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "0d4e4e3c4246aec056495ca89860c354df87dbca40b90b08801f52959d465d8b"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c067_truth.json",
+      "sha256": "b374f82bf378953ff32670b12a559501df42570bb9b944b840071791ef11c5b5",
+      "bytes": 6399,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "bf29883862afb50ce4fe924ce58021c8b33eb28399c034a663b345cf81dd31cd",
+        "f111f868de49674a461b83cee78d6ca69442e83d967051330e196a21f7a185e4"
+      ]
+    },
+    {
+      "path": "assets/images/c067_v004.png",
+      "sha256": "d73c0d739101ff7b4009c7593fb0e9b35f7550bb7758f5308f63090d2fd4e0d8",
+      "bytes": 172785,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "d73c0d739101ff7b4009c7593fb0e9b35f7550bb7758f5308f63090d2fd4e0d8"
+      ]
+    },
+    {
+      "path": "assets/images/c067_v005.png",
+      "sha256": "029aee8471c25234d3b2168eca70c3c4f3801ecacc1715b13eced9d473eb6904",
+      "bytes": 188307,
+      "role": "unaltered actual synthetic RGB inference input",
+      "source_sha256s": [
+        "029aee8471c25234d3b2168eca70c3c4f3801ecacc1715b13eced9d473eb6904"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c067_joint.json",
+      "sha256": "6d52bbaa6b889d89f53db784a64764f4c72c51ba0a5ae2e8429168a20306b0bf",
+      "bytes": 6439,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "66e9306bf47c554925ed5bc24f0587e8cc5ed516a7a33554bd8b4a7d2d96ce9f"
+      ]
+    },
+    {
+      "path": "assets/data/fields/c067_geometry_only.json",
+      "sha256": "03d1aa4dfb9243125c45e26bdcf0b020172f92ddcc77742bc0002df12bdcda0e",
+      "bytes": 6430,
+      "role": "actual sparse displacement; no threshold filtering",
+      "source_sha256s": [
+        "d27c874c9afce74b5b606d3e7f99ab42e2fd49234444f2653d9cd69c44878429"
+      ]
+    },
+    {
+      "path": "assets/data/catalog.json",
+      "sha256": "cd9fc2f918dfa63eb0609eec76c82ff04e8cef22e4f8b2155272c680e7e3b6e4",
+      "bytes": 148494,
+      "role": "all-case saved evidence catalog",
+      "source_sha256s": []
+    },
+    {
+      "path": "assets/data/all_results.json",
+      "sha256": "9ddca8fad8ca367b93cbb5de2e8c52e7ebdf04b33d68662c8155fc101f2fa209",
+      "bytes": 1786392,
+      "role": "all 272 accepted metric rows, including controls and all thresholds",
+      "source_sha256s": []
+    },
+    {
+      "path": "assets/data/photo_metrics.json",
+      "sha256": "d61c8258d3d389fa08750ea66cea65baffc15659bca74023eefe153199e194ca",
+      "bytes": 753203,
+      "role": "all 1904 accepted per-view image error records",
+      "source_sha256s": []
+    },
+    {
+      "path": "assets/data/frontier.json",
+      "sha256": "37aba0331378cc3741fd64767e84010886dcb9c9648b39950fbc158a569c4577",
+      "bytes": 12682,
+      "role": "all 24 accepted method-threshold records",
+      "source_sha256s": []
+    },
+    {
+      "path": "assets/data/all_results.csv",
+      "sha256": "98819c93242b0f43890377ec3594338c9c6f318a8777150d4ec53232f789b89f",
+      "bytes": 42360,
+      "role": "all 272 flattened metrics; normalized units",
+      "source_sha256s": []
+    },
+    {
+      "path": "assets/data/verification_summary.json",
+      "sha256": "cece7c9f76ec52227a68c7c16d348093823b1a579f07470eb9c81f08f7d377ef",
+      "bytes": 1100,
+      "role": "sanitized receipt summary; original receipt preserved in research workspace",
+      "source_sha256s": []
+    },
+    {
+      "path": "assets/data/provenance.json",
+      "sha256": "88e5efa6703f11ea03ff702be67321b89828f071e7a647f45ed0398c195920d2",
+      "bytes": 3071,
+      "role": "public source provenance and normalization",
+      "source_sha256s": []
+    }
+  ],
+  "total_bytes": 34172116,
+  "files": 349,
+  "license": "CC-BY-SA-4.0 for scientific mesh, image and field derivatives",
+  "privacy": "Only allowlisted public Rotor37 sources 9/10 and generated synthetic results; no industrial inspection data"
+}

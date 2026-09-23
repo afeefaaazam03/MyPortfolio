@@ -1,0 +1,79 @@
+{
+  "case_id": "c033",
+  "source_id": 9,
+  "method": "joint",
+  "description": "Screenshots of the supplied healthy mesh and actual saved fitted deformation. These images are WebGL geometry visualizations, not Blender photometric predictions.",
+  "source_mesh": {
+    "path": "assets/data/meshes/r009.json",
+    "sha256": "e5e3137961110272d1db32d693274fbc062b67c6b7760e98b4aaf5ec21709093"
+  },
+  "source_field": {
+    "path": "assets/data/fields/c033_joint.json",
+    "sha256": "1ecc5b351f776b38932b54b798aa38f49635c7722ae9617a2abc2bec25698722"
+  },
+  "renderer": {
+    "path": "assets/viewer.js",
+    "sha256": "6c79283e07072178cd2b25a2c9d25d37c4555cde2240c040177b373f817e2c94"
+  },
+  "width": 720,
+  "height": 560,
+  "azimuth_degrees": 40,
+  "elevation_degrees": 15,
+  "background_rgb": [
+    0.96,
+    0.98,
+    0.98
+  ],
+  "deformation_amplification": 1,
+  "highlight": "Interpolated displacement magnitude above 1e-5 in normalized source units; not probability.",
+  "marker": false,
+  "coordinate_system": "Original shared source coordinates; healthy bounding sphere sets scale; local pictures change camera zoom only.",
+  "images": [
+    {
+      "path": "assets/presentation/c033-healthy-full.png",
+      "sha256": "322b14c79a356c2f299b43f699839627d8442fded9d2827cd7a60377ac6e4a15",
+      "mode": "healthy",
+      "morph": 0,
+      "camera_zoom": 1
+    },
+    {
+      "path": "assets/presentation/c033-estimate-full.png",
+      "sha256": "a795b22028007d6c3591b7322f778ad1e91f55e441d6dbdecd9ef844640d06c4",
+      "mode": "estimate",
+      "morph": 1,
+      "camera_zoom": 1
+    },
+    {
+      "path": "assets/presentation/c033-healthy-local.png",
+      "sha256": "89951988dd8d117efa8eecaeb6faedbb793be619a5cde7c8948b11ef3306bb92",
+      "mode": "healthy",
+      "morph": 0,
+      "camera_zoom": 4
+    },
+    {
+      "path": "assets/presentation/c033-estimate-local.png",
+      "sha256": "a6d6e475e0695aba1dc58133e43afcc9f6badf2f77fb579ad0ec8e862ea1af21",
+      "mode": "estimate",
+      "morph": 1,
+      "camera_zoom": 4
+    },
+    {
+      "path": "assets/presentation/c033-healthy-local-wire.png",
+      "sha256": "343e59fc674aa0d3d2eb1fd4db049b85df2fc249bf25186f5803bded6ef05e47",
+      "mode": "healthy",
+      "morph": 0,
+      "camera_zoom": 4,
+      "wireframe": true
+    },
+    {
+      "path": "assets/presentation/c033-estimate-local-wire.png",
+      "sha256": "ffa9c73dfec2ca79d90697f9f60a16e05cb0c31fc96a264f49eb3e978a0b5e84",
+      "mode": "estimate",
+      "morph": 1,
+      "camera_zoom": 4,
+      "wireframe": true
+    }
+  ],
+  "browser_exception_count": 0,
+  "default_wireframe": false
+}

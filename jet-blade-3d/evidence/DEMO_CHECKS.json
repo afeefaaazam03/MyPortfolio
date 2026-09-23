@@ -1,0 +1,45 @@
+{
+  "checked_at_utc": "2026-09-23T13:36:05.511869+00:00",
+  "type": "Presentation and saved-data checks; not scientific validation of real-blade accuracy",
+  "scientific_asset_hashes_checked": 349,
+  "all_68_cases_exported": true,
+  "accepted_report_sha256": "46bfca511b1a396e186a26769130e6df98864549e24b37a0f42ed4d7eb97392b",
+  "browser": "Installed Google Chrome, isolated headless profile; local HTTP only",
+  "viewports": [
+    [
+      1440,
+      1080
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "checks_passed": [
+    "Initial saved c033 fit loads; WebGL reports no error",
+    "Original input images load",
+    "Healthy / estimated / evaluation-only truth switching",
+    "Morph endpoints and wireframe",
+    "Color-only case c021: shape-only false movement, joint no marker above threshold",
+    "Healthy control has no physical-change marker",
+    "All 68 options present; c067 switches to second healthy reference",
+    "Five walkthrough steps and stop / completion",
+    "Mobile content fits viewport without horizontal overflow",
+    "No browser JavaScript exceptions",
+    "OBJ has 29989 vertices and59974 triangles, exact float64 match to saved c033 joint prediction",
+    "All direct local HTML resource links resolve",
+    "Independent scientific review: headline statistics and claimed scope match accepted results"
+  ],
+  "limits": [
+    "Browser controls sampled across representative cases; not every case rendered in browser QA",
+    "All scientific export fields and images hash-checked separately",
+    "No live inference runs in this static site",
+    "No real-world inspection validation implied"
+  ],
+  "site_files": {
+    "index.html": "37b8825ca6d15fb073c7508d2b5f12d55fdc9bb7afde7bc7367d0a2230a8fb5c",
+    "assets/app.js": "fb0a430680650648da1d1692b04626b3d1b10ab2e115cf2e896cb8171a30bbdd",
+    "assets/viewer.js": "6c79283e07072178cd2b25a2c9d25d37c4555cde2240c040177b373f817e2c94",
+    "assets/style.css": "73526e16f49dc06f740f03e2c2e8edef2c800622b1a1fdd39fc98616c9452d56"
+  }
+}
