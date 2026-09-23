@@ -3,7 +3,7 @@
   "new_model_calls": 0,
   "new_training_updates": 0,
   "destination_visibility": "public_authorized",
-  "public_deployment": false,
+  "public_deployment": true,
   "geometry_verified": false,
   "source_checks": {
     "synthetic": {
@@ -1233,17 +1233,21 @@
       "bytes": 5967,
       "sha256": "4ce6f3a703273eceabe8ad7de2da0d5f85bbba28dcf23b91df4c8bdd01decd4e"
     },
+    "QUICK_PRESENTATION_QA.json": {
+      "bytes": 2921,
+      "sha256": "1bcd559e31139a0f74bf71d44f88e4dba2b676c1ac10e080aefdae7877d44732"
+    },
     "README.md": {
-      "bytes": 1688,
-      "sha256": "b20267abdc52928c478e99b9ed3426df8853088ef9e077c5e737e702a8a4e4ce"
+      "bytes": 1928,
+      "sha256": "999da6b090b94ce257031b0854cf519a5c494a8f9f691e25818fc55fdf9b80ee"
     },
     "SHARING_AND_ATTRIBUTION.html": {
       "bytes": 5062,
       "sha256": "2803fb15c33add419765dfbdf14a1d2f8f5713599cf91aebdc44b0693bd3e725"
     },
     "START_HERE.html": {
-      "bytes": 20333,
-      "sha256": "12bbfc616412901c6168b27d1b7bf97c2f3c937c0d73ed9f720f252c0aee9837"
+      "bytes": 31778,
+      "sha256": "b07da04768e61b13c45856be3d06b9971e0792f0afa286285c108f5a8b80232f"
     },
     "assets/0265_input.png": {
       "bytes": 7998,
@@ -1305,6 +1309,14 @@
       "bytes": 144376,
       "sha256": "ff8a614b3a2dfb32efffeaef91aacd30adb8f96ab7028873747b902a737f126b"
     },
+    "assets/quick-presentation.css": {
+      "bytes": 12920,
+      "sha256": "dac1eac3b311c36352ad5e44ab0e198270a62dce4330ba8ab7a573ce4c768374"
+    },
+    "assets/quick-presentation.js": {
+      "bytes": 2472,
+      "sha256": "1b270fba3dd368be9dc0413a0d01fb1996abbce9f78adfaa45e163b6400f5f03"
+    },
     "assets/real_surface_comparison.png": {
       "bytes": 343182,
       "sha256": "69f5c066bc78dc8f32fb50673a948b29740512980dc8e3ea254cec3c573e737d"
@@ -1326,8 +1338,8 @@
       "sha256": "e3127156baa9be26243cc560f4d456cfd91491ffd486ee7e5a2c20222b86c4b6"
     },
     "index.html": {
-      "bytes": 20333,
-      "sha256": "12bbfc616412901c6168b27d1b7bf97c2f3c937c0d73ed9f720f252c0aee9837"
+      "bytes": 31778,
+      "sha256": "b07da04768e61b13c45856be3d06b9971e0792f0afa286285c108f5a8b80232f"
     },
     "previews/proposal.png": {
       "bytes": 19919,
@@ -1357,5 +1369,19 @@
       "bytes": 19324070,
       "sha256": "11c705dd827eeab45dec08dcff51cf99dfa3389935de35263fa6813769fcd716"
     }
+  },
+  "live_site": {
+    "url": "https://afeefaaazam03.github.io/MyPortfolio/main-jet/",
+    "first_verified_utc": "2026-09-22T15:13:29Z",
+    "main_research_repository": "remains private"
+  },
+  "quick_presentation": {
+    "date": "2026-09-23",
+    "location": "index.html#quick-presentation",
+    "slides": 6,
+    "audience": "nontechnical supervisors and team",
+    "qa": "QUICK_PRESENTATION_QA.json",
+    "new_model_calls": 0,
+    "scientific_data_changed": false
   }
 }

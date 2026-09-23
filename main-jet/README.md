@@ -1,6 +1,10 @@
 # Main Jet — From Geometry to Blade Inspection
 
-Download this folder (or the branch ZIP), then open **`index.html`** in Chrome or Edge.
+**[Open the short visual presentation](https://afeefaaazam03.github.io/MyPortfolio/main-jet/#quick-presentation)**
+
+The same webpage now starts with six nontechnical slides: goal, data, why 3D, completed work, observed mistakes and next steps. Use Next/Previous, arrow keys or full screen.
+
+For offline use, download this folder and open **`index.html`** in Chrome or Edge.
 `START_HERE.html` is the same entry point. GitHub’s file view shows source; it does
 not run the interactive website.
 
@@ -18,8 +22,8 @@ Images and interactive data are included. No server, installation or internet
 connection is needed after downloading. The large viewers load only when requested.
 
 This is the owner-authorized public presentation edition, including blade photographs.
-Target website: https://afeefaaazam03.github.io/MyPortfolio/main-jet/
-Publication is pending verification; preparing these files does not establish that the URL is live.
+Live website: https://afeefaaazam03.github.io/MyPortfolio/main-jet/
+The public site was verified live on 22 September 2026.
 The original research repository remains separate and private.
 
 See `SHARING_AND_ATTRIBUTION.html` for embedded-asset permissions and Rotor37
