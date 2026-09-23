@@ -1,0 +1,95 @@
+{
+  "date": "2026-09-23",
+  "kind": "input_output_research_review",
+  "status": "recommendation_not_experiment",
+  "latest_user_clarification": "healthy CAD plus seven inspection/healthy reference image pairs and supplied correspondence -> per-vertex delta xyz -> estimated deformed mesh",
+  "current_code_audit": {
+    "input_validator": "scripts/train_blade_learned_field_v1.py:161",
+    "feature_worker": "scripts/train_blade_diverse_residual_field_v1.py:258",
+    "training_truth": "scripts/train_blade_diverse_residual_field_v1.py:279",
+    "prediction_worker": "scripts/train_blade_diverse_residual_field_v1.py:351",
+    "postfreeze_evaluation": "scripts/train_blade_diverse_residual_field_v1.py:374",
+    "scope": "read-only source audit; not a new run or exhaustive proof of all artifact provenance"
+  },
+  "local_sources": [
+    {
+      "path": "reports/BLADE_CONTRIBUTION_DECISION_20260917.md",
+      "sha256": "0dfbce9aa2500e089345633ad5bb7f816e34d5d79f663e4003540d6e0feb574b"
+    },
+    {
+      "path": "reports/BLADE_GEOMETRY_CONCLUSION.md",
+      "sha256": "76d24f490ff211248642c409d01b3b6a52dc9398c7db96f6db5f9ae5ab3d8475"
+    },
+    {
+      "path": "reports/BLADE_3D_NEXT_PHASE_PLAN.md",
+      "sha256": "3d1537737e556d6b22ce7921420b92c963f8f2dd73c7b1ddf60be4e63adf9480"
+    },
+    {
+      "path": "scripts/train_blade_diverse_residual_field_v1.py",
+      "sha256": "df0b25533de264e88e6a5e9eff04456f1f71b15e8ba683d8fa7f8ac824fd0d78"
+    },
+    {
+      "path": "scripts/train_blade_learned_field_v1.py",
+      "sha256": "cf1783f2512126e1aa1d440334372a78ef7da9c038ed1d24b8db1071b2b4d471"
+    },
+    {
+      "path": "reports/surface_overnight/20260922T152703Z-07a8512e9840/Surface_3D_Results.html",
+      "sha256": "0dd6925e93f0f82370e884a8203452703603d68e9c1a3921a72c88b11bfca8b5"
+    },
+    {
+      "path": "experiments/blade_diagnostics/blade_surface_validation_v1/20260922T152703Z-07a8512e9840/summary.json",
+      "sha256": "f147ad0de74a1e83e4a999a9fabf1fa581e92fa429433f5a8a1416896469838b"
+    },
+    {
+      "path": "experiments/blade_diagnostics/blade_surface_validation_v1/20260922T152703Z-07a8512e9840/external_independent_verification.json",
+      "sha256": "5ed842bf2f7da2e0d08579f5024976a346c62a7deae7bd783a9db9cf0ffddec2"
+    }
+  ],
+  "proposal": {
+    "file": "MAIN_JET_RESEARCH_PROPOSAL.pdf",
+    "sha256": "06d2d0cb144dabc05414c0e796e446afb630d4d292f4848cf97ba0b2b6b7c59a"
+  },
+  "existing_demo": {
+    "file": "working_3d/MAIN_JET_3D_DEMO.html",
+    "sha256": "11c705dd827eeab45dec08dcff51cf99dfa3389935de35263fa6813769fcd716",
+    "scope": "previously exposed saved examples; not latest training status"
+  },
+  "review_limitations": [
+    "Targeted primary-source review, not exhaustive novelty or patent clearance",
+    "DefectSynth full SSRN paper inaccessible; author methods page inspected",
+    "Fraunhofer 2025 full paper unavailable; institutional abstract inspected",
+    "M2AD supported using 2025 preprint; later journal issue not used",
+    "Published baselines not reproduced",
+    "No model training, inference or new dataset generation in this review"
+  ],
+  "candidate_novelty": "unestablished; requires concrete mechanism and matched evaluation",
+  "actions": {
+    "training": false,
+    "new_model_inference": false,
+    "new_damage_measurements": false,
+    "edits": "research explanation and site integration only"
+  },
+  "synthetic_input_figure": {
+    "case": "c015",
+    "view": "v004",
+    "source_image_key": "images/d9f5fdaa4d876e56f7a4710f2b945e0ef7d9beefed9ed562b0b9728e4f146c25.png",
+    "output": "assets/research-c015-input.png",
+    "sha256": "d9f5fdaa4d876e56f7a4710f2b945e0ef7d9beefed9ed562b0b9728e4f146c25",
+    "method": "byte-exact extraction of embedded PNG; not image editing or regeneration"
+  },
+  "later_validation": {
+    "run": "20260922T152703Z-07a8512e9840",
+    "completed_at": "2026-09-22T15:34:28.037682+00:00",
+    "cases": 18,
+    "source_instances": [
+      9,
+      10
+    ],
+    "strict_passes_recomputed": {
+      "normal": 3,
+      "project": 4
+    },
+    "fixed_projection_lower_whole_error_and_false_changes_than_learner": 18,
+    "scope": "recomputed counts from saved records, not a new prediction or geometric replay"
+  }
+}
