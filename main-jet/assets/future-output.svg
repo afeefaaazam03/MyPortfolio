@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+<title id="title">Intended future inspection output — illustration, not a model result</title>
+<desc id="desc">A schematic marked blade region, estimated local shape change and report linking image evidence. Measurements and confidence remain unfilled until independently validated.</desc>
+<defs><linearGradient id="surface" x2="1" y2="1"><stop stop-color="#d0e3e8"/><stop offset="1" stop-color="#739aa9"/></linearGradient><clipPath id="blade"><path d="M89 280 Q108 152 121 113 Q226 141 325 104 L349 280 Q203 321 89 280Z"/></clipPath></defs>
+<rect width="1200" height="400" rx="14" fill="#f1edf8"/>
+<rect x="0" width="1200" height="46" rx="14" fill="#5b427f"/>
+<rect y="25" width="1200" height="21" fill="#5b427f"/>
+<g font-family="Arial,sans-serif"><text x="24" y="30" fill="white" font-size="17" font-weight="700">ILLUSTRATION — NOT A MODEL RESULT</text><text x="1174" y="30" text-anchor="end" fill="#e9dff7" font-size="15">INTENDED FUTURE OUTPUT</text>
+<rect x="18" y="62" width="370" height="288" rx="9" fill="white"/>
+<rect x="405" y="62" width="370" height="288" rx="9" fill="white"/>
+<rect x="792" y="62" width="390" height="288" rx="9" fill="white"/>
+<g fill="#193f50" font-size="21" font-weight="700"><text x="38" y="92">1  Locate the damage</text><text x="425" y="92">2  Show the shape change</text><text x="812" y="92">3  Link the evidence</text></g>
+<path d="M89 280 Q108 152 121 113 Q226 141 325 104 L349 280 Q203 321 89 280Z" fill="url(#surface)" stroke="#517988" stroke-width="2"/>
+<g clip-path="url(#blade)" fill="none" stroke="#f4fafb" stroke-width=".9" opacity=".75"><path d="M80 112 Q210 140 370 100"/><path d="M80 132 Q210 160 370 120"/><path d="M80 152 Q210 180 370 140"/><path d="M80 172 Q210 200 370 160"/><path d="M80 192 Q210 220 370 180"/><path d="M80 212 Q210 240 370 200"/><path d="M80 232 Q210 260 370 220"/><path d="M80 252 Q210 280 370 240"/><path d="M80 272 Q210 300 370 260"/><path d="M80 292 Q210 320 370 280"/><path d="M80 312 Q210 340 370 300"/><path d="M85 99 L115 317 M85 99 L265 317"/><path d="M107 99 L137 317 M107 99 L287 317"/><path d="M129 99 L159 317 M129 99 L309 317"/><path d="M151 99 L181 317 M151 99 L331 317"/><path d="M173 99 L203 317 M173 99 L353 317"/><path d="M195 99 L225 317 M195 99 L375 317"/><path d="M217 99 L247 317 M217 99 L397 317"/><path d="M239 99 L269 317 M239 99 L419 317"/><path d="M261 99 L291 317 M261 99 L441 317"/><path d="M283 99 L313 317 M283 99 L463 317"/><path d="M305 99 L335 317 M305 99 L485 317"/><path d="M327 99 L357 317 M327 99 L507 317"/><path d="M349 99 L379 317 M349 99 L529 317"/></g><path d="M239 179 L260 169 L281 186 L277 213 L251 220 L233 202Z" fill="#dd9244" stroke="#9e5e20" stroke-width="2"/>
+<circle cx="257" cy="196" r="5" fill="#8f421b"/><path d="M260 195 L311 151 L354 151" stroke="#8f421b" fill="none" stroke-width="1.5"/>
+<text x="293" y="137" font-size="14" fill="#85451c">3D region</text>
+<text x="203" y="331" text-anchor="middle" font-size="16" fill="#4f6d7d">Linked to the blade surface</text>
+<path d="M434 164 Q590 149 744 164" stroke="#8aa8b4" stroke-width="3" stroke-dasharray="8 5" fill="none"/>
+<path d="M434 164 Q494 158 522 160 C554 162 556 212 592 215 C630 214 638 162 666 160 Q709 160 744 164" stroke="#137e96" stroke-width="4" fill="none"/>
+<path d="M521 160 C554 162 556 212 592 215 C630 214 638 162 666 160" fill="#d8edf1" opacity=".65"/>
+<text x="435" y="130" font-size="16" fill="#5d7b89">Healthy reference</text><text x="496" y="249" font-size="16" fill="#137e96">Estimated changed profile</text>
+<text x="425" y="298" font-size="16" fill="#536e7d">Size / depth: only after calibration</text>
+<text x="425" y="326" font-size="14" fill="#765593">Schematic profile; no measured values</text>
+<g font-size="17" fill="#294b5c"><text x="814" y="135">Marked area on the 3D blade</text><text x="814" y="177">Images supporting the finding</text><text x="814" y="219">Shape estimate + uncertainty</text><text x="814" y="261">Missing evidence + next view</text></g>
+<g stroke="#dce5ec"><path d="M814 148H1158 M814 190H1158 M814 232H1158 M814 274H1158"/></g>
+<rect x="812" y="290" width="347" height="40" rx="6" fill="#eee7f7"/><text x="985" y="316" text-anchor="middle" font-size="15" fill="#654682">For inspection review, after validation</text>
+<text x="24" y="381" fill="#684b88" font-size="16">Output design only · No predicted accuracy, physical measurements or safety decision is claimed.</text>
+</g></svg>

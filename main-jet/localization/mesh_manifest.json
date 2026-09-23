@@ -1,0 +1,264 @@
+{
+  "source": "Safran / PLAID Rotor37, sample 0",
+  "source_revision": "bac06c0caa7254120eecc6711a5fb85c58dfbdbc",
+  "license": "CC BY-SA 4.0",
+  "coordinate_units": "normalized original Rotor37 source Y extent; no millimetre conversion",
+  "geometry_role": "Supplied known synthetic geometry; never inferred by the detector.",
+  "files": {
+    "meshes/intact.npz": {
+      "sha256": "8db5910b496dc5e2d14f841e1e5a9a58c7a1dae32f6063ad1cd657fb5ed63a05",
+      "bytes": 541401,
+      "source": "experiments/blade_diagnostics/rotor37_nick_pilot_v1_1/20260917T105903Z-aa95b74f3ea4/geometry/intact.npz",
+      "arrays": {
+        "vertices": {
+          "shape": [
+            29989,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "triangles": {
+          "shape": [
+            59974,
+            3
+          ],
+          "dtype": "int32"
+        },
+        "triangle_component": {
+          "shape": [
+            59974
+          ],
+          "dtype": "uint8"
+        }
+      }
+    },
+    "meshes/damaged.npz": {
+      "sha256": "2fe11c837f23edb64f148deacdcdbbe5c2bd1d0458e56e81d4d4f973dd516012",
+      "bytes": 544856,
+      "source": "experiments/blade_diagnostics/rotor37_nick_pilot_v1_1/20260917T105903Z-aa95b74f3ea4/geometry/damaged.npz",
+      "arrays": {
+        "vertices": {
+          "shape": [
+            30148,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "triangles": {
+          "shape": [
+            60292,
+            3
+          ],
+          "dtype": "int32"
+        },
+        "triangle_component": {
+          "shape": [
+            60292
+          ],
+          "dtype": "uint8"
+        }
+      }
+    },
+    "mapping/rotor37_sample0000_damaged_v006.npz": {
+      "sha256": "217b531f8d36edfbb4ea921fdb4492b37f77b0d71b8955171867078d03f7f800",
+      "bytes": 1028914,
+      "source": "experiments/blade_diagnostics/rotor37_nick_pilot_v1_1/20260917T105903Z-aa95b74f3ea4/views/rotor37_sample0000_damaged_v006/correspondence.npz",
+      "arrays": {
+        "codec_version": {
+          "shape": [],
+          "dtype": "uint8"
+        },
+        "shape_hw": {
+          "shape": [
+            2
+          ],
+          "dtype": "uint32"
+        },
+        "pixel_index": {
+          "shape": [
+            52206
+          ],
+          "dtype": "uint32"
+        },
+        "triangle_id": {
+          "shape": [
+            52206
+          ],
+          "dtype": "uint16"
+        },
+        "barycentric": {
+          "shape": [
+            52206,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "camera_z": {
+          "shape": [
+            52206
+          ],
+          "dtype": "float32"
+        },
+        "render_depth": {
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    "mapping/rotor37_sample0000_damaged_v001.npz": {
+      "sha256": "47700efebebd8ec5ee3c82504076d9f7766b32823ff3a5bd63c15fd06061a62a",
+      "bytes": 1390590,
+      "source": "experiments/blade_diagnostics/rotor37_nick_pilot_v1_1/20260917T105903Z-aa95b74f3ea4/views/rotor37_sample0000_damaged_v001/correspondence.npz",
+      "arrays": {
+        "codec_version": {
+          "shape": [],
+          "dtype": "uint8"
+        },
+        "shape_hw": {
+          "shape": [
+            2
+          ],
+          "dtype": "uint32"
+        },
+        "pixel_index": {
+          "shape": [
+            72434
+          ],
+          "dtype": "uint32"
+        },
+        "triangle_id": {
+          "shape": [
+            72434
+          ],
+          "dtype": "uint16"
+        },
+        "barycentric": {
+          "shape": [
+            72434,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "camera_z": {
+          "shape": [
+            72434
+          ],
+          "dtype": "float32"
+        },
+        "render_depth": {
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    "mapping/rotor37_sample0000_damaged_v000.npz": {
+      "sha256": "6cd2b45e75ea65440bc91011c201194087cadf355fdd833cbfa8a205fc25e661",
+      "bytes": 1427531,
+      "source": "experiments/blade_diagnostics/rotor37_nick_pilot_v1_1/20260917T105903Z-aa95b74f3ea4/views/rotor37_sample0000_damaged_v000/correspondence.npz",
+      "arrays": {
+        "codec_version": {
+          "shape": [],
+          "dtype": "uint8"
+        },
+        "shape_hw": {
+          "shape": [
+            2
+          ],
+          "dtype": "uint32"
+        },
+        "pixel_index": {
+          "shape": [
+            76174
+          ],
+          "dtype": "uint32"
+        },
+        "triangle_id": {
+          "shape": [
+            76174
+          ],
+          "dtype": "uint16"
+        },
+        "barycentric": {
+          "shape": [
+            76174,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "camera_z": {
+          "shape": [
+            76174
+          ],
+          "dtype": "float32"
+        },
+        "render_depth": {
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    "mapping/rotor37_sample0000_intact_v001.npz": {
+      "sha256": "e99791bd78bdd96319285e4bbaaf4d22eb82ac6e7d1f06dffde8d59a725ce9e3",
+      "bytes": 1391367,
+      "source": "experiments/blade_diagnostics/rotor37_nick_pilot_v1_1/20260917T105903Z-aa95b74f3ea4/views/rotor37_sample0000_intact_v001/correspondence.npz",
+      "arrays": {
+        "codec_version": {
+          "shape": [],
+          "dtype": "uint8"
+        },
+        "shape_hw": {
+          "shape": [
+            2
+          ],
+          "dtype": "uint32"
+        },
+        "pixel_index": {
+          "shape": [
+            72475
+          ],
+          "dtype": "uint32"
+        },
+        "triangle_id": {
+          "shape": [
+            72475
+          ],
+          "dtype": "uint16"
+        },
+        "barycentric": {
+          "shape": [
+            72475,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "camera_z": {
+          "shape": [
+            72475
+          ],
+          "dtype": "float32"
+        },
+        "render_depth": {
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    "mapping/cameras.json": {
+      "sha256": "e53393d0a5fd51737b2ae1f751f43bd2d4985b0726eccbefbdc50e5d4631e801",
+      "bytes": 4733,
+      "source": "allowlisted K and world_to_camera_cv fields from verified rows.json"
+    }
+  }
+}

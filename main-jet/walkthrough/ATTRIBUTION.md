@@ -1,4 +1,4 @@
-# Public Rotor37 saved-result animation
+# Public Rotor37 evidence and intended-output walkthrough
 
 Source geometry: **Safran / PLAID Rotor37**, source instance 7, pinned revision
 `bac06c0caa7254120eecc6711a5fb85c58dfbdbc`.
@@ -57,8 +57,40 @@ See [the site's existing sources and sharing notes](../SHARING_AND_ATTRIBUTION.h
 and [evidence notes](../PRESENTATION_EVIDENCE.html).
 
 Original browser animation, captions and workflow diagrams are presentation
-material; they do not change any scientific result. No AI-generated defect
-image, invented mesh, learned confidence or model inference was added.
+material; they do not change any scientific result. The opening localization
+chapter and middle shape-prediction chapters contain actual saved evidence.
+The final future-output chapter is a labelled vector design illustration, not a
+learned output. No invented prediction, learned confidence or new model inference
+was added to the experimental evidence.
+
+## Earlier image-to-mesh localization
+
+The opening uses the original `../localization/example_1.png` from the saved
+Rotor37 sample-0 nick pilot, at the same pinned public source revision above.
+Its four panels retain the original detector peak, mask overlay, known mesh
+context and local 3D check. The saved target-B point at pixel `[347, 267]` maps
+through supplied correspondence records onto triangle `60247` of the remaining
+damaged mesh. The exact coordinates and full verification records are linked
+from [the localization viewer](../localization/index.html). The point hits the
+known exposed nick, while the mask has only 20% IoU. One point is not a complete
+segmentation result. The point mapping does not mean that the detector inferred
+the mesh or that real-world reconstruction accuracy has been established.
+
+Sample-0 geometry was normalized and given an artificial nick. Those changes
+and the rendered/derived figures retain the Rotor37 CC BY-SA 4.0 terms. The
+source-0 localization example and source-7 displacement example are different
+saved experiments; they are not combined into a new learned result.
+
+## Intended future output illustration
+
+The final chapter uses `../assets/future-output.svg`, an original diagram of a
+possible inspection-report layout. It is explicitly labelled
+**ILLUSTRATION — NOT A MODEL RESULT**. Its marked region and report elements
+are conceptual. They are not new damage predictions, measured physical
+geometry, a recovered mesh, confidence values or an achieved integrated system.
+The future 3D shape output and separate proposed 3D-assisted image-training
+benefit remain research goals. The corresponding website section is separate
+from the actual saved evidence.
 
 ## English narration
 

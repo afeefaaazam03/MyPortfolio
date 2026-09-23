@@ -1,14 +1,16 @@
 'use strict';
 (() => {
   const $ = id => document.getElementById(id), canvas = $('film'), ctx = canvas.getContext('2d'), narration=$('narration');
-  const duration = 96;
+  const duration = 132;
   const chapters = [
-    {start:0, title:'The idea', heading:'See the input. Inspect the actual output.', caption:'Our current prototype estimates a blade’s 3D change from supplied healthy geometry and matching images.'},
-    {start:12, title:'Actual inputs', heading:'This is what goes into the 3D prototype.', caption:'A healthy 3D blade, seven matching image pairs, and a supplied mapping between pictures and surface points.'},
-    {start:30, title:'Actual output', heading:'This is the saved 3D prediction.', caption:'Compare the known synthetic change with the prediction. The model also changes places that should stay healthy.'},
-    {start:48, title:'Already built', heading:'We have working components — with different outputs.', caption:'The 3D predictor and the real-photo detector are separate existing components. The website replays their saved outputs.'},
-    {start:64, title:'Latest findings', heading:'Closer shapes. Reliability still needs work.', caption:'Only 3 of 18 cases for the new learned model, and 4 of 18 for a simple rule, passed every improvement check.'},
-    {start:80, title:'Planned work', heading:'Here is what we still need to prove.', caption:'Improve where 3D change is predicted, and separately test whether learning from 3D improves real-photo inspection.'}
+    {start:0, title:'Locate on the mesh', heading:'We already located an image finding in 3D.', caption:'A saved image peak maps to a known mesh point. The point hits the nick, but the damage mask has only 20% overlap.'},
+    {start:18, title:'The idea', heading:'See the input. Inspect the actual output.', caption:'Our current prototype estimates a blade’s 3D change from supplied healthy geometry and matching images.'},
+    {start:30, title:'Actual inputs', heading:'This is what goes into the 3D prototype.', caption:'A healthy 3D blade, seven matching image pairs, and a supplied mapping between pictures and surface points.'},
+    {start:48, title:'Actual output', heading:'This is the saved 3D prediction.', caption:'Compare the known synthetic change with the prediction. The model also changes places that should stay healthy.'},
+    {start:66, title:'Already built', heading:'We have working components — with different outputs.', caption:'The 3D predictor and the real-photo detector are separate existing components. The website replays their saved outputs.'},
+    {start:82, title:'Latest findings', heading:'Closer shapes. Reliability still needs work.', caption:'Only 3 of 18 cases for the new learned model, and 4 of 18 for a simple rule, passed every improvement check.'},
+    {start:98, title:'Planned work', heading:'Here is what we still need to prove.', caption:'Improve where 3D change is predicted, and separately test whether learning from 3D improves real-photo inspection.'},
+    {start:114, title:'Intended output', heading:'If the research works as planned…', caption:'ILLUSTRATION — NOT A MODEL RESULT. A possible future report would link the marked 3D region, estimated shape change and image evidence.'}
   ];
   const C = {navy:'#102e3e', ink:'#183f50', muted:'#537380', teal:'#0b8492', blue:'#3494c3', orange:'#e9934c', line:'#c8dce3', paper:'#f0f5f6', purple:'#705298'};
   let ready=false, playing=false, time=0, lastTick=0, previousFrame=0, explore=false, drag=null, playToken=0;
@@ -30,8 +32,16 @@
   }
   function arrow(x,y,w,phase=0){ctx.strokeStyle='#b8d7de';ctx.lineWidth=3;ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x+w,y);ctx.stroke();ctx.strokeStyle=C.teal;ctx.beginPath();ctx.moveTo(x+w-12,y-8);ctx.lineTo(x+w,y);ctx.lineTo(x+w-12,y+8);ctx.stroke();ctx.fillStyle=C.teal;ctx.beginPath();ctx.arc(x+((phase%1+1)%1)*Math.max(1,w-10),y,4,0,Math.PI*2);ctx.fill();}
   function chapterAt(t){let i=0;for(let j=1;j<chapters.length;j++)if(t>=chapters[j].start)i=j;return i;}
-  function background(i){ctx.fillStyle=C.paper;ctx.fillRect(0,0,1280,720);ctx.fillStyle=C.navy;ctx.fillRect(0,0,1280,43);text('MAIN JET',36,28,16,'#dcf6f6',700);text(explore?'EXPLORE ACTUAL SAVED OUTPUT':'SAVED RESULTS · A VISUAL WALKTHROUGH',1244,27,12,'#afd0dd',600,'right');text(`${String(i+1).padStart(2,'0')} / ${chapters[i].title.toUpperCase()}`,40,79,12,C.teal,700);text(chapters[i].heading,40,124,34,C.ink,700);}
+  function background(i){ctx.fillStyle=C.paper;ctx.fillRect(0,0,1280,720);ctx.fillStyle=C.navy;ctx.fillRect(0,0,1280,43);text('MAIN JET',36,28,16,'#dcf6f6',700);text(explore?'EXPLORE ACTUAL SAVED OUTPUT':i===7?'FUTURE OUTPUT · DESIGN ILLUSTRATION':'SAVED RESULTS · A VISUAL WALKTHROUGH',1244,27,12,'#afd0dd',600,'right');text(`${String(i+1).padStart(2,'0')} / ${chapters[i].title.toUpperCase()}`,40,79,12,C.teal,700);text(chapters[i].heading,40,124,34,C.ink,700);}
   function caption(i,t){round(32,611,1216,77,8,'#dfedef',null);wrap(explore?(manual.state==='healthy'?'Healthy control: identical image pairs produce zero movement by design. This does not prove real-world healthy recognition.':'Drag to rotate the actual saved shapes. Blue shows predicted movement, including unwanted changes outside the known dent.'):chapters[i].caption,52,640,1174,21,C.ink,500,28);text('3D: Safran / PLAID Rotor37 · CC BY-SA 4.0 · synthetic alterations | Sources: afeefaaazam03.github.io/MyPortfolio/main-jet/walkthrough/ATTRIBUTION.md',36,704,10,C.muted);ctx.fillStyle='#d2e1e6';ctx.fillRect(0,710,1280,10);ctx.fillStyle=C.teal;ctx.fillRect(0,710,1280*t/duration,10);}
+  function localizationScene(t){
+    chip('ACTUAL SAVED LOCALIZATION',40,154);chip('MESH + CAMERA INFORMATION SUPPLIED',294,154);
+    photo('../localization/example_1.png',40,193,1200,337.5);
+    text('Saved peak: [347, 267]  ·  Triangle: 60247',50,555,18,C.ink,600);
+    text('XYZ: −0.250668422, 0.275741425, −0.004085742',602,555,18,C.ink,600);
+    text('Point on nick: yes  ·  Damage-mask overlap: 20%',50,584,18,C.teal,700);
+    text('Known geometry maps the point; the detector did not infer the mesh.',602,584,15,C.muted);
+  }
   function scene0(t){
     round(40,158,532,409);chip('INPUTS · SUPPLIED',61,178);text('Matching images + healthy 3D model',61,235,23,C.ink,700);
     const v=MJ_DATA.views[5];photo(v.healthy_rgb,62,259,230,221);photo(v.observed_rgb,308,259,242,221);text('Healthy reference',177,509,17,C.muted,400,'center');text('Inspection image',429,509,17,C.muted,400,'center');
@@ -75,17 +85,21 @@
     round(40,370,1200,211,12,'#f7f3fc','#dcd0ec');chip('PLANNED · BROADER PHOTO-INSPECTION PROPOSAL',61,389,'#e8dff5',C.purple);text('Does extra 3D teaching help on real photographs?',62,451,24,C.ink,700);
     const b=['Train with images only','Train with images + 3D','Compare on new real photos'];b.forEach((s,i)=>{const x=62+i*391;round(x,477,337,53,7,'white','#ded4eb');text(s,x+168,510,18,C.purple,600,'center');if(i===0)text('vs',x+362,510,17,C.purple,600,'center');if(i===1)arrow(x+349,503,29,t*.2);});text('A proposed comparison — its benefit has not been demonstrated.',640,563,16,C.purple,400,'center');
   }
-  const renderers=[scene0,scene1,scene2,scene3,scene4,scene5];
-  function draw(t){if(!ready)return;time=clamp(t,0,duration);const i=explore?2:chapterAt(Math.min(time,duration-.001));background(i);renderers[i](time-chapters[i].start);caption(i,time);sync(i);}
+  function futureScene(t){
+    chip('ILLUSTRATION — NOT A MODEL RESULT',40,153,'#e8dff5',C.purple);
+    photo('../assets/future-output.svg',40,193,1200,403);
+  }
+  const renderers=[localizationScene,scene0,scene1,scene2,scene3,scene4,scene5,futureScene];
+  function draw(t){if(!ready)return;time=clamp(t,0,duration);const i=explore?3:chapterAt(Math.min(time,duration-.001));background(i);renderers[i](time-chapters[i].start);caption(i,time);sync(i);}
   function clock(t){return `${Math.floor(t/60)}:${String(Math.floor(t%60)).padStart(2,'0')}`;}
-  function sync(i){$('clock').textContent=`${clock(time)} / 1:36`;$('seek').value=time;$('play').textContent=playing?'Ⅱ Pause':'▶ Play walkthrough';$('scene-title').textContent=explore?'Explore the actual saved output':chapters[i].heading;$('scene-caption').textContent=explore?(manual.state==='healthy'?'The saved healthy control has zero movement by design. Use the dent case to inspect the model’s successes and mistakes.':'Rotate the three synchronized surfaces. The known reference is used for checking; the prediction was estimated from paired image evidence.'):chapters[i].caption;document.querySelectorAll('[data-chapter]').forEach((b,j)=>j===i?b.setAttribute('aria-current','step'):b.removeAttribute('aria-current'));$('explore-controls').hidden=!explore;canvas.classList.toggle('exploring',explore);$('explore').textContent=explore?'Return to walkthrough':'Explore the 3D output';}
-  function pause(){playToken++;playing=false;narration.pause();sync(explore?2:chapterAt(Math.min(time,duration-.001)));}
+  function sync(i){$('clock').textContent=`${clock(time)} / 2:12`;$('seek').value=time;$('play').textContent=playing?'Ⅱ Pause':'▶ Play walkthrough';$('scene-title').textContent=explore?'Explore the actual saved output':chapters[i].heading;$('scene-caption').textContent=explore?(manual.state==='healthy'?'The saved healthy control has zero movement by design. Use the dent case to inspect the model’s successes and mistakes.':'Rotate the three synchronized surfaces. The known reference is used for checking; the prediction was estimated from paired image evidence.'):chapters[i].caption;document.querySelectorAll('[data-chapter]').forEach((b,j)=>j===i?b.setAttribute('aria-current','step'):b.removeAttribute('aria-current'));$('explore-controls').hidden=!explore;canvas.classList.toggle('exploring',explore);$('explore').textContent=explore?'Return to walkthrough':'Explore the 3D output';}
+  function pause(){playToken++;playing=false;narration.pause();sync(explore?3:chapterAt(Math.min(time,duration-.001)));}
   function setAudioTime(t){try{narration.currentTime=clamp(t,0,duration);}catch(_){/* Metadata may still be loading. */}}
   function tick(now){if(playing){time=Math.min(duration,narration.currentTime);if(now-previousFrame>=45||time===duration){draw(time);previousFrame=now;}if(time>=duration)pause();}requestAnimationFrame(tick);}
   async function start(){if(!ready)return;if(playing){pause();return;}const token=++playToken;explore=false;if(time>=duration)time=0;setAudioTime(time);try{await narration.play();if(token!==playToken){narration.pause();return;}playing=true;draw(time);}catch(_){playing=false;$('scene-caption').textContent='Narration could not start here. Use the narrated MP4 link below, or explore the saved shapes.';}}
   function seek(t){pause();explore=false;time=clamp(Number(t),0,duration);setAudioTime(time);draw(time);}
   $('play').addEventListener('click',start);$('restart').addEventListener('click',()=>seek(0));$('seek').addEventListener('input',e=>seek(e.target.value));
-  $('explore').addEventListener('click',()=>{pause();explore=!explore;time=38;setAudioTime(time);draw(time);canvas.focus({preventScroll:true});});
+  $('explore').addEventListener('click',()=>{pause();explore=!explore;time=56;setAudioTime(time);draw(time);canvas.focus({preventScroll:true});});
   $('sound').addEventListener('click',()=>{narration.muted=!narration.muted;$('sound').textContent=narration.muted?'Narration off':'Narration on';$('sound').setAttribute('aria-pressed',String(!narration.muted));});
   narration.addEventListener('ended',()=>{pause();draw(duration);});
   $('case').addEventListener('change',()=>{manual.state=$('case').value;draw(time);});$('scope').addEventListener('change',()=>{manual.scope=$('scope').value;draw(time);});$('reset').addEventListener('click',()=>{manual.yaw=.35;manual.pitch=-.35;draw(time);});
@@ -95,6 +109,6 @@
   chapters.forEach((chapter,i)=>{const b=document.createElement('button');b.type='button';b.dataset.chapter=i;b.textContent=`${i+1} · ${chapter.title}`;b.disabled=true;b.addEventListener('click',()=>seek(chapter.start));$('chapters').append(b);});
   if(new URLSearchParams(location.search).has('export'))document.body.classList.add('export-mode');
   window.MJ_FILM={ready:false,duration,chapters,renderAt:async t=>{if(!ready)throw Error('Film assets are not ready');seek(t);return {time,chapter:chapterAt(Math.min(time,duration-.001))};},capture:()=>canvas.toDataURL('image/png'),get state(){return {time,playing,explore,audioTime:narration.currentTime,narrationMuted:narration.muted,narrationPlaying:!narration.paused,...manual};}};
-  async function init(){try{const paths=new Set(['../assets/aebis_329_input.png','../assets/aebis_329_prediction.png']);MJ_DATA.views.forEach(v=>{paths.add(v.healthy_rgb);paths.add(v.observed_rgb);});await Promise.all([...paths].map(src=>new Promise((resolve,reject)=>{const img=new Image();img.onload=()=>{images.set(src,img);resolve();};img.onerror=()=>reject(Error('Could not load saved image '+src));img.src=src;})));geometry=new MJGeometry();ready=true;window.MJ_FILM.ready=true;$('loading').hidden=true;for(const e of document.querySelectorAll('button:disabled,input:disabled'))e.disabled=false;draw(0);requestAnimationFrame(tick);}catch(error){$('loading').textContent='The saved demonstration could not load. You can still watch the downloadable MP4.';$('loading').dataset.error=error.message;console.error(error);}}
+  async function init(){try{const paths=new Set(['../assets/aebis_329_input.png','../assets/aebis_329_prediction.png','../localization/example_1.png','../assets/future-output.svg']);MJ_DATA.views.forEach(v=>{paths.add(v.healthy_rgb);paths.add(v.observed_rgb);});await Promise.all([...paths].map(src=>new Promise((resolve,reject)=>{const img=new Image();img.onload=()=>{images.set(src,img);resolve();};img.onerror=()=>reject(Error('Could not load saved image '+src));img.src=src;})));geometry=new MJGeometry();ready=true;window.MJ_FILM.ready=true;$('loading').hidden=true;for(const e of document.querySelectorAll('button:disabled,input:disabled'))e.disabled=false;draw(0);requestAnimationFrame(tick);}catch(error){$('loading').textContent='The saved demonstration could not load. You can still watch the downloadable MP4.';$('loading').dataset.error=error.message;console.error(error);}}
   init();
 })();

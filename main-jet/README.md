@@ -35,4 +35,23 @@ The short presentation covers both the current CAD-based 3D prototype and the br
 
 ## Video and interactive walkthrough
 
-[Watch the 96-second video](https://afeefaaazam03.github.io/MyPortfolio/main-jet/#watch-demo) or [explore the saved 3D output](walkthrough/index.html). The main downloadable MP4 has English narration and on-screen captions; a silent version is also retained. Play/pause, chapter selection, seeking, rotation, whole-blade/local comparison and a healthy control are available in the interactive version. See [transcript](walkthrough/TRANSCRIPT.md) and [attribution](walkthrough/ATTRIBUTION.md). This is saved-results replay, not live inference.
+[Watch the 132-second video](https://afeefaaazam03.github.io/MyPortfolio/main-jet/#watch-demo) or [explore the saved 3D output](walkthrough/index.html). The main downloadable MP4 has English narration and on-screen captions; a silent version is also retained. Play/pause, chapter selection, seeking, rotation, whole-blade/local comparison and a healthy control are available in the interactive version. See [transcript](walkthrough/TRANSCRIPT.md) and [attribution](walkthrough/ATTRIBUTION.md). This is saved-results replay, not live inference.
+
+
+## Known-mesh localization and final output concept
+
+The [earlier localization viewer](localization/index.html) replays four saved
+public synthetic examples, including a correct point with only 20% mask IoU,
+a wrong point, an unmapped background point and an intact-reference association.
+It includes the original mesh arrays, mapping records and exact coordinates.
+This is a learned 2D detector followed by a fixed mapping onto supplied geometry.
+
+The [last website section](index.html#future-output) and the final narrated
+chapter show a clearly labelled intended-output illustration. Its mock report
+states do not evaluate any image. No numerical accuracy, confidence or physical
+measurement is invented. The broader 3D-assisted photo-training comparison
+remains a separate planned experiment.
+
+The proposal presentation HTML and its PDF now include the earlier localization
+and final concept. The uploaded original research proposal PDF remains the
+source document; it has not been rewritten or relabelled as new results.

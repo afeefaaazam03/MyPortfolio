@@ -1,85 +1,126 @@
 WEBVTT
 
-NOTE AI-generated English narration. Sentence timings follow the synthesized clips; long sentence splits are approximate.
+NOTE AI-generated English narration. Exact sentence boundaries; long sentence cue splits are approximate.
 
 1
-00:00:00.250 --> 00:00:04.139
-This walkthrough shows our current three-
-dimensional blade prototype.
+00:00:00.250 --> 00:00:04.824
+Earlier, we located suspected damage on a
+known three-dimensional blade.
 
 2
-00:00:04.319 --> 00:00:10.124
+00:00:05.004 --> 00:00:07.024
+The detector chose an image point.
+
+3
+00:00:07.204 --> 00:00:11.047
+Supplied mesh and camera information placed
+it on the surface.
+
+4
+00:00:11.227 --> 00:00:15.778
+This example found the nick, but its full
+damage mask was incomplete.
+
+5
+00:00:18.250 --> 00:00:22.139
+This walkthrough shows our current
+three-dimensional blade prototype.
+
+6
+00:00:22.319 --> 00:00:28.124
 It uses matching images and a supplied
 healthy blade shape to estimate how the
 surface changed.
 
-3
-00:00:12.250 --> 00:00:16.551
+7
+00:00:30.250 --> 00:00:34.551
 The inputs are a healthy three-dimensional
 model, seven matched image
 
-4
-00:00:16.551 --> 00:00:20.853
+8
+00:00:34.551 --> 00:00:38.853
 pairs, and a supplied mapping from pictures
 to surface points.
 
-5
-00:00:21.033 --> 00:00:24.295
+9
+00:00:39.033 --> 00:00:42.295
 The camera setup and healthy reference are
 already known.
 
-6
-00:00:30.250 --> 00:00:37.094
+10
+00:00:48.250 --> 00:00:51.466
 These are saved outputs, not live inference.
+
+11
+00:00:51.646 --> 00:00:55.094
 The crop uses the known damage location for
 evaluation.
 
-7
-00:00:37.274 --> 00:00:39.213
+12
+00:00:55.274 --> 00:00:57.213
 Blue marks predicted movement.
 
-8
-00:00:39.393 --> 00:00:42.412
+13
+00:00:57.393 --> 00:01:00.412
 The model also changes areas that should stay
 healthy.
 
-9
-00:00:48.250 --> 00:00:54.020
+14
+00:01:06.250 --> 00:01:12.020
 We have built controlled examples, trained
 small shape models, and checked their
 failures.
 
-10
-00:00:54.200 --> 00:00:58.391
+15
+00:01:12.200 --> 00:01:16.391
 A separate image-only detector highlights
 suspected damage in photographs.
 
-11
-00:00:58.571 --> 00:01:00.789
+16
+00:01:16.571 --> 00:01:18.789
 These are different existing components.
 
-12
-00:01:04.250 --> 00:01:11.947
+17
+00:01:22.250 --> 00:01:29.947
 On eighteen simulated dents from two blade
 instances, the new learned model passed every
 improvement check in three cases.
 
-13
-00:01:12.127 --> 00:01:13.846
+18
+00:01:30.127 --> 00:01:31.846
 A fixed rule passed four.
 
-14
-00:01:14.026 --> 00:01:16.382
+19
+00:01:32.026 --> 00:01:34.382
 These counts are not overall accuracy.
 
-15
-00:01:20.250 --> 00:01:25.068
+20
+00:01:38.250 --> 00:01:43.068
 Next, we need more reliable shape changes and
 tests on untouched cases.
 
-16
-00:01:25.248 --> 00:01:32.075
+21
+00:01:43.248 --> 00:01:50.075
 Separately, we must test whether adding
 three-dimensional teaching improves image
 inspection on new real photographs.
+
+22
+00:01:54.250 --> 00:01:58.313
+This final screen is an illustration, not a
+model result.
+
+23
+00:01:58.493 --> 00:02:06.307
+We want an inspection report linking a damage
+region to its three-dimensional location and
+estimated shape change.
+
+24
+00:02:06.487 --> 00:02:08.751
+Missing evidence should trigger another view.
+
+25
+00:02:08.931 --> 00:02:11.601
+These capabilities still need validation.
 

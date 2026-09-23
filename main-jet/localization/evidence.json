@@ -1,0 +1,238 @@
+{
+  "source": "Safran / PLAID Rotor37, sample 0",
+  "source_revision": "bac06c0caa7254120eecc6711a5fb85c58dfbdbc",
+  "license": "CC BY-SA 4.0",
+  "examples": [
+    {
+      "number": 1,
+      "id": "rotor37_sample0000_damaged_v006",
+      "head": "B",
+      "title": "A correct 3D point, but an incomplete mask",
+      "interpretation": "The saved peak lands on the known exposed nick surface. Its mask IoU is only 20%: a correct point does not mean the entire damage area was segmented correctly.",
+      "angle_degrees": 180,
+      "model": "20260917_aux_two_d_support",
+      "policy": "original",
+      "image_alarm": true,
+      "image_score": 11.656749725341797,
+      "image_threshold": 5.276379823684692,
+      "mask_iou": 0.2,
+      "peak_xy": [
+        347,
+        267
+      ],
+      "peak_on_target": true,
+      "mapping_available": true,
+      "world_xyz": [
+        -0.25066842209933426,
+        0.2757414250343295,
+        -0.0040857418976678606
+      ],
+      "triangle_id": 60247,
+      "barycentric": [
+        0.14991724491119385,
+        0.2913627624511719,
+        0.5587199926376343
+      ],
+      "triangle_vertices": [
+        [
+          -0.24778077006340027,
+          0.27699777483940125,
+          -0.00041154026985168457
+        ],
+        [
+          -0.24991515278816223,
+          0.2778818607330322,
+          -0.004733709618449211
+        ],
+        [
+          -0.25183606147766113,
+          0.2742881178855896,
+          -0.004733709618449211
+        ]
+      ],
+      "reprojection_error_pixels": 5.3687968506847795e-09,
+      "distance_to_sampled_target": 0.0,
+      "reference": "remaining damaged mesh",
+      "coordinate_units": "normalized original Rotor37 source Y extent; no millimetre conversion",
+      "figure": "example_1.png",
+      "figure_sha256": "a69cfff581c5e1de4ed187d44a4eaac28a66ab0a267f9f26997d5d64be001b49",
+      "selection": "Curated saved examples of hit, miss, unmapped point and A-reference semantics; not a performance sample."
+    },
+    {
+      "number": 2,
+      "id": "rotor37_sample0000_damaged_v001",
+      "head": "B",
+      "title": "A valid surface point can still be wrong",
+      "interpretation": "The point can be reconstructed on the remaining blade, but it misses the labeled damage. Geometric mapping succeeds while damage localization fails.",
+      "angle_degrees": -30,
+      "model": "20260917_aux_two_d_support",
+      "policy": "original",
+      "image_alarm": true,
+      "image_score": 8.271007537841797,
+      "image_threshold": 5.276379823684692,
+      "mask_iou": 0.0,
+      "peak_xy": [
+        147,
+        245
+      ],
+      "peak_on_target": false,
+      "mapping_available": true,
+      "world_xyz": [
+        -0.24974716287385834,
+        0.2745806463716072,
+        0.023097912719308
+      ],
+      "triangle_id": 39978,
+      "barycentric": [
+        0.6121078729629517,
+        0.24724291265010834,
+        0.1406492292881012
+      ],
+      "triangle_vertices": [
+        [
+          -0.24962414801120758,
+          0.27370452880859375,
+          0.018860431388020515
+        ],
+        [
+          -0.24965651333332062,
+          0.27617692947387695,
+          0.03427894040942192
+        ],
+        [
+          -0.25044184923171997,
+          0.27558743953704834,
+          0.021884720772504807
+        ]
+      ],
+      "reprojection_error_pixels": 1.5419953300145607e-06,
+      "distance_to_sampled_target": 0.034672988282868765,
+      "reference": "remaining damaged mesh",
+      "coordinate_units": "normalized original Rotor37 source Y extent; no millimetre conversion",
+      "figure": "example_2.png",
+      "figure_sha256": "ade95ad83969617c86c89f4f26d433b70223f364ef4a588bbdd992dcf417a0b1",
+      "selection": "Curated saved examples of hit, miss, unmapped point and A-reference semantics; not a performance sample."
+    },
+    {
+      "number": 3,
+      "id": "rotor37_sample0000_damaged_v000",
+      "head": "B",
+      "title": "Background must stay unmapped",
+      "interpretation": "The saved peak falls on background. There is no corresponding surface triangle, so the output remains unmapped. The image alarm is also negative; a raw mask peak is not itself an alarm.",
+      "angle_degrees": -60,
+      "model": "20260917_aux_two_d_support",
+      "policy": "original",
+      "image_alarm": false,
+      "image_score": -2.129131317138672,
+      "image_threshold": 5.276379823684692,
+      "mask_iou": 0.0,
+      "peak_xy": [
+        368,
+        123
+      ],
+      "peak_on_target": false,
+      "mapping_available": false,
+      "world_xyz": null,
+      "triangle_id": null,
+      "barycentric": null,
+      "triangle_vertices": null,
+      "reprojection_error_pixels": null,
+      "distance_to_sampled_target": null,
+      "reference": "remaining damaged mesh",
+      "coordinate_units": "normalized original Rotor37 source Y extent; no millimetre conversion",
+      "figure": "example_3.png",
+      "figure_sha256": "68507185a1d00acd623a4dc1ab7bda7e003d860ac0cb9c1fb315013c2ca3344a",
+      "selection": "Curated saved examples of hit, miss, unmapped point and A-reference semantics; not a performance sample."
+    },
+    {
+      "number": 4,
+      "id": "rotor37_sample0000_damaged_v001",
+      "head": "A",
+      "title": "Missing material needs the intact reference",
+      "interpretation": "This A-head peak is checked against where the intact surface used to be. It is a reference association for missing material, not an invented point on the remaining nick surface.",
+      "angle_degrees": -30,
+      "model": "20260917_aux_two_d_support",
+      "policy": "original",
+      "image_alarm": true,
+      "image_score": 8.271007537841797,
+      "image_threshold": 5.276379823684692,
+      "mask_iou": 0.7058823529411765,
+      "peak_xy": [
+        146,
+        249
+      ],
+      "peak_on_target": true,
+      "mapping_available": true,
+      "world_xyz": [
+        -0.25241614753673214,
+        0.2771175381043116,
+        0.00993061527046671
+      ],
+      "triangle_id": 40114,
+      "barycentric": [
+        0.012544558383524418,
+        0.020662209019064903,
+        0.9667932391166687
+      ],
+      "triangle_vertices": [
+        [
+          -0.2527569830417633,
+          0.2740822434425354,
+          -0.013342177495360374
+        ],
+        [
+          -0.25116392970085144,
+          0.2750454246997833,
+          0.010488685220479965
+        ],
+        [
+          -0.252438485622406,
+          0.27720120549201965,
+          0.0102206626906991
+        ]
+      ],
+      "reprojection_error_pixels": 6.813327799542144e-07,
+      "distance_to_sampled_target": 0.0,
+      "reference": "intact reference",
+      "coordinate_units": "normalized original Rotor37 source Y extent; no millimetre conversion",
+      "figure": "example_4.png",
+      "figure_sha256": "91b82131c7a2b176a3630fd6fbf8403336db7878785fc827ce5a615f3e339bab",
+      "selection": "Curated saved examples of hit, miss, unmapped point and A-reference semantics; not a performance sample."
+    }
+  ],
+  "inputs_sha256": {
+    "experiments/blade_diagnostics/rotor37_transfer_v1/20260917T110215Z-a5029f4943fd/rows.json": "541ff04dd8a9495173310875a97691d83543cb1e3a5640fabfde1c6019aa64c4",
+    "experiments/blade_diagnostics/rotor37_transfer_v1/20260917T110215Z-a5029f4943fd/20260917_aux_two_d_support/evaluation_original.json": "2b19eabf6340c4629bae2e528c472a409e2610cdecbe455e0741fc56c2e8defc",
+    "experiments/blade_diagnostics/rotor37_transfer_v1/20260917T110215Z-a5029f4943fd/20260917_aux_two_d_support/prediction_freeze.json": "6d2aa13291ad82aab49c2953e9f79c34b7d0893a94a2c6ceaa79655082e8b423",
+    "experiments/blade_diagnostics/rotor37_nick_pilot_v1_1/20260917T105903Z-aa95b74f3ea4/views/rotor37_sample0000_intact_v006/correspondence.npz": "af2ad9f89ee3e0d4f571a8940a0ed56ffb8bd12efd74fdc3f7880152b81b824c",
+    "experiments/blade_diagnostics/rotor37_nick_pilot_v1_1/20260917T105903Z-aa95b74f3ea4/geometry/intact.npz": "8db5910b496dc5e2d14f841e1e5a9a58c7a1dae32f6063ad1cd657fb5ed63a05",
+    "experiments/blade_diagnostics/rotor37_nick_pilot_v1_1/20260917T105903Z-aa95b74f3ea4/views/rotor37_sample0000_damaged_v006/labels.npz": "56f8412e98704a55b597b887bb0a8232f8f2db1ae15c2dbc1637a760d6cf7b37",
+    "experiments/blade_diagnostics/rotor37_nick_pilot_v1_1/20260917T105903Z-aa95b74f3ea4/views/rotor37_sample0000_damaged_v006/correspondence.npz": "217b531f8d36edfbb4ea921fdb4492b37f77b0d71b8955171867078d03f7f800",
+    "experiments/blade_diagnostics/rotor37_nick_pilot_v1_1/20260917T105903Z-aa95b74f3ea4/geometry/damaged.npz": "2fe11c837f23edb64f148deacdcdbbe5c2bd1d0458e56e81d4d4f973dd516012",
+    "experiments/blade_diagnostics/rotor37_nick_pilot_v1_1/20260917T105903Z-aa95b74f3ea4/views/rotor37_sample0000_damaged_v006/rgb.png": "194cac86df5923b292cfc5d82607426ac26135b0be55dfcfdb3c41f037801cb3",
+    "experiments/blade_diagnostics/rotor37_transfer_v1/20260917T110215Z-a5029f4943fd/20260917_aux_two_d_support/scores/13.npz": "d53468054ec614cf8a7f5b498e2fa7c1bb2258d3f77dba00e46f97757ac2ca94",
+    "experiments/blade_diagnostics/rotor37_transfer_v1/20260917T110215Z-a5029f4943fd/20260917_aux_two_d_support/original/13_B.png": "6137b926497aafba93f91fc5affd04d30fcc0e9d5887ce6c452aca5d6fad5fb0",
+    "experiments/blade_diagnostics/rotor37_nick_pilot_v1_1/20260917T105903Z-aa95b74f3ea4/views/rotor37_sample0000_intact_v001/correspondence.npz": "e99791bd78bdd96319285e4bbaaf4d22eb82ac6e7d1f06dffde8d59a725ce9e3",
+    "experiments/blade_diagnostics/rotor37_nick_pilot_v1_1/20260917T105903Z-aa95b74f3ea4/views/rotor37_sample0000_damaged_v001/labels.npz": "f4588848bb7850f59e161d03518912c7ed6b23629b4786c8f9445e52fb9c42a8",
+    "experiments/blade_diagnostics/rotor37_nick_pilot_v1_1/20260917T105903Z-aa95b74f3ea4/views/rotor37_sample0000_damaged_v001/correspondence.npz": "47700efebebd8ec5ee3c82504076d9f7766b32823ff3a5bd63c15fd06061a62a",
+    "experiments/blade_diagnostics/rotor37_nick_pilot_v1_1/20260917T105903Z-aa95b74f3ea4/views/rotor37_sample0000_damaged_v001/rgb.png": "72c784bdeb6a1d2048406e1aed69d039be7d031715af4e91ac0dc7012d293b82",
+    "experiments/blade_diagnostics/rotor37_transfer_v1/20260917T110215Z-a5029f4943fd/20260917_aux_two_d_support/scores/08.npz": "54e66fc5d33134238499791c17a1ea2d5d08f17c992e601aab49dc86e4118e21",
+    "experiments/blade_diagnostics/rotor37_transfer_v1/20260917T110215Z-a5029f4943fd/20260917_aux_two_d_support/original/08_B.png": "3467cf288e10b2c9abb69ad94d7e637de314ba7ffe98c6a8f274bf6d7ae534ed",
+    "experiments/blade_diagnostics/rotor37_nick_pilot_v1_1/20260917T105903Z-aa95b74f3ea4/views/rotor37_sample0000_intact_v000/correspondence.npz": "e248a1944e0b4a3ce96fe0772763d64c1e81265da2c6b3497e6ccce54c6b1b85",
+    "experiments/blade_diagnostics/rotor37_nick_pilot_v1_1/20260917T105903Z-aa95b74f3ea4/views/rotor37_sample0000_damaged_v000/labels.npz": "7e4ed9aa3d50e127ea18e9e6321930b180c5aef6e22c65c4e64bdbd8b86bb8e7",
+    "experiments/blade_diagnostics/rotor37_nick_pilot_v1_1/20260917T105903Z-aa95b74f3ea4/views/rotor37_sample0000_damaged_v000/correspondence.npz": "6cd2b45e75ea65440bc91011c201194087cadf355fdd833cbfa8a205fc25e661",
+    "experiments/blade_diagnostics/rotor37_nick_pilot_v1_1/20260917T105903Z-aa95b74f3ea4/views/rotor37_sample0000_damaged_v000/rgb.png": "3e904317c2a914bdd0586c6a5a92b516e19fece885bc1ef0e5d9fb025d954c06",
+    "experiments/blade_diagnostics/rotor37_transfer_v1/20260917T110215Z-a5029f4943fd/20260917_aux_two_d_support/scores/07.npz": "a950ff2836b42006f916f8108248bde02dcd5decec42feaf65d446174160b947",
+    "experiments/blade_diagnostics/rotor37_transfer_v1/20260917T110215Z-a5029f4943fd/20260917_aux_two_d_support/original/07_B.png": "7e65b511beab6d74a586a64b51584a9d6bb8375d8330f35e8019bbceb9c1b310",
+    "experiments/blade_diagnostics/rotor37_transfer_v1/20260917T110215Z-a5029f4943fd/20260917_aux_two_d_support/original/08_A.png": "0bec32a014f9b530a4e0a76cfcfbaf17709fab697568a7dd73faa9798af6bf6b"
+  },
+  "verification": {
+    "passed": true,
+    "saved_examples_replayed": 4,
+    "mapped_points_rebuilt": 3,
+    "unmapped_points_preserved": 1,
+    "new_model_calls": 0,
+    "training_updates": 0,
+    "meaning": "Saved-array and known-geometry verification, not real reconstruction validation"
+  }
+}

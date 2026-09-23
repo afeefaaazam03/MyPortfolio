@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Main Jet — Finding a point on a known 3D blade</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="data.js"></script>
+  <script defer src="viewer.js"></script>
+</head>
+<body>
+  <a class="skip" href="#examples">Skip to saved examples</a>
+  <nav aria-label="Main navigation"><a href="../index.html#localization">← Main Jet proposal</a><a href="../walkthrough/index.html">Watch the full walkthrough →</a></nav>
+  <main>
+    <header>
+      <p class="eyebrow">Completed experiment · saved results · public synthetic data</p>
+      <h1>Where is the suspected damage<br>on the 3D blade?</h1>
+      <p class="lead">We first found a suspicious image pixel, then placed it on a <strong>supplied, known mesh</strong>—the blade’s 3D surface made of points and triangles.</p>
+      <div class="workflow" aria-label="Implemented workflow">
+        <div><span>1 · Learned</span><strong>Image detector</strong><p>Saved damage score, mask and peak pixel.</p></div>
+        <div><span>2 · Fixed geometry</span><strong>Known surface mapping</strong><p>Supplied synthetic mesh, camera and pixel-to-triangle records.</p></div>
+        <div><span>3 · Saved output</span><strong>A location in 3D</strong><p>X, Y, Z on the correct reference—or no mapped point.</p></div>
+      </div>
+      <p class="scope"><strong>The detector did not infer the mesh.</strong> These four selected examples check the mapping of saved 2D predictions. They are not a new accuracy benchmark or real-blade validation.</p>
+    </header>
+
+    <section class="card" id="examples" aria-labelledby="examples-title">
+      <div class="selector"><div><p class="eyebrow">Inspect the evidence</p><h2 id="examples-title">Successes and failures stay visible</h2></div><label>Saved example<select id="case-select"><option value="0">1 · Correct point, incomplete mask</option><option value="1">2 · Mapped point misses damage</option><option value="2">3 · Background stays unmapped</option><option value="3">4 · Missing material: intact reference</option></select></label></div>
+      <div id="case-summary" aria-live="polite" aria-atomic="true"><span id="status" class="badge">Correct point · incomplete mask</span><p class="case-meta" id="case-meta">Example 1 of 4 · Target B · 180°</p><h3 id="case-title">A correct 3D point, but an incomplete mask</h3><p id="interpretation">The saved peak lands on the known exposed nick surface. Its mask IoU is only 20%: a correct point does not mean the entire damage area was segmented correctly.</p></div>
+      <figure><a id="figure-link" href="example_1.png" target="_blank" rel="noopener" aria-label="Open selected evidence figure at full resolution"><img id="evidence-figure" src="example_1.png" alt="Four panels: saved synthetic image and peak, predicted versus reference damage mask, mesh location, and a local 3D check." width="2400" height="675"></a><figcaption>Original saved figure. Red/orange: model output. Teal: known synthetic reference. Transparent mesh context does not test occlusion. <a id="full-figure" href="example_1.png" target="_blank" rel="noopener">Open full size</a>.</figcaption></figure>
+      <div class="result-grid">
+        <div><h3>The detection result</h3><dl><div><dt>Image alarm</dt><dd id="alarm">Flagged</dd></div><div><dt>Mask overlap (IoU)</dt><dd id="iou">20.00%</dd></div><div><dt>Peak on reference target?</dt><dd id="peak-hit">Yes</dd></div><div><dt>Reference surface</dt><dd id="reference">Remaining damaged mesh</dd></div></dl></div>
+        <div><h3>The mesh information</h3><dl><div><dt>Image pixel [x, y]</dt><dd id="pixel">[347, 267]</dd></div><div><dt>3D position [X, Y, Z]</dt><dd id="xyz">−0.250668422, 0.275741425, −0.004085742</dd></div><div><dt>Triangle ID</dt><dd id="triangle">60247</dd></div><div><dt>Mapping status</dt><dd id="mapping-status">Mapped to known surface</dd></div></dl></div>
+      </div>
+      <p class="units">Coordinates use the normalized original Rotor37 source Y extent. They are not millimetres. A near-zero reprojection residual verifies this known mapping; it does not measure real-world reconstruction accuracy.</p>
+      <details><summary>Inspect the calculation</summary><p>For a mapped pixel: <code>3D point = w₀ × vertex₀ + w₁ × vertex₁ + w₂ × vertex₂</code>. The weights and triangle come from the fixed correspondence record. Target A refers to missing material on the intact reference; target B refers to the remaining damaged surface.</p><dl><div><dt>Barycentric weights</dt><dd id="weights"></dd></div><div><dt>Reprojection residual</dt><dd id="residual"></dd></div><div><dt>Distance to sampled target</dt><dd id="distance"></dd></div><div><dt>Image score / threshold</dt><dd id="score"></dd></div><div><dt>Saved case</dt><dd id="case-id"></dd></div></dl><a id="correspondence-link" href="mapping/rotor37_sample0000_damaged_v006.npz" download>Download this correspondence record (.npz)</a></details>
+      <noscript><p>The first example is visible above. JavaScript enables switching between all four; all are also available in the <a href="MAIN_JET_VISUAL_EVIDENCE.pdf">original PDF</a>.</p></noscript>
+    </section>
+
+    <section class="card" id="mesh-downloads" aria-labelledby="mesh-title"><p class="eyebrow">Exact geometry · available to inspect</p><h2 id="mesh-title">The mesh files are here</h2><p>These are the unchanged, known synthetic surfaces used in this earlier nick experiment. The newer shape-estimation demo uses a separate synthetic dent experiment.</p><div class="download-grid"><a class="download" href="meshes/intact.npz" download><strong>Intact reference mesh</strong><span>29,989 vertices · 59,974 triangles</span><small>NumPy archive · 541 KB</small></a><a class="download" href="meshes/damaged.npz" download><strong>Known damaged mesh</strong><span>30,148 vertices · 60,292 triangles</span><small>NumPy archive · 545 KB</small></a></div><p>Each archive contains <code>vertices</code>, <code>triangles</code> and <code>triangle_component</code>. The artificial collar/cap is marked separately and was excluded from inspection labels.</p><div class="links"><a href="MAIN_JET_VISUAL_EVIDENCE.pdf">Evidence PDF · 21 Sep snapshot</a><a href="evidence.json">Full saved coordinates and results</a><a href="mesh_manifest.json">Mesh and mapping hashes</a><a href="mapping/cameras.json">Known camera records</a><a href="README.md">Reproduce the calculation</a><a href="verify_mapping.py" download>Download verification script</a></div></section>
+
+    <section class="next"><div><p class="eyebrow">How this connects to the current work</p><h2>Location first. Shape change next.</h2><p>This experiment asked <strong>“Where is the suspected damage on a known blade?”</strong> The later model asks <strong>“How did the blade surface change?”</strong> and predicts vertex movements from paired images and a healthy mesh. Both have implemented examples; reliable performance remains unfinished.</p></div><a class="button" href="../walkthrough/index.html">Explore the shape-estimation demo →</a></section>
+  </main>
+  <footer>Source geometry: <a href="https://huggingface.co/datasets/PLAID-datasets/Rotor37">Safran / PLAID Rotor37</a>, sample 0. Synthetic normalization, artificial collar/cap and nick; saved predictions and reference overlays added. Meshes, renders and visual derivatives: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. <a href="ATTRIBUTION.md">Attribution and scope</a>. No endorsement by Safran/PLAID.</footer>
+</body>
+</html>
