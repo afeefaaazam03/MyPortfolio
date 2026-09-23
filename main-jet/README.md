@@ -2,7 +2,7 @@
 
 **[Open the short visual presentation](https://afeefaaazam03.github.io/MyPortfolio/main-jet/#quick-presentation)**
 
-The same webpage now starts with six nontechnical slides: goal, data, why 3D, completed work, observed mistakes and next steps. Use Next/Previous, arrow keys or full screen.
+The same webpage now starts with six nontechnical slides: two research directions, available data, current 3D inputs/outputs, completed work, latest synthetic results and planned research. Updated 23 September 2026. Use Next/Previous, arrow keys or full screen.
 
 For offline use, download this folder and open **`index.html`** in Chrome or Edge.
 `START_HERE.html` is the same entry point. GitHub’s file view shows source; it does
@@ -23,10 +23,12 @@ connection is needed after downloading. The large viewers load only when request
 
 This is the owner-authorized public presentation edition, including blade photographs.
 Live website: https://afeefaaazam03.github.io/MyPortfolio/main-jet/
-The public site was verified live on 22 September 2026.
+The initial public site was verified live on 22 September 2026. See the presentation QA record for subsequent updates.
 The original research repository remains separate and private.
 
 See `SHARING_AND_ATTRIBUTION.html` for embedded-asset permissions and Rotor37
 attribution. The real shapes remain estimates; this presentation does not establish
 verified real 3D damage recovery or the proposed geometry-to-real training advantage.
 Scientific arrays, masks, models and the existing PDFs were not changed by this redesign.
+
+The short presentation covers both the current CAD-based 3D prototype and the broader planned geometry-assisted image-training study. [Speaker notes](PRESENTATION_NOTES.md) and [evidence notes](PRESENTATION_EVIDENCE.html) explain their different inputs, outputs and limitations.

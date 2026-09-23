@@ -1,144 +1,1157 @@
 {
-  "kind": "inline_quick_presentation_check",
-  "date": "2026-09-23",
-  "slides": [
+  "kind": "six_slide_presentation_browser_check",
+  "started_at": "2026-09-23T07:32:42.591092+00:00",
+  "url": "index.html#quick-presentation (local prepublication check)",
+  "all_checks_passed": true,
+  "screenshots": [
     {
-      "number": 1,
-      "title": "Show an inspector where to look.",
-      "images_loaded": true,
-      "desktop": {
-        "width": 1440,
-        "body": 1425,
-        "slide": 1238,
-        "deck": 1238
-      }
+      "file": "desktop_slide_1.png",
+      "bytes": 119640,
+      "sha256": "b571fd53a089661b8c6b639d7a30172725c6646f88f6e0928d34bab8a1a44a72"
     },
     {
-      "number": 2,
-      "title": "Real photographs + computer-made examples + shapes.",
-      "images_loaded": true,
-      "desktop": {
-        "width": 1440,
-        "body": 1425,
-        "slide": 1238,
-        "deck": 1238
-      }
+      "file": "desktop_slide_2.png",
+      "bytes": 160387,
+      "sha256": "59b0fca435b76908f5c4364c75795ba9dcedf367162e6e3abb30d38551487ae3"
     },
     {
-      "number": 3,
-      "title": "Use the shape to help teach the computer.",
-      "images_loaded": true,
-      "desktop": {
-        "width": 1440,
-        "body": 1425,
-        "slide": 1238,
-        "deck": 1238
-      }
+      "file": "desktop_slide_3.png",
+      "bytes": 175564,
+      "sha256": "9355023c8ae34fe4c4e20d065aa7da999a63edd04d53da75be9060076a03a7ab"
     },
     {
-      "number": 4,
-      "title": "We can inspect saved image and shape predictions.",
-      "images_loaded": true,
-      "desktop": {
-        "width": 1440,
-        "body": 1425,
-        "slide": 1238,
-        "deck": 1238
-      }
+      "file": "desktop_slide_4.png",
+      "bytes": 109501,
+      "sha256": "2b206a44423c0a6d11747e9cdc6d2b10e2f57ae27143bfdedfdbde4decb4ead2"
     },
     {
-      "number": 5,
-      "title": "It finds some regions. It also misses others.",
-      "images_loaded": true,
-      "desktop": {
-        "width": 1440,
-        "body": 1425,
-        "slide": 1238,
-        "deck": 1238
-      }
+      "file": "desktop_slide_5.png",
+      "bytes": 87625,
+      "sha256": "82553d88e4f78183f031c01d9e9b556e665a77871a2f32874706edba045fdc32"
     },
     {
-      "number": 6,
-      "title": "Test whether the extra 3D teaching really helps.",
-      "images_loaded": true,
-      "desktop": {
-        "width": 1440,
-        "body": 1425,
-        "slide": 1238,
-        "deck": 1238
-      }
+      "file": "desktop_slide_6.png",
+      "bytes": 98639,
+      "sha256": "06e4e899072bdd1e6bb7c175e9d4deb730c00ab0f4927d2bf4072cd01b3b4ab0"
+    },
+    {
+      "file": "fullscreen_slide_3.png",
+      "bytes": 182543,
+      "sha256": "1725769780c1739446785fc2429ab3b0c479259a5604b7589d38e0750439724c"
+    },
+    {
+      "file": "laptop_fullscreen_slide_3.png",
+      "bytes": 166543,
+      "sha256": "4ea9570a5fcce1a85a04b16e9b5a0b9445ea83ebf582faf775ccb6b82b59417a"
+    },
+    {
+      "file": "mobile_390_slide_1.png",
+      "bytes": 96569,
+      "sha256": "45f10a37cfb8d6febaa8cef01fce940565f27687aa8942f8f39f0fa15401940e"
     }
   ],
-  "buttons_and_keyboard": true,
-  "fullscreen": true,
+  "desktop": [
+    {
+      "slide": 1,
+      "total": 6,
+      "title": "Where is the damage \u2014 and how has the shape changed?",
+      "images": [
+        {
+          "src": "assets/quick-3d-output.png",
+          "naturalWidth": 1318,
+          "naturalHeight": 340
+        }
+      ],
+      "dimensions": {
+        "viewportWidth": 1440,
+        "viewportHeight": 1050,
+        "bodyWidth": 1425,
+        "documentWidth": 1425,
+        "slideWidth": 1238,
+        "deckWidth": 1238,
+        "deckHeight": 784,
+        "deckScrollHeight": 784,
+        "stageHeight": 605,
+        "stageScrollHeight": 605
+      },
+      "no_horizontal_overflow": true
+    },
+    {
+      "slide": 2,
+      "total": 6,
+      "title": "Pictures, known shapes, and examples we can control.",
+      "images": [
+        {
+          "src": "assets/quick-dent-input.png",
+          "naturalWidth": 512,
+          "naturalHeight": 512
+        },
+        {
+          "src": "assets/synthetic_scratch_input.png",
+          "naturalWidth": 1024,
+          "naturalHeight": 1024
+        },
+        {
+          "src": "assets/aebis_329_input.png",
+          "naturalWidth": 384,
+          "naturalHeight": 288
+        }
+      ],
+      "dimensions": {
+        "viewportWidth": 1440,
+        "viewportHeight": 1050,
+        "bodyWidth": 1425,
+        "documentWidth": 1425,
+        "slideWidth": 1238,
+        "deckWidth": 1238,
+        "deckHeight": 784,
+        "deckScrollHeight": 784,
+        "stageHeight": 605,
+        "stageScrollHeight": 605
+      },
+      "no_horizontal_overflow": true
+    },
+    {
+      "slide": 3,
+      "total": 6,
+      "title": "A healthy blade is our starting point.",
+      "images": [
+        {
+          "src": "assets/quick-healthy-input.png",
+          "naturalWidth": 512,
+          "naturalHeight": 512
+        },
+        {
+          "src": "assets/quick-dent-input.png",
+          "naturalWidth": 512,
+          "naturalHeight": 512
+        },
+        {
+          "src": "assets/quick-3d-output.png",
+          "naturalWidth": 1318,
+          "naturalHeight": 340
+        }
+      ],
+      "dimensions": {
+        "viewportWidth": 1440,
+        "viewportHeight": 1050,
+        "bodyWidth": 1425,
+        "documentWidth": 1425,
+        "slideWidth": 1238,
+        "deckWidth": 1238,
+        "deckHeight": 877,
+        "deckScrollHeight": 877,
+        "stageHeight": 698,
+        "stageScrollHeight": 698
+      },
+      "no_horizontal_overflow": true
+    },
+    {
+      "slide": 4,
+      "total": 6,
+      "title": "We have working pieces and real experimental outputs.",
+      "images": [
+        {
+          "src": "assets/aebis_329_prediction.png",
+          "naturalWidth": 384,
+          "naturalHeight": 288
+        }
+      ],
+      "dimensions": {
+        "viewportWidth": 1440,
+        "viewportHeight": 1050,
+        "bodyWidth": 1425,
+        "documentWidth": 1425,
+        "slideWidth": 1238,
+        "deckWidth": 1238,
+        "deckHeight": 784,
+        "deckScrollHeight": 784,
+        "stageHeight": 605,
+        "stageScrollHeight": 605
+      },
+      "no_horizontal_overflow": true
+    },
+    {
+      "slide": 5,
+      "total": 6,
+      "title": "Closer shapes do not yet mean reliable damage recovery.",
+      "images": [],
+      "dimensions": {
+        "viewportWidth": 1440,
+        "viewportHeight": 1050,
+        "bodyWidth": 1425,
+        "documentWidth": 1425,
+        "slideWidth": 1238,
+        "deckWidth": 1238,
+        "deckHeight": 784,
+        "deckScrollHeight": 784,
+        "stageHeight": 605,
+        "stageScrollHeight": 605
+      },
+      "no_horizontal_overflow": true
+    },
+    {
+      "slide": 6,
+      "total": 6,
+      "title": "Improve the 3D estimate. Test the wider idea fairly.",
+      "images": [],
+      "dimensions": {
+        "viewportWidth": 1440,
+        "viewportHeight": 1050,
+        "bodyWidth": 1425,
+        "documentWidth": 1425,
+        "slideWidth": 1238,
+        "deckWidth": 1238,
+        "deckHeight": 812,
+        "deckScrollHeight": 812,
+        "stageHeight": 634,
+        "stageScrollHeight": 634
+      },
+      "no_horizontal_overflow": true
+    }
+  ],
   "mobile": [
     {
       "width": 390,
       "slide": 1,
+      "total": 6,
+      "title": "Where is the damage \u2014 and how has the shape changed?",
+      "images": [
+        {
+          "src": "assets/quick-3d-output.png",
+          "naturalWidth": 1318,
+          "naturalHeight": 340
+        }
+      ],
+      "dimensions": {
+        "viewportWidth": 390,
+        "viewportHeight": 844,
+        "bodyWidth": 375,
+        "documentWidth": 375,
+        "slideWidth": 337,
+        "deckWidth": 337,
+        "deckHeight": 1467,
+        "deckScrollHeight": 1467,
+        "stageHeight": 1252,
+        "stageScrollHeight": 1252
+      },
       "no_horizontal_overflow": true
     },
     {
       "width": 390,
       "slide": 2,
+      "total": 6,
+      "title": "Pictures, known shapes, and examples we can control.",
+      "images": [
+        {
+          "src": "assets/quick-dent-input.png",
+          "naturalWidth": 512,
+          "naturalHeight": 512
+        },
+        {
+          "src": "assets/synthetic_scratch_input.png",
+          "naturalWidth": 1024,
+          "naturalHeight": 1024
+        },
+        {
+          "src": "assets/aebis_329_input.png",
+          "naturalWidth": 384,
+          "naturalHeight": 288
+        }
+      ],
+      "dimensions": {
+        "viewportWidth": 390,
+        "viewportHeight": 844,
+        "bodyWidth": 375,
+        "documentWidth": 375,
+        "slideWidth": 337,
+        "deckWidth": 337,
+        "deckHeight": 1240,
+        "deckScrollHeight": 1240,
+        "stageHeight": 1025,
+        "stageScrollHeight": 1025
+      },
       "no_horizontal_overflow": true
     },
     {
       "width": 390,
       "slide": 3,
+      "total": 6,
+      "title": "A healthy blade is our starting point.",
+      "images": [
+        {
+          "src": "assets/quick-healthy-input.png",
+          "naturalWidth": 512,
+          "naturalHeight": 512
+        },
+        {
+          "src": "assets/quick-dent-input.png",
+          "naturalWidth": 512,
+          "naturalHeight": 512
+        },
+        {
+          "src": "assets/quick-3d-output.png",
+          "naturalWidth": 1318,
+          "naturalHeight": 340
+        }
+      ],
+      "dimensions": {
+        "viewportWidth": 390,
+        "viewportHeight": 844,
+        "bodyWidth": 375,
+        "documentWidth": 375,
+        "slideWidth": 337,
+        "deckWidth": 337,
+        "deckHeight": 1205,
+        "deckScrollHeight": 1205,
+        "stageHeight": 990,
+        "stageScrollHeight": 990
+      },
       "no_horizontal_overflow": true
     },
     {
       "width": 390,
       "slide": 4,
+      "total": 6,
+      "title": "We have working pieces and real experimental outputs.",
+      "images": [
+        {
+          "src": "assets/aebis_329_prediction.png",
+          "naturalWidth": 384,
+          "naturalHeight": 288
+        }
+      ],
+      "dimensions": {
+        "viewportWidth": 390,
+        "viewportHeight": 844,
+        "bodyWidth": 375,
+        "documentWidth": 375,
+        "slideWidth": 337,
+        "deckWidth": 337,
+        "deckHeight": 1459,
+        "deckScrollHeight": 1459,
+        "stageHeight": 1244,
+        "stageScrollHeight": 1244
+      },
       "no_horizontal_overflow": true
     },
     {
       "width": 390,
       "slide": 5,
+      "total": 6,
+      "title": "Closer shapes do not yet mean reliable damage recovery.",
+      "images": [],
+      "dimensions": {
+        "viewportWidth": 390,
+        "viewportHeight": 844,
+        "bodyWidth": 375,
+        "documentWidth": 375,
+        "slideWidth": 337,
+        "deckWidth": 337,
+        "deckHeight": 1240,
+        "deckScrollHeight": 1240,
+        "stageHeight": 1026,
+        "stageScrollHeight": 1026
+      },
       "no_horizontal_overflow": true
     },
     {
       "width": 390,
       "slide": 6,
+      "total": 6,
+      "title": "Improve the 3D estimate. Test the wider idea fairly.",
+      "images": [],
+      "dimensions": {
+        "viewportWidth": 390,
+        "viewportHeight": 844,
+        "bodyWidth": 375,
+        "documentWidth": 375,
+        "slideWidth": 337,
+        "deckWidth": 337,
+        "deckHeight": 1353,
+        "deckScrollHeight": 1353,
+        "stageHeight": 1138,
+        "stageScrollHeight": 1138
+      },
       "no_horizontal_overflow": true
     },
     {
       "width": 768,
       "slide": 1,
+      "total": 6,
+      "title": "Where is the damage \u2014 and how has the shape changed?",
+      "images": [
+        {
+          "src": "assets/quick-3d-output.png",
+          "naturalWidth": 1318,
+          "naturalHeight": 340
+        }
+      ],
+      "dimensions": {
+        "viewportWidth": 768,
+        "viewportHeight": 844,
+        "bodyWidth": 753,
+        "documentWidth": 753,
+        "slideWidth": 687,
+        "deckWidth": 687,
+        "deckHeight": 949,
+        "deckScrollHeight": 949,
+        "stageHeight": 784,
+        "stageScrollHeight": 784
+      },
       "no_horizontal_overflow": true
     },
     {
       "width": 768,
       "slide": 2,
+      "total": 6,
+      "title": "Pictures, known shapes, and examples we can control.",
+      "images": [
+        {
+          "src": "assets/quick-dent-input.png",
+          "naturalWidth": 512,
+          "naturalHeight": 512
+        },
+        {
+          "src": "assets/synthetic_scratch_input.png",
+          "naturalWidth": 1024,
+          "naturalHeight": 1024
+        },
+        {
+          "src": "assets/aebis_329_input.png",
+          "naturalWidth": 384,
+          "naturalHeight": 288
+        }
+      ],
+      "dimensions": {
+        "viewportWidth": 768,
+        "viewportHeight": 844,
+        "bodyWidth": 753,
+        "documentWidth": 753,
+        "slideWidth": 687,
+        "deckWidth": 687,
+        "deckHeight": 799,
+        "deckScrollHeight": 799,
+        "stageHeight": 635,
+        "stageScrollHeight": 635
+      },
       "no_horizontal_overflow": true
     },
     {
       "width": 768,
       "slide": 3,
+      "total": 6,
+      "title": "A healthy blade is our starting point.",
+      "images": [
+        {
+          "src": "assets/quick-healthy-input.png",
+          "naturalWidth": 512,
+          "naturalHeight": 512
+        },
+        {
+          "src": "assets/quick-dent-input.png",
+          "naturalWidth": 512,
+          "naturalHeight": 512
+        },
+        {
+          "src": "assets/quick-3d-output.png",
+          "naturalWidth": 1318,
+          "naturalHeight": 340
+        }
+      ],
+      "dimensions": {
+        "viewportWidth": 768,
+        "viewportHeight": 844,
+        "bodyWidth": 753,
+        "documentWidth": 753,
+        "slideWidth": 687,
+        "deckWidth": 687,
+        "deckHeight": 860,
+        "deckScrollHeight": 860,
+        "stageHeight": 695,
+        "stageScrollHeight": 695
+      },
       "no_horizontal_overflow": true
     },
     {
       "width": 768,
       "slide": 4,
+      "total": 6,
+      "title": "We have working pieces and real experimental outputs.",
+      "images": [
+        {
+          "src": "assets/aebis_329_prediction.png",
+          "naturalWidth": 384,
+          "naturalHeight": 288
+        }
+      ],
+      "dimensions": {
+        "viewportWidth": 768,
+        "viewportHeight": 844,
+        "bodyWidth": 753,
+        "documentWidth": 753,
+        "slideWidth": 687,
+        "deckWidth": 687,
+        "deckHeight": 881,
+        "deckScrollHeight": 881,
+        "stageHeight": 717,
+        "stageScrollHeight": 717
+      },
       "no_horizontal_overflow": true
     },
     {
       "width": 768,
       "slide": 5,
+      "total": 6,
+      "title": "Closer shapes do not yet mean reliable damage recovery.",
+      "images": [],
+      "dimensions": {
+        "viewportWidth": 768,
+        "viewportHeight": 844,
+        "bodyWidth": 753,
+        "documentWidth": 753,
+        "slideWidth": 687,
+        "deckWidth": 687,
+        "deckHeight": 786,
+        "deckScrollHeight": 786,
+        "stageHeight": 622,
+        "stageScrollHeight": 622
+      },
       "no_horizontal_overflow": true
     },
     {
       "width": 768,
       "slide": 6,
+      "total": 6,
+      "title": "Improve the 3D estimate. Test the wider idea fairly.",
+      "images": [],
+      "dimensions": {
+        "viewportWidth": 768,
+        "viewportHeight": 844,
+        "bodyWidth": 753,
+        "documentWidth": 753,
+        "slideWidth": 687,
+        "deckWidth": 687,
+        "deckHeight": 876,
+        "deckScrollHeight": 876,
+        "stageHeight": 711,
+        "stageScrollHeight": 711
+      },
       "no_horizontal_overflow": true
     }
   ],
-  "existing_controls_preserved": true,
-  "exceptions": [],
-  "source_images_unchanged": true,
+  "fullscreen": [
+    {
+      "slide": 1,
+      "total": 6,
+      "title": "Where is the damage \u2014 and how has the shape changed?",
+      "images": [
+        {
+          "src": "assets/quick-3d-output.png",
+          "naturalWidth": 1318,
+          "naturalHeight": 340
+        }
+      ],
+      "dimensions": {
+        "viewportWidth": 1440,
+        "viewportHeight": 1050,
+        "bodyWidth": 1440,
+        "documentWidth": 1440,
+        "slideWidth": 1350,
+        "deckWidth": 1440,
+        "deckHeight": 1050,
+        "deckScrollHeight": 1050,
+        "stageHeight": 871,
+        "stageScrollHeight": 871
+      },
+      "no_horizontal_overflow": true
+    },
+    {
+      "slide": 2,
+      "total": 6,
+      "title": "Pictures, known shapes, and examples we can control.",
+      "images": [
+        {
+          "src": "assets/quick-dent-input.png",
+          "naturalWidth": 512,
+          "naturalHeight": 512
+        },
+        {
+          "src": "assets/synthetic_scratch_input.png",
+          "naturalWidth": 1024,
+          "naturalHeight": 1024
+        },
+        {
+          "src": "assets/aebis_329_input.png",
+          "naturalWidth": 384,
+          "naturalHeight": 288
+        }
+      ],
+      "dimensions": {
+        "viewportWidth": 1440,
+        "viewportHeight": 1050,
+        "bodyWidth": 1440,
+        "documentWidth": 1440,
+        "slideWidth": 1350,
+        "deckWidth": 1440,
+        "deckHeight": 1050,
+        "deckScrollHeight": 1050,
+        "stageHeight": 871,
+        "stageScrollHeight": 871
+      },
+      "no_horizontal_overflow": true
+    },
+    {
+      "slide": 3,
+      "total": 6,
+      "title": "A healthy blade is our starting point.",
+      "images": [
+        {
+          "src": "assets/quick-healthy-input.png",
+          "naturalWidth": 512,
+          "naturalHeight": 512
+        },
+        {
+          "src": "assets/quick-dent-input.png",
+          "naturalWidth": 512,
+          "naturalHeight": 512
+        },
+        {
+          "src": "assets/quick-3d-output.png",
+          "naturalWidth": 1318,
+          "naturalHeight": 340
+        }
+      ],
+      "dimensions": {
+        "viewportWidth": 1440,
+        "viewportHeight": 1050,
+        "bodyWidth": 1440,
+        "documentWidth": 1440,
+        "slideWidth": 1350,
+        "deckWidth": 1440,
+        "deckHeight": 1050,
+        "deckScrollHeight": 1050,
+        "stageHeight": 871,
+        "stageScrollHeight": 871
+      },
+      "no_horizontal_overflow": true
+    },
+    {
+      "slide": 4,
+      "total": 6,
+      "title": "We have working pieces and real experimental outputs.",
+      "images": [
+        {
+          "src": "assets/aebis_329_prediction.png",
+          "naturalWidth": 384,
+          "naturalHeight": 288
+        }
+      ],
+      "dimensions": {
+        "viewportWidth": 1440,
+        "viewportHeight": 1050,
+        "bodyWidth": 1440,
+        "documentWidth": 1440,
+        "slideWidth": 1350,
+        "deckWidth": 1440,
+        "deckHeight": 1050,
+        "deckScrollHeight": 1050,
+        "stageHeight": 871,
+        "stageScrollHeight": 871
+      },
+      "no_horizontal_overflow": true
+    },
+    {
+      "slide": 5,
+      "total": 6,
+      "title": "Closer shapes do not yet mean reliable damage recovery.",
+      "images": [],
+      "dimensions": {
+        "viewportWidth": 1440,
+        "viewportHeight": 1050,
+        "bodyWidth": 1440,
+        "documentWidth": 1440,
+        "slideWidth": 1350,
+        "deckWidth": 1440,
+        "deckHeight": 1050,
+        "deckScrollHeight": 1050,
+        "stageHeight": 871,
+        "stageScrollHeight": 871
+      },
+      "no_horizontal_overflow": true
+    },
+    {
+      "slide": 6,
+      "total": 6,
+      "title": "Improve the 3D estimate. Test the wider idea fairly.",
+      "images": [],
+      "dimensions": {
+        "viewportWidth": 1440,
+        "viewportHeight": 1050,
+        "bodyWidth": 1440,
+        "documentWidth": 1440,
+        "slideWidth": 1350,
+        "deckWidth": 1440,
+        "deckHeight": 1050,
+        "deckScrollHeight": 1050,
+        "stageHeight": 871,
+        "stageScrollHeight": 871
+      },
+      "no_horizontal_overflow": true
+    }
+  ],
+  "laptop_fullscreen": [
+    {
+      "slide": 1,
+      "total": 6,
+      "title": "Where is the damage \u2014 and how has the shape changed?",
+      "images": [
+        {
+          "src": "assets/quick-3d-output.png",
+          "naturalWidth": 1318,
+          "naturalHeight": 340
+        }
+      ],
+      "dimensions": {
+        "viewportWidth": 1366,
+        "viewportHeight": 768,
+        "bodyWidth": 1366,
+        "documentWidth": 1366,
+        "slideWidth": 1350,
+        "deckWidth": 1366,
+        "deckHeight": 768,
+        "deckScrollHeight": 768,
+        "stageHeight": 589,
+        "stageScrollHeight": 625
+      },
+      "no_horizontal_overflow": true,
+      "top_reachable": {
+        "scrollTop": 0,
+        "stageTop": 70.796875,
+        "stageBottom": 660,
+        "headingTop": 137.390625,
+        "headingBottom": 177.640625
+      },
+      "bottom_reachable": {
+        "scrollTop": 36,
+        "maximumScrollTop": 36,
+        "stageTop": 70.796875,
+        "stageBottom": 660,
+        "lastNoteTop": 613.421875,
+        "lastNoteBottom": 629.921875,
+        "lastNoteText": "Left: actual saved output from the earlier 3D model. Right: a workflow diagram of planned research. These are separate experiments.",
+        "controls": [
+          {
+            "id": "quick-prev",
+            "top": 676,
+            "bottom": 716,
+            "left": 22,
+            "right": 126.03125,
+            "width": 104.03125,
+            "height": 40
+          },
+          {
+            "id": "quick-next",
+            "top": 676,
+            "bottom": 716,
+            "left": 356.03125,
+            "right": 446.03125,
+            "width": 90,
+            "height": 40
+          },
+          {
+            "id": "quick-fullscreen",
+            "top": 676,
+            "bottom": 716,
+            "left": 1220.625,
+            "right": 1344,
+            "width": 123.375,
+            "height": 40
+          }
+        ]
+      },
+      "controls_visible": true
+    },
+    {
+      "slide": 2,
+      "total": 6,
+      "title": "Pictures, known shapes, and examples we can control.",
+      "images": [
+        {
+          "src": "assets/quick-dent-input.png",
+          "naturalWidth": 512,
+          "naturalHeight": 512
+        },
+        {
+          "src": "assets/synthetic_scratch_input.png",
+          "naturalWidth": 1024,
+          "naturalHeight": 1024
+        },
+        {
+          "src": "assets/aebis_329_input.png",
+          "naturalWidth": 384,
+          "naturalHeight": 288
+        }
+      ],
+      "dimensions": {
+        "viewportWidth": 1366,
+        "viewportHeight": 768,
+        "bodyWidth": 1366,
+        "documentWidth": 1366,
+        "slideWidth": 1350,
+        "deckWidth": 1366,
+        "deckHeight": 768,
+        "deckScrollHeight": 768,
+        "stageHeight": 589,
+        "stageScrollHeight": 589
+      },
+      "no_horizontal_overflow": true,
+      "top_reachable": {
+        "scrollTop": 0,
+        "stageTop": 70.796875,
+        "stageBottom": 660,
+        "headingTop": 167.390625,
+        "headingBottom": 207.640625
+      },
+      "bottom_reachable": {
+        "scrollTop": 0,
+        "maximumScrollTop": 0,
+        "stageTop": 70.796875,
+        "stageBottom": 660,
+        "lastNoteTop": 583.515625,
+        "lastNoteBottom": 600.015625,
+        "lastNoteText": "Image counts are not counts of independent physical blades. The 3D study also uses 1 separate calibration instance with 2 states. No additional owner photographs are published in this update. Data scope & sources \u2197",
+        "controls": [
+          {
+            "id": "quick-prev",
+            "top": 676,
+            "bottom": 716,
+            "left": 22,
+            "right": 126.03125,
+            "width": 104.03125,
+            "height": 40
+          },
+          {
+            "id": "quick-next",
+            "top": 676,
+            "bottom": 716,
+            "left": 356.03125,
+            "right": 446.03125,
+            "width": 90,
+            "height": 40
+          },
+          {
+            "id": "quick-fullscreen",
+            "top": 676,
+            "bottom": 716,
+            "left": 1220.625,
+            "right": 1344,
+            "width": 123.375,
+            "height": 40
+          }
+        ]
+      },
+      "controls_visible": true
+    },
+    {
+      "slide": 3,
+      "total": 6,
+      "title": "A healthy blade is our starting point.",
+      "images": [
+        {
+          "src": "assets/quick-healthy-input.png",
+          "naturalWidth": 512,
+          "naturalHeight": 512
+        },
+        {
+          "src": "assets/quick-dent-input.png",
+          "naturalWidth": 512,
+          "naturalHeight": 512
+        },
+        {
+          "src": "assets/quick-3d-output.png",
+          "naturalWidth": 1318,
+          "naturalHeight": 340
+        }
+      ],
+      "dimensions": {
+        "viewportWidth": 1366,
+        "viewportHeight": 768,
+        "bodyWidth": 1366,
+        "documentWidth": 1366,
+        "slideWidth": 1350,
+        "deckWidth": 1366,
+        "deckHeight": 768,
+        "deckScrollHeight": 768,
+        "stageHeight": 589,
+        "stageScrollHeight": 718
+      },
+      "no_horizontal_overflow": true,
+      "top_reachable": {
+        "scrollTop": 0,
+        "stageTop": 70.796875,
+        "stageBottom": 660,
+        "headingTop": 137.390625,
+        "headingBottom": 177.640625
+      },
+      "bottom_reachable": {
+        "scrollTop": 129,
+        "maximumScrollTop": 129,
+        "stageTop": 70.796875,
+        "stageBottom": 660,
+        "lastNoteTop": 596.75,
+        "lastNoteBottom": 629.75,
+        "lastNoteText": "Actual source-7 example, earlier XYZ model, local surface crop. Orange = known change; blue = predicted movement, not confidence. Known damaged shapes teach the training examples; this example\u2019s damaged shape is used only to check the prediction. This is not unknown-blade reconstruction from an arbitrary photo.",
+        "controls": [
+          {
+            "id": "quick-prev",
+            "top": 676,
+            "bottom": 716,
+            "left": 22,
+            "right": 126.03125,
+            "width": 104.03125,
+            "height": 40
+          },
+          {
+            "id": "quick-next",
+            "top": 676,
+            "bottom": 716,
+            "left": 356.03125,
+            "right": 446.03125,
+            "width": 90,
+            "height": 40
+          },
+          {
+            "id": "quick-fullscreen",
+            "top": 676,
+            "bottom": 716,
+            "left": 1220.625,
+            "right": 1344,
+            "width": 123.375,
+            "height": 40
+          }
+        ]
+      },
+      "controls_visible": true
+    },
+    {
+      "slide": 4,
+      "total": 6,
+      "title": "We have working pieces and real experimental outputs.",
+      "images": [
+        {
+          "src": "assets/aebis_329_prediction.png",
+          "naturalWidth": 384,
+          "naturalHeight": 288
+        }
+      ],
+      "dimensions": {
+        "viewportWidth": 1366,
+        "viewportHeight": 768,
+        "bodyWidth": 1366,
+        "documentWidth": 1366,
+        "slideWidth": 1350,
+        "deckWidth": 1366,
+        "deckHeight": 768,
+        "deckScrollHeight": 768,
+        "stageHeight": 589,
+        "stageScrollHeight": 617
+      },
+      "no_horizontal_overflow": true,
+      "top_reachable": {
+        "scrollTop": 0,
+        "stageTop": 70.796875,
+        "stageBottom": 660,
+        "headingTop": 137.390625,
+        "headingBottom": 177.640625
+      },
+      "bottom_reachable": {
+        "scrollTop": 28,
+        "maximumScrollTop": 28,
+        "stageTop": 70.796875,
+        "stageBottom": 660,
+        "lastNoteTop": 613.6875,
+        "lastNoteBottom": 630.1875,
+        "lastNoteText": "The browser replays saved results; it does not run new inference. Synthetic dents are generated data, not learned detections. Fixed rules are reported separately from learned models.",
+        "controls": [
+          {
+            "id": "quick-prev",
+            "top": 676,
+            "bottom": 716,
+            "left": 22,
+            "right": 126.03125,
+            "width": 104.03125,
+            "height": 40
+          },
+          {
+            "id": "quick-next",
+            "top": 676,
+            "bottom": 716,
+            "left": 356.03125,
+            "right": 446.03125,
+            "width": 90,
+            "height": 40
+          },
+          {
+            "id": "quick-fullscreen",
+            "top": 676,
+            "bottom": 716,
+            "left": 1220.625,
+            "right": 1344,
+            "width": 123.375,
+            "height": 40
+          }
+        ]
+      },
+      "controls_visible": true
+    },
+    {
+      "slide": 5,
+      "total": 6,
+      "title": "Closer shapes do not yet mean reliable damage recovery.",
+      "images": [],
+      "dimensions": {
+        "viewportWidth": 1366,
+        "viewportHeight": 768,
+        "bodyWidth": 1366,
+        "documentWidth": 1366,
+        "slideWidth": 1350,
+        "deckWidth": 1366,
+        "deckHeight": 768,
+        "deckScrollHeight": 768,
+        "stageHeight": 589,
+        "stageScrollHeight": 589
+      },
+      "no_horizontal_overflow": true,
+      "top_reachable": {
+        "scrollTop": 0,
+        "stageTop": 70.796875,
+        "stageBottom": 660,
+        "headingTop": 145.21875,
+        "headingBottom": 185.46875
+      },
+      "bottom_reachable": {
+        "scrollTop": 0,
+        "maximumScrollTop": 0,
+        "stageTop": 70.796875,
+        "stageBottom": 660,
+        "lastNoteTop": 589.171875,
+        "lastNoteBottom": 622.171875,
+        "lastNoteText": "Both compared with the earlier XYZ model under normal matched inputs. A full pass requires fewer false changes, with no worse shape errors, missed damage or flagged face problems. These are case counts, not overall accuracy; the 18 dents share 2 CAD instances. Exact results & definitions \u2197",
+        "controls": [
+          {
+            "id": "quick-prev",
+            "top": 676,
+            "bottom": 716,
+            "left": 22,
+            "right": 126.03125,
+            "width": 104.03125,
+            "height": 40
+          },
+          {
+            "id": "quick-next",
+            "top": 676,
+            "bottom": 716,
+            "left": 356.03125,
+            "right": 446.03125,
+            "width": 90,
+            "height": 40
+          },
+          {
+            "id": "quick-fullscreen",
+            "top": 676,
+            "bottom": 716,
+            "left": 1220.625,
+            "right": 1344,
+            "width": 123.375,
+            "height": 40
+          }
+        ]
+      },
+      "controls_visible": true
+    },
+    {
+      "slide": 6,
+      "total": 6,
+      "title": "Improve the 3D estimate. Test the wider idea fairly.",
+      "images": [],
+      "dimensions": {
+        "viewportWidth": 1366,
+        "viewportHeight": 768,
+        "bodyWidth": 1366,
+        "documentWidth": 1366,
+        "slideWidth": 1350,
+        "deckWidth": 1366,
+        "deckHeight": 768,
+        "deckScrollHeight": 768,
+        "stageHeight": 589,
+        "stageScrollHeight": 653
+      },
+      "no_horizontal_overflow": true,
+      "top_reachable": {
+        "scrollTop": 0,
+        "stageTop": 70.796875,
+        "stageBottom": 660,
+        "headingTop": 137.390625,
+        "headingBottom": 177.640625
+      },
+      "bottom_reachable": {
+        "scrollTop": 64,
+        "maximumScrollTop": 64,
+        "stageTop": 70.796875,
+        "stageBottom": 660,
+        "lastNoteTop": 613.59375,
+        "lastNoteBottom": 630.09375,
+        "lastNoteText": "The two tracks need separate evidence. Current synthetic shape results do not prove improved real-photo inspection or physically accurate real damage depth.",
+        "controls": [
+          {
+            "id": "quick-prev",
+            "top": 676,
+            "bottom": 716,
+            "left": 22,
+            "right": 126.03125,
+            "width": 104.03125,
+            "height": 40
+          },
+          {
+            "id": "quick-next",
+            "top": 676,
+            "bottom": 716,
+            "left": 356.03125,
+            "right": 446.03125,
+            "width": 90,
+            "height": 40
+          },
+          {
+            "id": "quick-fullscreen",
+            "top": 676,
+            "bottom": 716,
+            "left": 1220.625,
+            "right": 1344,
+            "width": 123.375,
+            "height": 40
+          }
+        ]
+      },
+      "controls_visible": true
+    }
+  ],
+  "navigation": {
+    "all_next_previous_transitions": true,
+    "home_end_arrow_left_arrow_right": true,
+    "fullscreen_enter_exit": true
+  },
+  "actual_url": "index.html#quick-presentation",
+  "all_slide_images_loaded": true,
+  "existing_wipe_and_review_controls_preserved": true,
+  "browser_exceptions": [],
+  "completed_at": "2026-09-23T07:32:45.329169+00:00",
   "content_audit": {
-    "inventory_matches_proposal_snapshot": true,
-    "done_and_planned_separate": true,
-    "photo_example_and_43_gallery_distinction": true
+    "both_research_directions_separate": true,
+    "known_CAD_and_correspondence_requirements_explicit": true,
+    "source7_example_evaluation_only_and_earlier_model_labelled": true,
+    "latest_results_cross_checked_against_saved_metrics": true,
+    "no_added_owner_photographs": true,
+    "three_public_synthetic_assets_byte_identical_to_sources": true
   }
 }
