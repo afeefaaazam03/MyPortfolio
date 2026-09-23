@@ -1,0 +1,85 @@
+WEBVTT
+
+NOTE AI-generated English narration. Sentence timings follow the synthesized clips; long sentence splits are approximate.
+
+1
+00:00:00.250 --> 00:00:04.139
+This walkthrough shows our current three-
+dimensional blade prototype.
+
+2
+00:00:04.319 --> 00:00:10.124
+It uses matching images and a supplied
+healthy blade shape to estimate how the
+surface changed.
+
+3
+00:00:12.250 --> 00:00:16.551
+The inputs are a healthy three-dimensional
+model, seven matched image
+
+4
+00:00:16.551 --> 00:00:20.853
+pairs, and a supplied mapping from pictures
+to surface points.
+
+5
+00:00:21.033 --> 00:00:24.295
+The camera setup and healthy reference are
+already known.
+
+6
+00:00:30.250 --> 00:00:37.094
+These are saved outputs, not live inference.
+The crop uses the known damage location for
+evaluation.
+
+7
+00:00:37.274 --> 00:00:39.213
+Blue marks predicted movement.
+
+8
+00:00:39.393 --> 00:00:42.412
+The model also changes areas that should stay
+healthy.
+
+9
+00:00:48.250 --> 00:00:54.020
+We have built controlled examples, trained
+small shape models, and checked their
+failures.
+
+10
+00:00:54.200 --> 00:00:58.391
+A separate image-only detector highlights
+suspected damage in photographs.
+
+11
+00:00:58.571 --> 00:01:00.789
+These are different existing components.
+
+12
+00:01:04.250 --> 00:01:11.947
+On eighteen simulated dents from two blade
+instances, the new learned model passed every
+improvement check in three cases.
+
+13
+00:01:12.127 --> 00:01:13.846
+A fixed rule passed four.
+
+14
+00:01:14.026 --> 00:01:16.382
+These counts are not overall accuracy.
+
+15
+00:01:20.250 --> 00:01:25.068
+Next, we need more reliable shape changes and
+tests on untouched cases.
+
+16
+00:01:25.248 --> 00:01:32.075
+Separately, we must test whether adding
+three-dimensional teaching improves image
+inspection on new real photographs.
+

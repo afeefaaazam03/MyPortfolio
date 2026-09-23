@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-23T09:48:06.812869+00:00",
+  "kind": "video_and_interactive_saved_result_presentation",
+  "duration_seconds": 96,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "fps": 20,
+  "format": "H.264 / yuv420p / faststart MP4",
+  "audio": true,
+  "narration": "AI-generated English narration; Piper en_US-ljspeech-medium",
+  "narration_synthesis_mux_and_browser_sync_passed": true,
+  "caption_only_version_available": true,
+  "burned_in_captions_and_source_credit": true,
+  "source_arrays_and_images_verified_unchanged": true,
+  "video_export_and_full_decode_passed": true,
+  "interactive_controls_desktop_mobile_and_fullscreen_passed": true,
+  "new_inference_performed": false,
+  "latest_results_separate_from_earlier_animated_example": true,
+  "original_portfolio_and_existing_scientific_assets_unchanged": true,
+  "relative_links_checked": 220,
+  "mp4_sha256": "32a0a732bff467a155283aeaceb5185f3bb33ea6b93b7c59443ac266a6428ad0",
+  "mp4_bytes": 4570933,
+  "poster_sha256": "2f88fe47cf5c38f1656859aa9612e0ff18e250564325a85907f2292102e2a47a"
+}

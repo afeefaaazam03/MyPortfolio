@@ -32,3 +32,7 @@ verified real 3D damage recovery or the proposed geometry-to-real training advan
 Scientific arrays, masks, models and the existing PDFs were not changed by this redesign.
 
 The short presentation covers both the current CAD-based 3D prototype and the broader planned geometry-assisted image-training study. [Speaker notes](PRESENTATION_NOTES.md) and [evidence notes](PRESENTATION_EVIDENCE.html) explain their different inputs, outputs and limitations.
+
+## Video and interactive walkthrough
+
+[Watch the 96-second video](https://afeefaaazam03.github.io/MyPortfolio/main-jet/#watch-demo) or [explore the saved 3D output](walkthrough/index.html). The main downloadable MP4 has English narration and on-screen captions; a silent version is also retained. Play/pause, chapter selection, seeking, rotation, whole-blade/local comparison and a healthy control are available in the interactive version. See [transcript](walkthrough/TRANSCRIPT.md) and [attribution](walkthrough/ATTRIBUTION.md). This is saved-results replay, not live inference.
